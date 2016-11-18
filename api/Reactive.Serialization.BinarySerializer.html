@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BinarySerializer
+   | Reactive </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BinarySerializer
+   | Reactive ">
+    <meta name="generator" content="docfx 2.6.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="Reactive_Serialization_BinarySerializer" data-uid="Reactive.Serialization.BinarySerializer">Class BinarySerializer
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer">Serializer</a></div>
+                  <div class="level2"><span class="xref">BinarySerializer</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_versionProvidersByType">Serializer.versionProvidersByType</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Mode">Serializer.Mode</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetTestDataInstance">Serializer.GetTestDataInstance()</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Dispose">Serializer.Dispose()</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0_">Serializer.SerializeElement&lt;T&gt;(String, T)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___">Serializer.SerializeElement&lt;T&gt;(String, T[])</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___Reactive_Serialization_SerializationOption_">Serializer.SerializeElement&lt;T&gt;(String, T[], SerializationOption)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___System_String_">Serializer.SerializeElement&lt;T&gt;(String, T[], String)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__">Serializer.SerializeElement&lt;T&gt;(String, List&lt;T&gt;)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__Reactive_Serialization_SerializationOption_">Serializer.SerializeElement&lt;T&gt;(String, List&lt;T&gt;, SerializationOption)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_">Serializer.SerializeElement&lt;T&gt;(String, List&lt;T&gt;, String)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__">Serializer.SerializeElement&lt;TKey, TValue&gt;(String, Dictionary&lt;TKey, TValue&gt;)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetVersionProvider__1___0_">Serializer.GetVersionProvider&lt;T&gt;(T)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeSubElement__1_System_String___0_Reactive_Serialization_SerializationOption_">Serializer.SerializeSubElement&lt;T&gt;(String, T, SerializationOption)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_CanSerializeTypeAsAttribute_System_Type_">Serializer.CanSerializeTypeAsAttribute(Type)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetVersionAttributeNameFromVersionID_System_String_">Serializer.GetVersionAttributeNameFromVersionID(String)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_ReleaseVersionProvider_Reactive_Serialization_VersionProvider_">Serializer.ReleaseVersionProvider(VersionProvider)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeVersionAttribute_Reactive_Serialization_VersionProvider_">Serializer.SerializeVersionAttribute(VersionProvider)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_ToString__1___0_">Serializer.ToString&lt;T&gt;(T)</a>
+                </div>
+                <div>
+                  <a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_FromString__1_System_String_">Serializer.FromString&lt;T&gt;(String)</a>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:Reactive.Serialization</h6>
+              <h6><strong>Assembly</strong>:Reactive.dll</h6>
+              <h5 id="Reactive_Serialization_BinarySerializer_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class BinarySerializer : Serializer, IDisposable, IAttributesSerializer, IElementsSerializer</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer__ctor_System_IO_Stream_Reactive_Serialization_Serializer_SerializationMode_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.%23ctor(System.IO.Stream%2CReactive.Serialization.Serializer.SerializationMode)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer__ctor_System_IO_Stream_Reactive_Serialization_Serializer_SerializationMode_" data-uid="Reactive.Serialization.BinarySerializer.#ctor(System.IO.Stream,Reactive.Serialization.Serializer.SerializationMode)">BinarySerializer(Stream, Serializer.SerializationMode)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public BinarySerializer(Stream stream, Serializer.SerializationMode mode)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.IO.Stream</span></td>
+                    <td><em>stream</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Reactive.Serialization.Serializer.SerializationMode.html#Reactive_Serialization_Serializer_SerializationMode">Serializer.SerializationMode</a></td>
+                    <td><em>mode</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_Dispose_System_Boolean_" data-uid="Reactive.Serialization.BinarySerializer.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">protected override void Dispose(bool disposing)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><em>disposing</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Dispose_System_Boolean_">Serializer.Dispose(Boolean)</a></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_SerializeAttribute__1_System_String___0_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.SerializeAttribute%60%601(System.String%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_SerializeAttribute__1_System_String___0_" data-uid="Reactive.Serialization.BinarySerializer.SerializeAttribute``1(System.String,``0)">SerializeAttribute&lt;T&gt;(String, T)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override T SerializeAttribute&lt;T&gt;(string attributeName, T value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>attributeName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>value</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">Reactive.Serialization.Serializer.SerializeAttribute&lt;T&gt;(System.String, T)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String___0_Reactive_Serialization_SerializationOption_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.SerializeElement%60%601(System.String%2C%60%600%2CReactive.Serialization.SerializationOption)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String___0_Reactive_Serialization_SerializationOption_" data-uid="Reactive.Serialization.BinarySerializer.SerializeElement``1(System.String,``0,Reactive.Serialization.SerializationOption)">SerializeElement&lt;T&gt;(String, T, SerializationOption)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override T SerializeElement&lt;T&gt;(string elementName, T value, SerializationOption serializationOptions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>value</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption">SerializationOption</a></td>
+                    <td><em>serializationOptions</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">Reactive.Serialization.Serializer.SerializeElement&lt;T&gt;(System.String, T, Reactive.Serialization.SerializationOption)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String___0___System_String_Reactive_Serialization_SerializationOption_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.SerializeElement%60%601(System.String%2C%60%600%5B%5D%2CSystem.String%2CReactive.Serialization.SerializationOption)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String___0___System_String_Reactive_Serialization_SerializationOption_" data-uid="Reactive.Serialization.BinarySerializer.SerializeElement``1(System.String,``0[],System.String,Reactive.Serialization.SerializationOption)">SerializeElement&lt;T&gt;(String, T[], String, SerializationOption)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override T[] SerializeElement&lt;T&gt;(string elementName, T[] array, string subElementName, SerializationOption serializationOptions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>T[]</td>
+                    <td><em>array</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>subElementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption">SerializationOption</a></td>
+                    <td><em>serializationOptions</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>T[]</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">Reactive.Serialization.Serializer.SerializeElement&lt;T&gt;(System.String, T[], System.String, Reactive.Serialization.SerializationOption)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_Reactive_Serialization_SerializationOption_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.SerializeElement%60%601(System.String%2CSystem.Collections.Generic.List%7B%60%600%7D%2CSystem.String%2CReactive.Serialization.SerializationOption)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_Reactive_Serialization_SerializationOption_" data-uid="Reactive.Serialization.BinarySerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String,Reactive.Serialization.SerializationOption)">SerializeElement&lt;T&gt;(String, List&lt;T&gt;, String, SerializationOption)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override List&lt;T&gt; SerializeElement&lt;T&gt;(string elementName, List&lt;T&gt; list, string subElementName, SerializationOption serializationOptions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+                    <td><em>list</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>subElementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption">SerializationOption</a></td>
+                    <td><em>serializationOptions</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.List</span>&lt;T&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">Reactive.Serialization.Serializer.SerializeElement&lt;T&gt;(System.String, System.Collections.Generic.List&lt;T&gt;, System.String, Reactive.Serialization.SerializationOption)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__Reactive_Serialization_SerializationOption_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.SerializeElement%60%602(System.String%2CSystem.Collections.Generic.Dictionary%7B%60%600%2C%60%601%7D%2CReactive.Serialization.SerializationOption)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__Reactive_Serialization_SerializationOption_" data-uid="Reactive.Serialization.BinarySerializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1},Reactive.Serialization.SerializationOption)">SerializeElement&lt;TKey, TValue&gt;(String, Dictionary&lt;TKey, TValue&gt;, SerializationOption)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override Dictionary&lt;TKey, TValue&gt; SerializeElement&lt;TKey, TValue&gt;(string elementName, Dictionary&lt;TKey, TValue&gt; dictionary, SerializationOption serializationOptions)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TValue&gt;</td>
+                    <td><em>dictionary</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption">SerializationOption</a></td>
+                    <td><em>serializationOptions</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;TKey, TValue&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TKey</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><em>TValue</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">Reactive.Serialization.Serializer.SerializeElement&lt;TKey, TValue&gt;(System.String, System.Collections.Generic.Dictionary&lt;TKey, TValue&gt;, Reactive.Serialization.SerializationOption)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer_Skip_System_String_.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer.Skip(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <h4 id="Reactive_Serialization_BinarySerializer_Skip_System_String_" data-uid="Reactive.Serialization.BinarySerializer.Skip(System.String)">Skip(String)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override void Skip(string elementName)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><em>elementName</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><a class="xref" href="Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Skip_System_String_">Serializer.Skip(String)</a></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Serialization_BinarySerializer.md&amp;value=---%0Auid%3A%20Reactive.Serialization.BinarySerializer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy 2016 Haikal Izzuddin. Made with DocFX
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

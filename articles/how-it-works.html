@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>How it works | Reactive </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="How it works | Reactive ">
+    <meta name="generator" content="docfx 2.6.1.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+              <h1 id="how-it-works" sourcefile="articles/how-it-works.md" sourcestartlinenumber="1" sourceendlinenumber="1">How it works</h1>
+              
+<h2 id="flow-chart" sourcefile="articles/how-it-works.md" sourcestartlinenumber="3" sourceendlinenumber="3">Flow Chart</h2>
+<hr>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="5" sourceendlinenumber="5">The following diagram shows what happens when you start the app.</p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="7" sourceendlinenumber="7"><img src="../images/howitworks/HowItWorks1.png" alt="FlowChart" sourcefile="articles/how-it-works.md" sourcestartlinenumber="7" sourceendlinenumber="7"></p>
+<h3 id="explaination" sourcefile="articles/how-it-works.md" sourcestartlinenumber="10" sourceendlinenumber="10">Explaination</h3>
+<h4 id="1-subsystem-initializer" sourcefile="articles/how-it-works.md" sourcestartlinenumber="12" sourceendlinenumber="12"><strong>1. Subsystem Initializer</strong></h4>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="14" sourceendlinenumber="14">The first step is to intialize all the subsystems. This is automatically when the program starts in the <code>Reactive.Application</code> namespace. This step is important as it will initialize all the required systems such as PluginManager and Renderer. The user can also request a <em>reboot</em> by using the developer menu under settings, this is to allow the system to reset it caches and <em>rest</em> itself.</p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="16" sourceendlinenumber="16">If the subsystem fails to initalize, it will execute a timeout function before trying again. Usually it will try again after a few seconds in which the user would see a loading screen in the startup. <em>(This has never happened before but we will keep running tests to ensure it stays that way)</em></p>
+<h4 id="2-pluginmanager" sourcefile="articles/how-it-works.md" sourcestartlinenumber="18" sourceendlinenumber="18"><strong>2. PluginManager</strong></h4>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="20" sourceendlinenumber="20">There are a few steps the PluginManager takes when it is initialized. First is to run a check on the plugins directory to check if there are any viable modules available, if exists, it runs the <code>loadPlugins()</code> function which will load all the modules into memory and then calls the <code>startTick()</code> function.</p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="22" sourceendlinenumber="22">An explaination of the functions:</p>
+<ul sourcefile="articles/how-it-works.md" sourcestartlinenumber="24" sourceendlinenumber="26">
+<li sourcefile="articles/how-it-works.md" sourcestartlinenumber="24" sourceendlinenumber="24"><code>loadPlugins()</code> - loads the plugins, returns an exception if fail. The function also registers the available modules into a <code>List&lt;IPlugin&gt;()</code> list.</li>
+<li sourcefile="articles/how-it-works.md" sourcestartlinenumber="25" sourceendlinenumber="25"><code>startTick()</code> - starts the <code>Tick()</code> function. This is will also call the <code>start()</code> functions on all the loaded modules.</li>
+<li sourcefile="articles/how-it-works.md" sourcestartlinenumber="26" sourceendlinenumber="26"><code>Tick()</code> - a fixed update function which is thread independant and runs every +-seconds. <em>(Not guaranteed will run every second)</em></li>
+</ul>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="28" sourceendlinenumber="28">The synchronous <code>Tick()</code> &amp; <code>startTick()</code> call invokes the implemented <code>tick()</code> and <code>init()</code> function respectively in the modules main class. Developers are recommended to put important data updates here in this function. <em>(This function is same to Unity3D C# <code>Update()</code> function)</em></p>
+<h4 id="3-register-the-events" sourcefile="articles/how-it-works.md" sourcestartlinenumber="30" sourceendlinenumber="30"><strong>3. Register the events</strong></h4>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="32" sourceendlinenumber="32"><code>MALE</code> framework works based upon an event system. Modules can leverage this event system by subscribing into a list of events from controlling what page to load to even manipulating the data on screen. Once the events are registered, it will be called once by the <code>Tick()</code> function.</p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="34" sourceendlinenumber="34">If the module contains commands such as loading a page or opening a file, it will be registered with the Renderer and should be able to be called using javascript. Refer to CEF documentation about this. </p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="36" sourceendlinenumber="36">For example:</p>
+<pre sourcefile="articles/how-it-works.md" sourcestartlinenumber="38" sourceendlinenumber="46"><code>    // This is an example command in the module
+    public string moduleName {
+        get: { return &quot;My Modules Name&quot;; }
+    }
+
+    // This is an example call from javascript
+    Console.log(module.moduleName);
+</code></pre><h4 id="4-run-the-commands" sourcefile="articles/how-it-works.md" sourcestartlinenumber="48" sourceendlinenumber="48"><strong>4. Run the commands</strong></h4>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="50" sourceendlinenumber="50">Once all the events are registered, the commands associated with the events are called. This could range from loading the resource files or calling some REST API. The language we used, C#, allows developers to easily extend their modules with NuGET packages like Google Analytics or Spotify Music API.</p>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="52" sourceendlinenumber="52">The commands are registered using the following function:</p>
+<pre sourcefile="articles/how-it-works.md" sourcestartlinenumber="54" sourceendlinenumber="57"><code>    // This registers the commands with CEF allowing it to be called using Javascript in html
+    cefInstance.RegisterJsObject(moduleName, new module(cefInstance, this));
+</code></pre><h4 id="5-render-it" sourcefile="articles/how-it-works.md" sourcestartlinenumber="59" sourceendlinenumber="59"><strong>5. Render it</strong></h4>
+<p sourcefile="articles/how-it-works.md" sourcestartlinenumber="61" sourceendlinenumber="61">We&#39;ve ran the commands, registered the events, and now we want to show it to the user. With CEF, this possible using html files which you can compile together with your module. Majority of our UI is made in html, for this part of the section, everything has been explained in the CEF manuals. Refer to it on how CEF works.</p>
+<h2 id="technology" sourcefile="articles/how-it-works.md" sourcestartlinenumber="64" sourceendlinenumber="64"><strong>Technology</strong></h2>
+<hr>
+
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/docfx_project/articles/how-it-works.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy 2016 Haikal Izzuddin. Made with DocFX
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            setInterval(function () {
+                $('#toc ul.level2').removeClass("dropdown-menu");
+            }, 1000);
+        });
+    </script>
+  </body>
+</html>
