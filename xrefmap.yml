@@ -6,16 +6,30 @@ references:
   href: api_plugin/PluginCore.html#PluginCore
   commentId: N:PluginCore
   fullName: PluginCore
+  nameWithType: PluginCore
 - uid: PluginCore.IPlugin
   name: IPlugin
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin
   commentId: T:PluginCore.IPlugin
   fullName: PluginCore.IPlugin
+  nameWithType: IPlugin
+- uid: PluginCore.IPlugin.navItem
+  name: navItem
+  href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_navItem
+  commentId: P:PluginCore.IPlugin.navItem
+  fullName: PluginCore.IPlugin.navItem
+  nameWithType: IPlugin.navItem
+- uid: PluginCore.IPlugin.navItem*
+  href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_navItem_
+  commentId: Overload:PluginCore.IPlugin.navItem
+  name: navItem
+  fullName: PluginCore.IPlugin.navItem
 - uid: PluginCore.IPlugin.pluginAuthor
   name: pluginAuthor
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginAuthor
   commentId: P:PluginCore.IPlugin.pluginAuthor
   fullName: PluginCore.IPlugin.pluginAuthor
+  nameWithType: IPlugin.pluginAuthor
 - uid: PluginCore.IPlugin.pluginAuthor*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginAuthor_
   commentId: Overload:PluginCore.IPlugin.pluginAuthor
@@ -26,6 +40,7 @@ references:
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginDescription
   commentId: P:PluginCore.IPlugin.pluginDescription
   fullName: PluginCore.IPlugin.pluginDescription
+  nameWithType: IPlugin.pluginDescription
 - uid: PluginCore.IPlugin.pluginDescription*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginDescription_
   commentId: Overload:PluginCore.IPlugin.pluginDescription
@@ -36,6 +51,7 @@ references:
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginName
   commentId: P:PluginCore.IPlugin.pluginName
   fullName: PluginCore.IPlugin.pluginName
+  nameWithType: IPlugin.pluginName
 - uid: PluginCore.IPlugin.pluginName*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_pluginName_
   commentId: Overload:PluginCore.IPlugin.pluginName
@@ -46,6 +62,7 @@ references:
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Start
   commentId: M:PluginCore.IPlugin.Start
   fullName: PluginCore.IPlugin.Start()
+  nameWithType: IPlugin.Start()
 - uid: PluginCore.IPlugin.Start*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Start_
   commentId: Overload:PluginCore.IPlugin.Start
@@ -56,6 +73,7 @@ references:
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Stop
   commentId: M:PluginCore.IPlugin.Stop
   fullName: PluginCore.IPlugin.Stop()
+  nameWithType: IPlugin.Stop()
 - uid: PluginCore.IPlugin.Stop*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Stop_
   commentId: Overload:PluginCore.IPlugin.Stop
@@ -66,6 +84,7 @@ references:
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Tick
   commentId: M:PluginCore.IPlugin.Tick
   fullName: PluginCore.IPlugin.Tick()
+  nameWithType: IPlugin.Tick()
 - uid: PluginCore.IPlugin.Tick*
   href: api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin_Tick_
   commentId: Overload:PluginCore.IPlugin.Tick
@@ -76,16 +95,19 @@ references:
   href: api/Reactive.html#Reactive
   commentId: N:Reactive
   fullName: Reactive
+  nameWithType: Reactive
 - uid: Reactive.App
   name: App
   href: api/Reactive.App.html#Reactive_App
   commentId: T:Reactive.App
   fullName: Reactive.App
+  nameWithType: App
 - uid: Reactive.App.Check64Bit
   name: Check64Bit()
   href: api/Reactive.App.html#Reactive_App_Check64Bit
   commentId: M:Reactive.App.Check64Bit
   fullName: Reactive.App.Check64Bit()
+  nameWithType: App.Check64Bit()
 - uid: Reactive.App.Check64Bit*
   href: api/Reactive.App.html#Reactive_App_Check64Bit_
   commentId: Overload:Reactive.App.Check64Bit
@@ -96,6 +118,7 @@ references:
   href: api/Reactive.App.html#Reactive_App_CheckSingleInstance
   commentId: M:Reactive.App.CheckSingleInstance
   fullName: Reactive.App.CheckSingleInstance()
+  nameWithType: App.CheckSingleInstance()
 - uid: Reactive.App.CheckSingleInstance*
   href: api/Reactive.App.html#Reactive_App_CheckSingleInstance_
   commentId: Overload:Reactive.App.CheckSingleInstance
@@ -106,6 +129,7 @@ references:
   href: api/Reactive.App.html#Reactive_App_CurrentTime
   commentId: P:Reactive.App.CurrentTime
   fullName: Reactive.App.CurrentTime
+  nameWithType: App.CurrentTime
 - uid: Reactive.App.CurrentTime*
   href: api/Reactive.App.html#Reactive_App_CurrentTime_
   commentId: Overload:Reactive.App.CurrentTime
@@ -116,6 +140,7 @@ references:
   href: api/Reactive.App.html#Reactive_App_InvokeBeforeRun
   commentId: M:Reactive.App.InvokeBeforeRun
   fullName: Reactive.App.InvokeBeforeRun()
+  nameWithType: App.InvokeBeforeRun()
 - uid: Reactive.App.InvokeBeforeRun*
   href: api/Reactive.App.html#Reactive_App_InvokeBeforeRun_
   commentId: Overload:Reactive.App.InvokeBeforeRun
@@ -126,21 +151,25 @@ references:
   href: api/Reactive.App.html#Reactive_App_MainAssembly
   commentId: F:Reactive.App.MainAssembly
   fullName: Reactive.App.MainAssembly
+  nameWithType: App.MainAssembly
 - uid: Reactive.App.MainAssemblyName
   name: MainAssemblyName
   href: api/Reactive.App.html#Reactive_App_MainAssemblyName
   commentId: F:Reactive.App.MainAssemblyName
   fullName: Reactive.App.MainAssemblyName
+  nameWithType: App.MainAssemblyName
 - uid: Reactive.App.pluginManager
   name: pluginManager
   href: api/Reactive.App.html#Reactive_App_pluginManager
   commentId: F:Reactive.App.pluginManager
   fullName: Reactive.App.pluginManager
+  nameWithType: App.pluginManager
 - uid: Reactive.App.StartupPath
   name: StartupPath
   href: api/Reactive.App.html#Reactive_App_StartupPath
   commentId: P:Reactive.App.StartupPath
   fullName: Reactive.App.StartupPath
+  nameWithType: App.StartupPath
 - uid: Reactive.App.StartupPath*
   href: api/Reactive.App.html#Reactive_App_StartupPath_
   commentId: Overload:Reactive.App.StartupPath
@@ -151,6 +180,7 @@ references:
   href: api/Reactive.App.html#Reactive_App_Version
   commentId: P:Reactive.App.Version
   fullName: Reactive.App.Version
+  nameWithType: App.Version
 - uid: Reactive.App.Version*
   href: api/Reactive.App.html#Reactive_App_Version_
   commentId: Overload:Reactive.App.Version
@@ -161,6 +191,7 @@ references:
   href: api/Reactive.Collections.html#Reactive_Collections
   commentId: N:Reactive.Collections
   fullName: Reactive.Collections
+  nameWithType: Reactive.Collections
 - uid: Reactive.Collections.FastList`1
   name: FastList<T>
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1
@@ -168,12 +199,15 @@ references:
   name.vb: FastList(Of T)
   fullName: Reactive.Collections.FastList<T>
   fullName.vb: Reactive.Collections.FastList(Of T)
+  nameWithType: FastList<T>
+  nameWithType.vb: FastList(Of T)
 - uid: Reactive.Collections.FastList`1.#ctor(System.Int32)
   name: FastList(Int32)
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1__ctor_System_Int32_
   commentId: M:Reactive.Collections.FastList`1.#ctor(System.Int32)
   fullName: Reactive.Collections.FastList<T>.FastList(System.Int32)
   fullName.vb: Reactive.Collections.FastList(Of T).FastList(System.Int32)
+  nameWithType: FastList<T>.FastList(Int32)
 - uid: Reactive.Collections.FastList`1.#ctor*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1__ctor_
   commentId: Overload:Reactive.Collections.FastList`1.#ctor
@@ -186,6 +220,7 @@ references:
   commentId: M:Reactive.Collections.FastList`1.Add(`0)
   fullName: Reactive.Collections.FastList<T>.Add(T)
   fullName.vb: Reactive.Collections.FastList(Of T).Add(T)
+  nameWithType: FastList<T>.Add(T)
 - uid: Reactive.Collections.FastList`1.Add*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Add_
   commentId: Overload:Reactive.Collections.FastList`1.Add
@@ -206,18 +241,22 @@ references:
   name.vb: BinarySearch(Of U)(U, Func(Of T, U, Int32))
   fullName: Reactive.Collections.FastList<T>.BinarySearch<U>(U, System.Func<T, U, System.Int32>)
   fullName.vb: Reactive.Collections.FastList(Of T).BinarySearch(Of U)(U, System.Func(Of T, U, System.Int32))
+  nameWithType: FastList<T>.BinarySearch<U>(U, Func<T, U, Int32>)
+  nameWithType.vb: BinarySearch(Of U)(U, Func(Of T, U, Int32))
 - uid: Reactive.Collections.FastList`1.capacity
   name: capacity
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_capacity
   commentId: F:Reactive.Collections.FastList`1.capacity
   fullName: Reactive.Collections.FastList<T>.capacity
   fullName.vb: Reactive.Collections.FastList(Of T).capacity
+  nameWithType: FastList<T>.capacity
 - uid: Reactive.Collections.FastList`1.Capacity
   name: Capacity
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Capacity
   commentId: P:Reactive.Collections.FastList`1.Capacity
   fullName: Reactive.Collections.FastList<T>.Capacity
   fullName.vb: Reactive.Collections.FastList(Of T).Capacity
+  nameWithType: FastList<T>.Capacity
 - uid: Reactive.Collections.FastList`1.Capacity*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Capacity_
   commentId: Overload:Reactive.Collections.FastList`1.Capacity
@@ -230,6 +269,7 @@ references:
   commentId: M:Reactive.Collections.FastList`1.Clear
   fullName: Reactive.Collections.FastList<T>.Clear()
   fullName.vb: Reactive.Collections.FastList(Of T).Clear()
+  nameWithType: FastList<T>.Clear()
 - uid: Reactive.Collections.FastList`1.Clear*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Clear_
   commentId: Overload:Reactive.Collections.FastList`1.Clear
@@ -242,12 +282,14 @@ references:
   commentId: F:Reactive.Collections.FastList`1.count
   fullName: Reactive.Collections.FastList<T>.count
   fullName.vb: Reactive.Collections.FastList(Of T).count
+  nameWithType: FastList<T>.count
 - uid: Reactive.Collections.FastList`1.Count
   name: Count
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Count
   commentId: P:Reactive.Collections.FastList`1.Count
   fullName: Reactive.Collections.FastList<T>.Count
   fullName.vb: Reactive.Collections.FastList(Of T).Count
+  nameWithType: FastList<T>.Count
 - uid: Reactive.Collections.FastList`1.Count*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Count_
   commentId: Overload:Reactive.Collections.FastList`1.Count
@@ -260,12 +302,14 @@ references:
   commentId: F:Reactive.Collections.FastList`1.Data
   fullName: Reactive.Collections.FastList<T>.Data
   fullName.vb: Reactive.Collections.FastList(Of T).Data
+  nameWithType: FastList<T>.Data
 - uid: Reactive.Collections.FastList`1.GetEnumerator
   name: GetEnumerator()
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_GetEnumerator
   commentId: M:Reactive.Collections.FastList`1.GetEnumerator
   fullName: Reactive.Collections.FastList<T>.GetEnumerator()
   fullName.vb: Reactive.Collections.FastList(Of T).GetEnumerator()
+  nameWithType: FastList<T>.GetEnumerator()
 - uid: Reactive.Collections.FastList`1.GetEnumerator*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_GetEnumerator_
   commentId: Overload:Reactive.Collections.FastList`1.GetEnumerator
@@ -278,6 +322,7 @@ references:
   commentId: M:Reactive.Collections.FastList`1.Insert(System.Int32,`0)
   fullName: Reactive.Collections.FastList<T>.Insert(System.Int32, T)
   fullName.vb: Reactive.Collections.FastList(Of T).Insert(System.Int32, T)
+  nameWithType: FastList<T>.Insert(Int32, T)
 - uid: Reactive.Collections.FastList`1.Insert*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Insert_
   commentId: Overload:Reactive.Collections.FastList`1.Insert
@@ -290,6 +335,7 @@ references:
   commentId: M:Reactive.Collections.FastList`1.Remove(`0)
   fullName: Reactive.Collections.FastList<T>.Remove(T)
   fullName.vb: Reactive.Collections.FastList(Of T).Remove(T)
+  nameWithType: FastList<T>.Remove(T)
 - uid: Reactive.Collections.FastList`1.Remove*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_Remove_
   commentId: Overload:Reactive.Collections.FastList`1.Remove
@@ -302,6 +348,7 @@ references:
   commentId: M:Reactive.Collections.FastList`1.RemoveAt(System.Int32)
   fullName: Reactive.Collections.FastList<T>.RemoveAt(System.Int32)
   fullName.vb: Reactive.Collections.FastList(Of T).RemoveAt(System.Int32)
+  nameWithType: FastList<T>.RemoveAt(Int32)
 - uid: Reactive.Collections.FastList`1.RemoveAt*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_RemoveAt_
   commentId: Overload:Reactive.Collections.FastList`1.RemoveAt
@@ -315,6 +362,8 @@ references:
   name.vb: System.Collections.IEnumerable.GetEnumerator()
   fullName: Reactive.Collections.FastList<T>.System.Collections.IEnumerable.GetEnumerator()
   fullName.vb: Reactive.Collections.FastList(Of T).System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: FastList<T>.IEnumerable.GetEnumerator()
+  nameWithType.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: Reactive.Collections.FastList`1.System#Collections#IEnumerable#GetEnumerator*
   href: api/Reactive.Collections.FastList-1.html#Reactive_Collections_FastList_1_System_Collections_IEnumerable_GetEnumerator_
   commentId: Overload:Reactive.Collections.FastList`1.System#Collections#IEnumerable#GetEnumerator
@@ -327,51 +376,61 @@ references:
   href: api/Reactive.Framework.html#Reactive_Framework
   commentId: N:Reactive.Framework
   fullName: Reactive.Framework
+  nameWithType: Reactive.Framework
 - uid: Reactive.Framework.Accessibility
   name: Accessibility
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility
   commentId: T:Reactive.Framework.Accessibility
   fullName: Reactive.Framework.Accessibility
+  nameWithType: Accessibility
 - uid: Reactive.Framework.Accessibility.Internal
   name: Internal
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility_Internal
   commentId: F:Reactive.Framework.Accessibility.Internal
   fullName: Reactive.Framework.Accessibility.Internal
+  nameWithType: Accessibility.Internal
 - uid: Reactive.Framework.Accessibility.Private
   name: Private
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility_Private
   commentId: F:Reactive.Framework.Accessibility.Private
   fullName: Reactive.Framework.Accessibility.Private
+  nameWithType: Accessibility.Private
 - uid: Reactive.Framework.Accessibility.Protected
   name: Protected
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility_Protected
   commentId: F:Reactive.Framework.Accessibility.Protected
   fullName: Reactive.Framework.Accessibility.Protected
+  nameWithType: Accessibility.Protected
 - uid: Reactive.Framework.Accessibility.ProtectedInternal
   name: ProtectedInternal
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility_ProtectedInternal
   commentId: F:Reactive.Framework.Accessibility.ProtectedInternal
   fullName: Reactive.Framework.Accessibility.ProtectedInternal
+  nameWithType: Accessibility.ProtectedInternal
 - uid: Reactive.Framework.Accessibility.Public
   name: Public
   href: api/Reactive.Framework.Accessibility.html#Reactive_Framework_Accessibility_Public
   commentId: F:Reactive.Framework.Accessibility.Public
   fullName: Reactive.Framework.Accessibility.Public
+  nameWithType: Accessibility.Public
 - uid: Reactive.Framework.Error
   name: Reactive.Framework.Error
   href: api/Reactive.Framework.Error.html#Reactive_Framework_Error
   commentId: N:Reactive.Framework.Error
   fullName: Reactive.Framework.Error
+  nameWithType: Reactive.Framework.Error
 - uid: Reactive.Framework.Error.Debug
   name: Debug
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug
   commentId: T:Reactive.Framework.Error.Debug
   fullName: Reactive.Framework.Error.Debug
+  nameWithType: Debug
 - uid: Reactive.Framework.Error.Debug.Exit(System.Object,System.EventArgs)
   name: Exit(Object, EventArgs)
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_Exit_System_Object_System_EventArgs_
   commentId: M:Reactive.Framework.Error.Debug.Exit(System.Object,System.EventArgs)
   fullName: Reactive.Framework.Error.Debug.Exit(System.Object, System.EventArgs)
+  nameWithType: Debug.Exit(Object, EventArgs)
 - uid: Reactive.Framework.Error.Debug.Exit*
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_Exit_
   commentId: Overload:Reactive.Framework.Error.Debug.Exit
@@ -382,6 +441,7 @@ references:
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_Log_System_Object_System_Boolean_
   commentId: M:Reactive.Framework.Error.Debug.Log(System.Object,System.Boolean)
   fullName: Reactive.Framework.Error.Debug.Log(System.Object, System.Boolean)
+  nameWithType: Debug.Log(Object, Boolean)
 - uid: Reactive.Framework.Error.Debug.Log*
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_Log_
   commentId: Overload:Reactive.Framework.Error.Debug.Log
@@ -392,6 +452,7 @@ references:
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_LogException_System_Exception_
   commentId: M:Reactive.Framework.Error.Debug.LogException(System.Exception)
   fullName: Reactive.Framework.Error.Debug.LogException(System.Exception)
+  nameWithType: Debug.LogException(Exception)
 - uid: Reactive.Framework.Error.Debug.LogException*
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_LogException_
   commentId: Overload:Reactive.Framework.Error.Debug.LogException
@@ -402,6 +463,7 @@ references:
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_LogFatal_System_Object_System_Boolean_System_String_
   commentId: M:Reactive.Framework.Error.Debug.LogFatal(System.Object,System.Boolean,System.String)
   fullName: Reactive.Framework.Error.Debug.LogFatal(System.Object, System.Boolean, System.String)
+  nameWithType: Debug.LogFatal(Object, Boolean, String)
 - uid: Reactive.Framework.Error.Debug.LogFatal*
   href: api/Reactive.Framework.Error.Debug.html#Reactive_Framework_Error_Debug_LogFatal_
   commentId: Overload:Reactive.Framework.Error.Debug.LogFatal
@@ -412,11 +474,13 @@ references:
   href: api/Reactive.Framework.Error.ErrorUtils.html#Reactive_Framework_Error_ErrorUtils
   commentId: T:Reactive.Framework.Error.ErrorUtils
   fullName: Reactive.Framework.Error.ErrorUtils
+  nameWithType: ErrorUtils
 - uid: Reactive.Framework.Error.ErrorUtils.GetErrorLocation(System.Int32,System.Boolean)
   name: GetErrorLocation(Int32, Boolean)
   href: api/Reactive.Framework.Error.ErrorUtils.html#Reactive_Framework_Error_ErrorUtils_GetErrorLocation_System_Int32_System_Boolean_
   commentId: M:Reactive.Framework.Error.ErrorUtils.GetErrorLocation(System.Int32,System.Boolean)
   fullName: Reactive.Framework.Error.ErrorUtils.GetErrorLocation(System.Int32, System.Boolean)
+  nameWithType: ErrorUtils.GetErrorLocation(Int32, Boolean)
 - uid: Reactive.Framework.Error.ErrorUtils.GetErrorLocation*
   href: api/Reactive.Framework.Error.ErrorUtils.html#Reactive_Framework_Error_ErrorUtils_GetErrorLocation_
   commentId: Overload:Reactive.Framework.Error.ErrorUtils.GetErrorLocation
@@ -427,16 +491,19 @@ references:
   href: api/Reactive.Framework.Events.html#Reactive_Framework_Events
   commentId: N:Reactive.Framework.Events
   fullName: Reactive.Framework.Events
+  nameWithType: Reactive.Framework.Events
 - uid: Reactive.Framework.Events.ApplicationEvents
   name: ApplicationEvents
   href: api/Reactive.Framework.Events.ApplicationEvents.html#Reactive_Framework_Events_ApplicationEvents
   commentId: T:Reactive.Framework.Events.ApplicationEvents
   fullName: Reactive.Framework.Events.ApplicationEvents
+  nameWithType: ApplicationEvents
 - uid: Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object,System.EventArgs)
   name: onApplicationExit(Object, EventArgs)
   href: api/Reactive.Framework.Events.ApplicationEvents.html#Reactive_Framework_Events_ApplicationEvents_onApplicationExit_System_Object_System_EventArgs_
   commentId: M:Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object,System.EventArgs)
   fullName: Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object, System.EventArgs)
+  nameWithType: ApplicationEvents.onApplicationExit(Object, EventArgs)
 - uid: Reactive.Framework.Events.ApplicationEvents.onApplicationExit*
   href: api/Reactive.Framework.Events.ApplicationEvents.html#Reactive_Framework_Events_ApplicationEvents_onApplicationExit_
   commentId: Overload:Reactive.Framework.Events.ApplicationEvents.onApplicationExit
@@ -447,26 +514,31 @@ references:
   href: api/Reactive.Framework.Events.CEFEventArgs.html#Reactive_Framework_Events_CEFEventArgs
   commentId: T:Reactive.Framework.Events.CEFEventArgs
   fullName: Reactive.Framework.Events.CEFEventArgs
+  nameWithType: CEFEventArgs
 - uid: Reactive.Framework.Events.CEFEventArgs.EventInfo
   name: EventInfo
   href: api/Reactive.Framework.Events.CEFEventArgs.html#Reactive_Framework_Events_CEFEventArgs_EventInfo
   commentId: F:Reactive.Framework.Events.CEFEventArgs.EventInfo
   fullName: Reactive.Framework.Events.CEFEventArgs.EventInfo
+  nameWithType: CEFEventArgs.EventInfo
 - uid: Reactive.Framework.Events.CEFLoadPage
   name: CEFLoadPage
   href: api/Reactive.Framework.Events.CEFLoadPage.html#Reactive_Framework_Events_CEFLoadPage
   commentId: T:Reactive.Framework.Events.CEFLoadPage
   fullName: Reactive.Framework.Events.CEFLoadPage
+  nameWithType: CEFLoadPage
 - uid: Reactive.Framework.Events.CEFOnLoadPageArgs
   name: CEFOnLoadPageArgs
   href: api/Reactive.Framework.Events.CEFOnLoadPageArgs.html#Reactive_Framework_Events_CEFOnLoadPageArgs
   commentId: T:Reactive.Framework.Events.CEFOnLoadPageArgs
   fullName: Reactive.Framework.Events.CEFOnLoadPageArgs
+  nameWithType: CEFOnLoadPageArgs
 - uid: Reactive.Framework.Events.CEFOnLoadPageArgs.#ctor(System.String,System.String)
   name: CEFOnLoadPageArgs(String, String)
   href: api/Reactive.Framework.Events.CEFOnLoadPageArgs.html#Reactive_Framework_Events_CEFOnLoadPageArgs__ctor_System_String_System_String_
   commentId: M:Reactive.Framework.Events.CEFOnLoadPageArgs.#ctor(System.String,System.String)
   fullName: Reactive.Framework.Events.CEFOnLoadPageArgs.CEFOnLoadPageArgs(System.String, System.String)
+  nameWithType: CEFOnLoadPageArgs.CEFOnLoadPageArgs(String, String)
 - uid: Reactive.Framework.Events.CEFOnLoadPageArgs.#ctor*
   href: api/Reactive.Framework.Events.CEFOnLoadPageArgs.html#Reactive_Framework_Events_CEFOnLoadPageArgs__ctor_
   commentId: Overload:Reactive.Framework.Events.CEFOnLoadPageArgs.#ctor
@@ -477,21 +549,25 @@ references:
   href: api/Reactive.Framework.Events.CEFOnLoadPageArgs.html#Reactive_Framework_Events_CEFOnLoadPageArgs_pageToLoad
   commentId: F:Reactive.Framework.Events.CEFOnLoadPageArgs.pageToLoad
   fullName: Reactive.Framework.Events.CEFOnLoadPageArgs.pageToLoad
+  nameWithType: CEFOnLoadPageArgs.pageToLoad
 - uid: Reactive.Framework.Jobs
   name: Reactive.Framework.Jobs
   href: api/Reactive.Framework.Jobs.html#Reactive_Framework_Jobs
   commentId: N:Reactive.Framework.Jobs
   fullName: Reactive.Framework.Jobs
+  nameWithType: Reactive.Framework.Jobs
 - uid: Reactive.Framework.Jobs.BaseJob
   name: BaseJob
   href: api/Reactive.Framework.Jobs.BaseJob.html#Reactive_Framework_Jobs_BaseJob
   commentId: T:Reactive.Framework.Jobs.BaseJob
   fullName: Reactive.Framework.Jobs.BaseJob
+  nameWithType: BaseJob
 - uid: Reactive.Framework.Jobs.BaseJob.Execute
   name: Execute()
   href: api/Reactive.Framework.Jobs.BaseJob.html#Reactive_Framework_Jobs_BaseJob_Execute
   commentId: M:Reactive.Framework.Jobs.BaseJob.Execute
   fullName: Reactive.Framework.Jobs.BaseJob.Execute()
+  nameWithType: BaseJob.Execute()
 - uid: Reactive.Framework.Jobs.BaseJob.Execute*
   href: api/Reactive.Framework.Jobs.BaseJob.html#Reactive_Framework_Jobs_BaseJob_Execute_
   commentId: Overload:Reactive.Framework.Jobs.BaseJob.Execute
@@ -502,11 +578,13 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler
   commentId: T:Reactive.Framework.Jobs.JobHandler
   fullName: Reactive.Framework.Jobs.JobHandler
+  nameWithType: JobHandler
 - uid: Reactive.Framework.Jobs.JobHandler.AddToLoop(System.Action)
   name: AddToLoop(Action)
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToLoop_System_Action_
   commentId: M:Reactive.Framework.Jobs.JobHandler.AddToLoop(System.Action)
   fullName: Reactive.Framework.Jobs.JobHandler.AddToLoop(System.Action)
+  nameWithType: JobHandler.AddToLoop(Action)
 - uid: Reactive.Framework.Jobs.JobHandler.AddToLoop*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToLoop_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.AddToLoop
@@ -517,6 +595,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToStart_System_Action_
   commentId: M:Reactive.Framework.Jobs.JobHandler.AddToStart(System.Action)
   fullName: Reactive.Framework.Jobs.JobHandler.AddToStart(System.Action)
+  nameWithType: JobHandler.AddToStart(Action)
 - uid: Reactive.Framework.Jobs.JobHandler.AddToStart*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToStart_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.AddToStart
@@ -527,6 +606,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToStop_System_Action_
   commentId: M:Reactive.Framework.Jobs.JobHandler.AddToStop(System.Action)
   fullName: Reactive.Framework.Jobs.JobHandler.AddToStop(System.Action)
+  nameWithType: JobHandler.AddToStop(Action)
 - uid: Reactive.Framework.Jobs.JobHandler.AddToStop*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_AddToStop_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.AddToStop
@@ -537,6 +617,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Start
   commentId: M:Reactive.Framework.Jobs.JobHandler.Start
   fullName: Reactive.Framework.Jobs.JobHandler.Start()
+  nameWithType: JobHandler.Start()
 - uid: Reactive.Framework.Jobs.JobHandler.Start*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Start_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.Start
@@ -547,6 +628,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Stop
   commentId: M:Reactive.Framework.Jobs.JobHandler.Stop
   fullName: Reactive.Framework.Jobs.JobHandler.Stop()
+  nameWithType: JobHandler.Stop()
 - uid: Reactive.Framework.Jobs.JobHandler.Stop*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Stop_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.Stop
@@ -557,6 +639,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_UnregisterAction_System_Action_
   commentId: M:Reactive.Framework.Jobs.JobHandler.UnregisterAction(System.Action)
   fullName: Reactive.Framework.Jobs.JobHandler.UnregisterAction(System.Action)
+  nameWithType: JobHandler.UnregisterAction(Action)
 - uid: Reactive.Framework.Jobs.JobHandler.UnregisterAction*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_UnregisterAction_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.UnregisterAction
@@ -567,6 +650,7 @@ references:
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Update
   commentId: M:Reactive.Framework.Jobs.JobHandler.Update
   fullName: Reactive.Framework.Jobs.JobHandler.Update()
+  nameWithType: JobHandler.Update()
 - uid: Reactive.Framework.Jobs.JobHandler.Update*
   href: api/Reactive.Framework.Jobs.JobHandler.html#Reactive_Framework_Jobs_JobHandler_Update_
   commentId: Overload:Reactive.Framework.Jobs.JobHandler.Update
@@ -577,16 +661,19 @@ references:
   href: api/Reactive.Framework.Math.html#Reactive_Framework_Math
   commentId: N:Reactive.Framework.Math
   fullName: Reactive.Framework.Math
+  nameWithType: Reactive.Framework.Math
 - uid: Reactive.Framework.Math.MathHelpers
   name: MathHelpers
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers
   commentId: T:Reactive.Framework.Math.MathHelpers
   fullName: Reactive.Framework.Math.MathHelpers
+  nameWithType: MathHelpers
 - uid: Reactive.Framework.Math.MathHelpers.IsOdd(System.Int32)
   name: IsOdd(Int32)
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_IsOdd_System_Int32_
   commentId: M:Reactive.Framework.Math.MathHelpers.IsOdd(System.Int32)
   fullName: Reactive.Framework.Math.MathHelpers.IsOdd(System.Int32)
+  nameWithType: MathHelpers.IsOdd(Int32)
 - uid: Reactive.Framework.Math.MathHelpers.IsOdd*
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_IsOdd_
   commentId: Overload:Reactive.Framework.Math.MathHelpers.IsOdd
@@ -597,6 +684,7 @@ references:
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_NaNSafeFloat_System_Single_System_Single_
   commentId: M:Reactive.Framework.Math.MathHelpers.NaNSafeFloat(System.Single,System.Single)
   fullName: Reactive.Framework.Math.MathHelpers.NaNSafeFloat(System.Single, System.Single)
+  nameWithType: MathHelpers.NaNSafeFloat(Single, Single)
 - uid: Reactive.Framework.Math.MathHelpers.NaNSafeFloat*
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_NaNSafeFloat_
   commentId: Overload:Reactive.Framework.Math.MathHelpers.NaNSafeFloat
@@ -607,6 +695,7 @@ references:
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_ReduceDecimals_System_Single_System_Single_
   commentId: M:Reactive.Framework.Math.MathHelpers.ReduceDecimals(System.Single,System.Single)
   fullName: Reactive.Framework.Math.MathHelpers.ReduceDecimals(System.Single, System.Single)
+  nameWithType: MathHelpers.ReduceDecimals(Single, Single)
 - uid: Reactive.Framework.Math.MathHelpers.ReduceDecimals*
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_ReduceDecimals_
   commentId: Overload:Reactive.Framework.Math.MathHelpers.ReduceDecimals
@@ -617,6 +706,7 @@ references:
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_SnapToZero_System_Single_System_Single_
   commentId: M:Reactive.Framework.Math.MathHelpers.SnapToZero(System.Single,System.Single)
   fullName: Reactive.Framework.Math.MathHelpers.SnapToZero(System.Single, System.Single)
+  nameWithType: MathHelpers.SnapToZero(Single, Single)
 - uid: Reactive.Framework.Math.MathHelpers.SnapToZero*
   href: api/Reactive.Framework.Math.MathHelpers.html#Reactive_Framework_Math_MathHelpers_SnapToZero_
   commentId: Overload:Reactive.Framework.Math.MathHelpers.SnapToZero
@@ -627,206 +717,247 @@ references:
   href: api/Reactive.Framework.UI.html#Reactive_Framework_UI
   commentId: N:Reactive.Framework.UI
   fullName: Reactive.Framework.UI
+  nameWithType: Reactive.Framework.UI
 - uid: Reactive.Framework.UI.MessageBoxOptions
   name: MessageBoxOptions
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions
   commentId: T:Reactive.Framework.UI.MessageBoxOptions
   fullName: Reactive.Framework.UI.MessageBoxOptions
+  nameWithType: MessageBoxOptions
 - uid: Reactive.Framework.UI.MessageBoxOptions.AbortRetryIgnore
   name: AbortRetryIgnore
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_AbortRetryIgnore
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.AbortRetryIgnore
   fullName: Reactive.Framework.UI.MessageBoxOptions.AbortRetryIgnore
+  nameWithType: MessageBoxOptions.AbortRetryIgnore
 - uid: Reactive.Framework.UI.MessageBoxOptions.CancelTryContinue
   name: CancelTryContinue
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_CancelTryContinue
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.CancelTryContinue
   fullName: Reactive.Framework.UI.MessageBoxOptions.CancelTryContinue
+  nameWithType: MessageBoxOptions.CancelTryContinue
 - uid: Reactive.Framework.UI.MessageBoxOptions.DefaultDesktopOnly
   name: DefaultDesktopOnly
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_DefaultDesktopOnly
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.DefaultDesktopOnly
   fullName: Reactive.Framework.UI.MessageBoxOptions.DefaultDesktopOnly
+  nameWithType: MessageBoxOptions.DefaultDesktopOnly
 - uid: Reactive.Framework.UI.MessageBoxOptions.DefButton2
   name: DefButton2
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_DefButton2
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.DefButton2
   fullName: Reactive.Framework.UI.MessageBoxOptions.DefButton2
+  nameWithType: MessageBoxOptions.DefButton2
 - uid: Reactive.Framework.UI.MessageBoxOptions.DefButton3
   name: DefButton3
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_DefButton3
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.DefButton3
   fullName: Reactive.Framework.UI.MessageBoxOptions.DefButton3
+  nameWithType: MessageBoxOptions.DefButton3
 - uid: Reactive.Framework.UI.MessageBoxOptions.DefButton4
   name: DefButton4
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_DefButton4
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.DefButton4
   fullName: Reactive.Framework.UI.MessageBoxOptions.DefButton4
+  nameWithType: MessageBoxOptions.DefButton4
 - uid: Reactive.Framework.UI.MessageBoxOptions.Help
   name: Help
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_Help
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.Help
   fullName: Reactive.Framework.UI.MessageBoxOptions.Help
+  nameWithType: MessageBoxOptions.Help
 - uid: Reactive.Framework.UI.MessageBoxOptions.IconAsterisk
   name: IconAsterisk
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_IconAsterisk
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.IconAsterisk
   fullName: Reactive.Framework.UI.MessageBoxOptions.IconAsterisk
+  nameWithType: MessageBoxOptions.IconAsterisk
 - uid: Reactive.Framework.UI.MessageBoxOptions.IconExclamation
   name: IconExclamation
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_IconExclamation
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.IconExclamation
   fullName: Reactive.Framework.UI.MessageBoxOptions.IconExclamation
+  nameWithType: MessageBoxOptions.IconExclamation
 - uid: Reactive.Framework.UI.MessageBoxOptions.IconHand
   name: IconHand
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_IconHand
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.IconHand
   fullName: Reactive.Framework.UI.MessageBoxOptions.IconHand
+  nameWithType: MessageBoxOptions.IconHand
 - uid: Reactive.Framework.UI.MessageBoxOptions.IconQuestion
   name: IconQuestion
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_IconQuestion
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.IconQuestion
   fullName: Reactive.Framework.UI.MessageBoxOptions.IconQuestion
+  nameWithType: MessageBoxOptions.IconQuestion
 - uid: Reactive.Framework.UI.MessageBoxOptions.NoFocus
   name: NoFocus
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_NoFocus
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.NoFocus
   fullName: Reactive.Framework.UI.MessageBoxOptions.NoFocus
+  nameWithType: MessageBoxOptions.NoFocus
 - uid: Reactive.Framework.UI.MessageBoxOptions.OkCancel
   name: OkCancel
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_OkCancel
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.OkCancel
   fullName: Reactive.Framework.UI.MessageBoxOptions.OkCancel
+  nameWithType: MessageBoxOptions.OkCancel
 - uid: Reactive.Framework.UI.MessageBoxOptions.OkOnly
   name: OkOnly
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_OkOnly
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.OkOnly
   fullName: Reactive.Framework.UI.MessageBoxOptions.OkOnly
+  nameWithType: MessageBoxOptions.OkOnly
 - uid: Reactive.Framework.UI.MessageBoxOptions.RetryCancel
   name: RetryCancel
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_RetryCancel
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.RetryCancel
   fullName: Reactive.Framework.UI.MessageBoxOptions.RetryCancel
+  nameWithType: MessageBoxOptions.RetryCancel
 - uid: Reactive.Framework.UI.MessageBoxOptions.Right
   name: Right
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_Right
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.Right
   fullName: Reactive.Framework.UI.MessageBoxOptions.Right
+  nameWithType: MessageBoxOptions.Right
 - uid: Reactive.Framework.UI.MessageBoxOptions.RTLReading
   name: RTLReading
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_RTLReading
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.RTLReading
   fullName: Reactive.Framework.UI.MessageBoxOptions.RTLReading
+  nameWithType: MessageBoxOptions.RTLReading
 - uid: Reactive.Framework.UI.MessageBoxOptions.SetForeground
   name: SetForeground
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_SetForeground
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.SetForeground
   fullName: Reactive.Framework.UI.MessageBoxOptions.SetForeground
+  nameWithType: MessageBoxOptions.SetForeground
 - uid: Reactive.Framework.UI.MessageBoxOptions.SystemModal
   name: SystemModal
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_SystemModal
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.SystemModal
   fullName: Reactive.Framework.UI.MessageBoxOptions.SystemModal
+  nameWithType: MessageBoxOptions.SystemModal
 - uid: Reactive.Framework.UI.MessageBoxOptions.TaskModal
   name: TaskModal
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_TaskModal
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.TaskModal
   fullName: Reactive.Framework.UI.MessageBoxOptions.TaskModal
+  nameWithType: MessageBoxOptions.TaskModal
 - uid: Reactive.Framework.UI.MessageBoxOptions.Topmost
   name: Topmost
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_Topmost
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.Topmost
   fullName: Reactive.Framework.UI.MessageBoxOptions.Topmost
+  nameWithType: MessageBoxOptions.Topmost
 - uid: Reactive.Framework.UI.MessageBoxOptions.UserIcon
   name: UserIcon
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_UserIcon
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.UserIcon
   fullName: Reactive.Framework.UI.MessageBoxOptions.UserIcon
+  nameWithType: MessageBoxOptions.UserIcon
 - uid: Reactive.Framework.UI.MessageBoxOptions.YesNo
   name: YesNo
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_YesNo
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.YesNo
   fullName: Reactive.Framework.UI.MessageBoxOptions.YesNo
+  nameWithType: MessageBoxOptions.YesNo
 - uid: Reactive.Framework.UI.MessageBoxOptions.YesNoCancel
   name: YesNoCancel
   href: api/Reactive.Framework.UI.MessageBoxOptions.html#Reactive_Framework_UI_MessageBoxOptions_YesNoCancel
   commentId: F:Reactive.Framework.UI.MessageBoxOptions.YesNoCancel
   fullName: Reactive.Framework.UI.MessageBoxOptions.YesNoCancel
+  nameWithType: MessageBoxOptions.YesNoCancel
 - uid: Reactive.Framework.UI.MessageBoxResult
   name: MessageBoxResult
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult
   commentId: T:Reactive.Framework.UI.MessageBoxResult
   fullName: Reactive.Framework.UI.MessageBoxResult
+  nameWithType: MessageBoxResult
 - uid: Reactive.Framework.UI.MessageBoxResult.Abort
   name: Abort
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Abort
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Abort
   fullName: Reactive.Framework.UI.MessageBoxResult.Abort
+  nameWithType: MessageBoxResult.Abort
 - uid: Reactive.Framework.UI.MessageBoxResult.Cancel
   name: Cancel
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Cancel
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Cancel
   fullName: Reactive.Framework.UI.MessageBoxResult.Cancel
+  nameWithType: MessageBoxResult.Cancel
 - uid: Reactive.Framework.UI.MessageBoxResult.Close
   name: Close
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Close
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Close
   fullName: Reactive.Framework.UI.MessageBoxResult.Close
+  nameWithType: MessageBoxResult.Close
 - uid: Reactive.Framework.UI.MessageBoxResult.Continue
   name: Continue
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Continue
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Continue
   fullName: Reactive.Framework.UI.MessageBoxResult.Continue
+  nameWithType: MessageBoxResult.Continue
 - uid: Reactive.Framework.UI.MessageBoxResult.Help
   name: Help
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Help
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Help
   fullName: Reactive.Framework.UI.MessageBoxResult.Help
+  nameWithType: MessageBoxResult.Help
 - uid: Reactive.Framework.UI.MessageBoxResult.Ignore
   name: Ignore
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Ignore
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Ignore
   fullName: Reactive.Framework.UI.MessageBoxResult.Ignore
+  nameWithType: MessageBoxResult.Ignore
 - uid: Reactive.Framework.UI.MessageBoxResult.No
   name: No
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_No
   commentId: F:Reactive.Framework.UI.MessageBoxResult.No
   fullName: Reactive.Framework.UI.MessageBoxResult.No
+  nameWithType: MessageBoxResult.No
 - uid: Reactive.Framework.UI.MessageBoxResult.Ok
   name: Ok
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Ok
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Ok
   fullName: Reactive.Framework.UI.MessageBoxResult.Ok
+  nameWithType: MessageBoxResult.Ok
 - uid: Reactive.Framework.UI.MessageBoxResult.Retry
   name: Retry
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Retry
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Retry
   fullName: Reactive.Framework.UI.MessageBoxResult.Retry
+  nameWithType: MessageBoxResult.Retry
 - uid: Reactive.Framework.UI.MessageBoxResult.Timeout
   name: Timeout
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Timeout
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Timeout
   fullName: Reactive.Framework.UI.MessageBoxResult.Timeout
+  nameWithType: MessageBoxResult.Timeout
 - uid: Reactive.Framework.UI.MessageBoxResult.TryAgain
   name: TryAgain
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_TryAgain
   commentId: F:Reactive.Framework.UI.MessageBoxResult.TryAgain
   fullName: Reactive.Framework.UI.MessageBoxResult.TryAgain
+  nameWithType: MessageBoxResult.TryAgain
 - uid: Reactive.Framework.UI.MessageBoxResult.Yes
   name: Yes
   href: api/Reactive.Framework.UI.MessageBoxResult.html#Reactive_Framework_UI_MessageBoxResult_Yes
   commentId: F:Reactive.Framework.UI.MessageBoxResult.Yes
   fullName: Reactive.Framework.UI.MessageBoxResult.Yes
+  nameWithType: MessageBoxResult.Yes
 - uid: Reactive.Framework.UI.MyMessageBox
   name: MyMessageBox
   href: api/Reactive.Framework.UI.MyMessageBox.html#Reactive_Framework_UI_MyMessageBox
   commentId: T:Reactive.Framework.UI.MyMessageBox
   fullName: Reactive.Framework.UI.MyMessageBox
+  nameWithType: MyMessageBox
 - uid: Reactive.Framework.UI.MyMessageBox.Show(System.IntPtr,System.String,System.String,Reactive.Framework.UI.MessageBoxOptions)
   name: Show(IntPtr, String, String, MessageBoxOptions)
   href: api/Reactive.Framework.UI.MyMessageBox.html#Reactive_Framework_UI_MyMessageBox_Show_System_IntPtr_System_String_System_String_Reactive_Framework_UI_MessageBoxOptions_
   commentId: M:Reactive.Framework.UI.MyMessageBox.Show(System.IntPtr,System.String,System.String,Reactive.Framework.UI.MessageBoxOptions)
   fullName: Reactive.Framework.UI.MyMessageBox.Show(System.IntPtr, System.String, System.String, Reactive.Framework.UI.MessageBoxOptions)
+  nameWithType: MyMessageBox.Show(IntPtr, String, String, MessageBoxOptions)
 - uid: Reactive.Framework.UI.MyMessageBox.Show*
   href: api/Reactive.Framework.UI.MyMessageBox.html#Reactive_Framework_UI_MyMessageBox_Show_
   commentId: Overload:Reactive.Framework.UI.MyMessageBox.Show
@@ -837,11 +968,13 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version
   commentId: T:Reactive.Framework.Version
   fullName: Reactive.Framework.Version
+  nameWithType: Version
 - uid: Reactive.Framework.Version.#ctor(System.Int64)
   name: Version(Int64)
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version__ctor_System_Int64_
   commentId: M:Reactive.Framework.Version.#ctor(System.Int64)
   fullName: Reactive.Framework.Version.Version(System.Int64)
+  nameWithType: Version.Version(Int64)
 - uid: Reactive.Framework.Version.#ctor*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version__ctor_
   commentId: Overload:Reactive.Framework.Version.#ctor
@@ -852,6 +985,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Accessibility
   commentId: P:Reactive.Framework.Version.Accessibility
   fullName: Reactive.Framework.Version.Accessibility
+  nameWithType: Version.Accessibility
 - uid: Reactive.Framework.Version.Accessibility*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Accessibility_
   commentId: Overload:Reactive.Framework.Version.Accessibility
@@ -862,6 +996,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Equals_System_Object_
   commentId: M:Reactive.Framework.Version.Equals(System.Object)
   fullName: Reactive.Framework.Version.Equals(System.Object)
+  nameWithType: Version.Equals(Object)
 - uid: Reactive.Framework.Version.Equals*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Equals_
   commentId: Overload:Reactive.Framework.Version.Equals
@@ -872,6 +1007,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_GetHashCode
   commentId: M:Reactive.Framework.Version.GetHashCode
   fullName: Reactive.Framework.Version.GetHashCode()
+  nameWithType: Version.GetHashCode()
 - uid: Reactive.Framework.Version.GetHashCode*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_GetHashCode_
   commentId: Overload:Reactive.Framework.Version.GetHashCode
@@ -882,6 +1018,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Major
   commentId: P:Reactive.Framework.Version.Major
   fullName: Reactive.Framework.Version.Major
+  nameWithType: Version.Major
 - uid: Reactive.Framework.Version.Major*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Major_
   commentId: Overload:Reactive.Framework.Version.Major
@@ -892,6 +1029,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Minor
   commentId: P:Reactive.Framework.Version.Minor
   fullName: Reactive.Framework.Version.Minor
+  nameWithType: Version.Minor
 - uid: Reactive.Framework.Version.Minor*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Minor_
   commentId: Overload:Reactive.Framework.Version.Minor
@@ -902,6 +1040,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_Equality_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_Equality(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.Equality(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.Equality(Version, Version)
 - uid: Reactive.Framework.Version.op_Equality*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_Equality_
   commentId: Overload:Reactive.Framework.Version.op_Equality
@@ -912,6 +1051,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_GreaterThan_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_GreaterThan(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.GreaterThan(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.GreaterThan(Version, Version)
 - uid: Reactive.Framework.Version.op_GreaterThan*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_GreaterThan_
   commentId: Overload:Reactive.Framework.Version.op_GreaterThan
@@ -922,6 +1062,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_GreaterThanOrEqual_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_GreaterThanOrEqual(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.GreaterThanOrEqual(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.GreaterThanOrEqual(Version, Version)
 - uid: Reactive.Framework.Version.op_GreaterThanOrEqual*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_GreaterThanOrEqual_
   commentId: Overload:Reactive.Framework.Version.op_GreaterThanOrEqual
@@ -932,6 +1073,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_Inequality_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_Inequality(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.Inequality(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.Inequality(Version, Version)
 - uid: Reactive.Framework.Version.op_Inequality*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_Inequality_
   commentId: Overload:Reactive.Framework.Version.op_Inequality
@@ -942,6 +1084,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_LessThan_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_LessThan(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.LessThan(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.LessThan(Version, Version)
 - uid: Reactive.Framework.Version.op_LessThan*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_LessThan_
   commentId: Overload:Reactive.Framework.Version.op_LessThan
@@ -952,6 +1095,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_LessThanOrEqual_Reactive_Framework_Version_Reactive_Framework_Version_
   commentId: M:Reactive.Framework.Version.op_LessThanOrEqual(Reactive.Framework.Version,Reactive.Framework.Version)
   fullName: Reactive.Framework.Version.LessThanOrEqual(Reactive.Framework.Version, Reactive.Framework.Version)
+  nameWithType: Version.LessThanOrEqual(Version, Version)
 - uid: Reactive.Framework.Version.op_LessThanOrEqual*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_op_LessThanOrEqual_
   commentId: Overload:Reactive.Framework.Version.op_LessThanOrEqual
@@ -962,6 +1106,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_PlatformLabel
   commentId: P:Reactive.Framework.Version.PlatformLabel
   fullName: Reactive.Framework.Version.PlatformLabel
+  nameWithType: Version.PlatformLabel
 - uid: Reactive.Framework.Version.PlatformLabel*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_PlatformLabel_
   commentId: Overload:Reactive.Framework.Version.PlatformLabel
@@ -972,6 +1117,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Revision
   commentId: P:Reactive.Framework.Version.Revision
   fullName: Reactive.Framework.Version.Revision
+  nameWithType: Version.Revision
 - uid: Reactive.Framework.Version.Revision*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Revision_
   commentId: Overload:Reactive.Framework.Version.Revision
@@ -982,6 +1128,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Serial
   commentId: P:Reactive.Framework.Version.Serial
   fullName: Reactive.Framework.Version.Serial
+  nameWithType: Version.Serial
 - uid: Reactive.Framework.Version.Serial*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_Serial_
   commentId: Overload:Reactive.Framework.Version.Serial
@@ -992,6 +1139,7 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_ToLong
   commentId: M:Reactive.Framework.Version.ToLong
   fullName: Reactive.Framework.Version.ToLong()
+  nameWithType: Version.ToLong()
 - uid: Reactive.Framework.Version.ToLong*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_ToLong_
   commentId: Overload:Reactive.Framework.Version.ToLong
@@ -1002,11 +1150,13 @@ references:
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_ToString
   commentId: M:Reactive.Framework.Version.ToString
   fullName: Reactive.Framework.Version.ToString()
+  nameWithType: Version.ToString()
 - uid: Reactive.Framework.Version.ToString(System.String)
   name: ToString(String)
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_ToString_System_String_
   commentId: M:Reactive.Framework.Version.ToString(System.String)
   fullName: Reactive.Framework.Version.ToString(System.String)
+  nameWithType: Version.ToString(String)
 - uid: Reactive.Framework.Version.ToString*
   href: api/Reactive.Framework.Version.html#Reactive_Framework_Version_ToString_
   commentId: Overload:Reactive.Framework.Version.ToString
@@ -1017,11 +1167,13 @@ references:
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment
   commentId: T:Reactive.MyEnvironment
   fullName: Reactive.MyEnvironment
+  nameWithType: MyEnvironment
 - uid: Reactive.MyEnvironment.Is64BitProcess
   name: Is64BitProcess
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_Is64BitProcess
   commentId: P:Reactive.MyEnvironment.Is64BitProcess
   fullName: Reactive.MyEnvironment.Is64BitProcess
+  nameWithType: MyEnvironment.Is64BitProcess
 - uid: Reactive.MyEnvironment.Is64BitProcess*
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_Is64BitProcess_
   commentId: Overload:Reactive.MyEnvironment.Is64BitProcess
@@ -1032,6 +1184,7 @@ references:
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_NewLine
   commentId: P:Reactive.MyEnvironment.NewLine
   fullName: Reactive.MyEnvironment.NewLine
+  nameWithType: MyEnvironment.NewLine
 - uid: Reactive.MyEnvironment.NewLine*
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_NewLine_
   commentId: Overload:Reactive.MyEnvironment.NewLine
@@ -1042,6 +1195,7 @@ references:
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_ProcessorCount
   commentId: P:Reactive.MyEnvironment.ProcessorCount
   fullName: Reactive.MyEnvironment.ProcessorCount
+  nameWithType: MyEnvironment.ProcessorCount
 - uid: Reactive.MyEnvironment.ProcessorCount*
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_ProcessorCount_
   commentId: Overload:Reactive.MyEnvironment.ProcessorCount
@@ -1052,6 +1206,7 @@ references:
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_TickCount
   commentId: P:Reactive.MyEnvironment.TickCount
   fullName: Reactive.MyEnvironment.TickCount
+  nameWithType: MyEnvironment.TickCount
 - uid: Reactive.MyEnvironment.TickCount*
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_TickCount_
   commentId: Overload:Reactive.MyEnvironment.TickCount
@@ -1062,6 +1217,7 @@ references:
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_WorkingSetForMyLog
   commentId: P:Reactive.MyEnvironment.WorkingSetForMyLog
   fullName: Reactive.MyEnvironment.WorkingSetForMyLog
+  nameWithType: MyEnvironment.WorkingSetForMyLog
 - uid: Reactive.MyEnvironment.WorkingSetForMyLog*
   href: api/Reactive.MyEnvironment.html#Reactive_MyEnvironment_WorkingSetForMyLog_
   commentId: Overload:Reactive.MyEnvironment.WorkingSetForMyLog
@@ -1072,16 +1228,19 @@ references:
   href: api/Reactive.Plugin.html#Reactive_Plugin
   commentId: N:Reactive.Plugin
   fullName: Reactive.Plugin
+  nameWithType: Reactive.Plugin
 - uid: Reactive.Plugin.PluginManager
   name: PluginManager
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager
   commentId: T:Reactive.Plugin.PluginManager
   fullName: Reactive.Plugin.PluginManager
+  nameWithType: PluginManager
 - uid: Reactive.Plugin.PluginManager.#ctor
   name: PluginManager()
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager__ctor
   commentId: M:Reactive.Plugin.PluginManager.#ctor
   fullName: Reactive.Plugin.PluginManager.PluginManager()
+  nameWithType: PluginManager.PluginManager()
 - uid: Reactive.Plugin.PluginManager.#ctor*
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager__ctor_
   commentId: Overload:Reactive.Plugin.PluginManager.#ctor
@@ -1092,11 +1251,13 @@ references:
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager_pluginsList
   commentId: F:Reactive.Plugin.PluginManager.pluginsList
   fullName: Reactive.Plugin.PluginManager.pluginsList
+  nameWithType: PluginManager.pluginsList
 - uid: Reactive.Plugin.PluginManager.StartHost
   name: StartHost()
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager_StartHost
   commentId: M:Reactive.Plugin.PluginManager.StartHost
   fullName: Reactive.Plugin.PluginManager.StartHost()
+  nameWithType: PluginManager.StartHost()
 - uid: Reactive.Plugin.PluginManager.StartHost*
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager_StartHost_
   commentId: Overload:Reactive.Plugin.PluginManager.StartHost
@@ -1107,6 +1268,7 @@ references:
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager_StopHost
   commentId: M:Reactive.Plugin.PluginManager.StopHost
   fullName: Reactive.Plugin.PluginManager.StopHost()
+  nameWithType: PluginManager.StopHost()
 - uid: Reactive.Plugin.PluginManager.StopHost*
   href: api/Reactive.Plugin.PluginManager.html#Reactive_Plugin_PluginManager_StopHost_
   commentId: Overload:Reactive.Plugin.PluginManager.StopHost
@@ -1117,16 +1279,19 @@ references:
   href: api/Reactive.Serialization.html#Reactive_Serialization
   commentId: N:Reactive.Serialization
   fullName: Reactive.Serialization
+  nameWithType: Reactive.Serialization
 - uid: Reactive.Serialization.BinarySerializer
   name: BinarySerializer
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer
   commentId: T:Reactive.Serialization.BinarySerializer
   fullName: Reactive.Serialization.BinarySerializer
+  nameWithType: BinarySerializer
 - uid: Reactive.Serialization.BinarySerializer.#ctor(System.IO.Stream,Reactive.Serialization.Serializer.SerializationMode)
   name: BinarySerializer(Stream, Serializer.SerializationMode)
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer__ctor_System_IO_Stream_Reactive_Serialization_Serializer_SerializationMode_
   commentId: M:Reactive.Serialization.BinarySerializer.#ctor(System.IO.Stream,Reactive.Serialization.Serializer.SerializationMode)
   fullName: Reactive.Serialization.BinarySerializer.BinarySerializer(System.IO.Stream, Reactive.Serialization.Serializer.SerializationMode)
+  nameWithType: BinarySerializer.BinarySerializer(Stream, Serializer.SerializationMode)
 - uid: Reactive.Serialization.BinarySerializer.#ctor*
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer__ctor_
   commentId: Overload:Reactive.Serialization.BinarySerializer.#ctor
@@ -1137,6 +1302,7 @@ references:
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_Dispose_System_Boolean_
   commentId: M:Reactive.Serialization.BinarySerializer.Dispose(System.Boolean)
   fullName: Reactive.Serialization.BinarySerializer.Dispose(System.Boolean)
+  nameWithType: BinarySerializer.Dispose(Boolean)
 - uid: Reactive.Serialization.BinarySerializer.Dispose*
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_Dispose_
   commentId: Overload:Reactive.Serialization.BinarySerializer.Dispose
@@ -1156,6 +1322,8 @@ references:
   name.vb: SerializeAttribute(Of T)(String, T)
   fullName: Reactive.Serialization.BinarySerializer.SerializeAttribute<T>(System.String, T)
   fullName.vb: Reactive.Serialization.BinarySerializer.SerializeAttribute(Of T)(System.String, T)
+  nameWithType: BinarySerializer.SerializeAttribute<T>(String, T)
+  nameWithType.vb: SerializeAttribute(Of T)(String, T)
 - uid: Reactive.Serialization.BinarySerializer.SerializeElement*
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_SerializeElement_
   commentId: Overload:Reactive.Serialization.BinarySerializer.SerializeElement
@@ -1170,6 +1338,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T, SerializationOption)
   fullName: Reactive.Serialization.BinarySerializer.SerializeElement<T>(System.String, T, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.BinarySerializer.SerializeElement(Of T)(System.String, T, Reactive.Serialization.SerializationOption)
+  nameWithType: BinarySerializer.SerializeElement<T>(String, T, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T, SerializationOption)
 - uid: Reactive.Serialization.BinarySerializer.SerializeElement``1(System.String,``0[],System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T[], String, SerializationOption)
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String___0___System_String_Reactive_Serialization_SerializationOption_
@@ -1177,6 +1347,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
   fullName: Reactive.Serialization.BinarySerializer.SerializeElement<T>(System.String, T[], System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.BinarySerializer.SerializeElement(Of T)(System.String, T(), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: BinarySerializer.SerializeElement<T>(String, T[], String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
 - uid: Reactive.Serialization.BinarySerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, List<T>, String, SerializationOption)
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_Reactive_Serialization_SerializationOption_
@@ -1184,6 +1356,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
   fullName: Reactive.Serialization.BinarySerializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.BinarySerializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: BinarySerializer.SerializeElement<T>(String, List<T>, String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
 - uid: Reactive.Serialization.BinarySerializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1},Reactive.Serialization.SerializationOption)
   name: SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__Reactive_Serialization_SerializationOption_
@@ -1191,11 +1365,14 @@ references:
   name.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
   fullName: Reactive.Serialization.BinarySerializer.SerializeElement<TKey, TValue>(System.String, System.Collections.Generic.Dictionary<TKey, TValue>, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.BinarySerializer.SerializeElement(Of TKey, TValue)(System.String, System.Collections.Generic.Dictionary(Of TKey, TValue), Reactive.Serialization.SerializationOption)
+  nameWithType: BinarySerializer.SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
+  nameWithType.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
 - uid: Reactive.Serialization.BinarySerializer.Skip(System.String)
   name: Skip(String)
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_Skip_System_String_
   commentId: M:Reactive.Serialization.BinarySerializer.Skip(System.String)
   fullName: Reactive.Serialization.BinarySerializer.Skip(System.String)
+  nameWithType: BinarySerializer.Skip(String)
 - uid: Reactive.Serialization.BinarySerializer.Skip*
   href: api/Reactive.Serialization.BinarySerializer.html#Reactive_Serialization_BinarySerializer_Skip_
   commentId: Overload:Reactive.Serialization.BinarySerializer.Skip
@@ -1206,11 +1383,13 @@ references:
   href: api/Reactive.Serialization.IAttributesSerializer.html#Reactive_Serialization_IAttributesSerializer
   commentId: T:Reactive.Serialization.IAttributesSerializer
   fullName: Reactive.Serialization.IAttributesSerializer
+  nameWithType: IAttributesSerializer
 - uid: Reactive.Serialization.IAttributesSerializer.Mode
   name: Mode
   href: api/Reactive.Serialization.IAttributesSerializer.html#Reactive_Serialization_IAttributesSerializer_Mode
   commentId: P:Reactive.Serialization.IAttributesSerializer.Mode
   fullName: Reactive.Serialization.IAttributesSerializer.Mode
+  nameWithType: IAttributesSerializer.Mode
 - uid: Reactive.Serialization.IAttributesSerializer.Mode*
   href: api/Reactive.Serialization.IAttributesSerializer.html#Reactive_Serialization_IAttributesSerializer_Mode_
   commentId: Overload:Reactive.Serialization.IAttributesSerializer.Mode
@@ -1230,16 +1409,20 @@ references:
   name.vb: SerializeAttribute(Of T)(String, T)
   fullName: Reactive.Serialization.IAttributesSerializer.SerializeAttribute<T>(System.String, T)
   fullName.vb: Reactive.Serialization.IAttributesSerializer.SerializeAttribute(Of T)(System.String, T)
+  nameWithType: IAttributesSerializer.SerializeAttribute<T>(String, T)
+  nameWithType.vb: SerializeAttribute(Of T)(String, T)
 - uid: Reactive.Serialization.IElementsSerializer
   name: IElementsSerializer
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer
   commentId: T:Reactive.Serialization.IElementsSerializer
   fullName: Reactive.Serialization.IElementsSerializer
+  nameWithType: IElementsSerializer
 - uid: Reactive.Serialization.IElementsSerializer.Mode
   name: Mode
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_Mode
   commentId: P:Reactive.Serialization.IElementsSerializer.Mode
   fullName: Reactive.Serialization.IElementsSerializer.Mode
+  nameWithType: IElementsSerializer.Mode
 - uid: Reactive.Serialization.IElementsSerializer.Mode*
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_Mode_
   commentId: Overload:Reactive.Serialization.IElementsSerializer.Mode
@@ -1259,6 +1442,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T)
+  nameWithType.vb: SerializeElement(Of T)(String, T)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,``0,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T, SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String___0_Reactive_Serialization_SerializationOption_
@@ -1266,6 +1451,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T, SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T, Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T, SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,``0[])
   name: SerializeElement<T>(String, T[])
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String___0___
@@ -1273,6 +1460,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T())
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T[])
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T())
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T[])
+  nameWithType.vb: SerializeElement(Of T)(String, T())
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,``0[],Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T[], SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String___0___Reactive_Serialization_SerializationOption_
@@ -1280,6 +1469,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T[], Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T(), Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T[], SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,``0[],System.String)
   name: SerializeElement<T>(String, T[], String)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String___0___System_String_
@@ -1287,6 +1478,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), String)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T[], System.String)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T(), System.String)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T[], String)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), String)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,``0[],System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T[], String, SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String___0___System_String_Reactive_Serialization_SerializationOption_
@@ -1294,6 +1487,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, T[], System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, T(), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, T[], String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0})
   name: SerializeElement<T>(String, List<T>)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__
@@ -1301,6 +1496,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T))
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, List<T>)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T))
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, List<T>, SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__Reactive_Serialization_SerializationOption_
@@ -1308,6 +1505,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, List<T>, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String)
   name: SerializeElement<T>(String, List<T>, String)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_
@@ -1315,6 +1514,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), String)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, System.String)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), System.String)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, List<T>, String)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), String)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, List<T>, String, SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_Reactive_Serialization_SerializationOption_
@@ -1322,6 +1523,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<T>(String, List<T>, String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1})
   name: SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__
@@ -1329,6 +1532,8 @@ references:
   name.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue))
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<TKey, TValue>(System.String, System.Collections.Generic.Dictionary<TKey, TValue>)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of TKey, TValue)(System.String, System.Collections.Generic.Dictionary(Of TKey, TValue))
+  nameWithType: IElementsSerializer.SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>)
+  nameWithType.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue))
 - uid: Reactive.Serialization.IElementsSerializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1},Reactive.Serialization.SerializationOption)
   name: SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__Reactive_Serialization_SerializationOption_
@@ -1336,11 +1541,14 @@ references:
   name.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
   fullName: Reactive.Serialization.IElementsSerializer.SerializeElement<TKey, TValue>(System.String, System.Collections.Generic.Dictionary<TKey, TValue>, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.IElementsSerializer.SerializeElement(Of TKey, TValue)(System.String, System.Collections.Generic.Dictionary(Of TKey, TValue), Reactive.Serialization.SerializationOption)
+  nameWithType: IElementsSerializer.SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
+  nameWithType.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
 - uid: Reactive.Serialization.IElementsSerializer.Skip(System.String)
   name: Skip(String)
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_Skip_System_String_
   commentId: M:Reactive.Serialization.IElementsSerializer.Skip(System.String)
   fullName: Reactive.Serialization.IElementsSerializer.Skip(System.String)
+  nameWithType: IElementsSerializer.Skip(String)
 - uid: Reactive.Serialization.IElementsSerializer.Skip*
   href: api/Reactive.Serialization.IElementsSerializer.html#Reactive_Serialization_IElementsSerializer_Skip_
   commentId: Overload:Reactive.Serialization.IElementsSerializer.Skip
@@ -1351,11 +1559,13 @@ references:
   href: api/Reactive.Serialization.ISerializable.html#Reactive_Serialization_ISerializable
   commentId: T:Reactive.Serialization.ISerializable
   fullName: Reactive.Serialization.ISerializable
+  nameWithType: ISerializable
 - uid: Reactive.Serialization.ISerializable.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name: SerializeAttributes(IAttributesSerializer, IVersionProvider)
   href: api/Reactive.Serialization.ISerializable.html#Reactive_Serialization_ISerializable_SerializeAttributes_Reactive_Serialization_IAttributesSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.ISerializable.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.ISerializable.SerializeAttributes(Reactive.Serialization.IAttributesSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: ISerializable.SerializeAttributes(IAttributesSerializer, IVersionProvider)
 - uid: Reactive.Serialization.ISerializable.SerializeAttributes*
   href: api/Reactive.Serialization.ISerializable.html#Reactive_Serialization_ISerializable_SerializeAttributes_
   commentId: Overload:Reactive.Serialization.ISerializable.SerializeAttributes
@@ -1366,6 +1576,7 @@ references:
   href: api/Reactive.Serialization.ISerializable.html#Reactive_Serialization_ISerializable_SerializeElements_Reactive_Serialization_IElementsSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.ISerializable.SerializeElements(Reactive.Serialization.IElementsSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.ISerializable.SerializeElements(Reactive.Serialization.IElementsSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: ISerializable.SerializeElements(IElementsSerializer, IVersionProvider)
 - uid: Reactive.Serialization.ISerializable.SerializeElements*
   href: api/Reactive.Serialization.ISerializable.html#Reactive_Serialization_ISerializable_SerializeElements_
   commentId: Overload:Reactive.Serialization.ISerializable.SerializeElements
@@ -1376,11 +1587,13 @@ references:
   href: api/Reactive.Serialization.ISerializationFilter.html#Reactive_Serialization_ISerializationFilter
   commentId: T:Reactive.Serialization.ISerializationFilter
   fullName: Reactive.Serialization.ISerializationFilter
+  nameWithType: ISerializationFilter
 - uid: Reactive.Serialization.ISerializationFilter.SkipSerialization
   name: SkipSerialization
   href: api/Reactive.Serialization.ISerializationFilter.html#Reactive_Serialization_ISerializationFilter_SkipSerialization
   commentId: P:Reactive.Serialization.ISerializationFilter.SkipSerialization
   fullName: Reactive.Serialization.ISerializationFilter.SkipSerialization
+  nameWithType: ISerializationFilter.SkipSerialization
 - uid: Reactive.Serialization.ISerializationFilter.SkipSerialization*
   href: api/Reactive.Serialization.ISerializationFilter.html#Reactive_Serialization_ISerializationFilter_SkipSerialization_
   commentId: Overload:Reactive.Serialization.ISerializationFilter.SkipSerialization
@@ -1393,12 +1606,15 @@ references:
   name.vb: IStringConvertible(Of T)
   fullName: Reactive.Serialization.IStringConvertible<T>
   fullName.vb: Reactive.Serialization.IStringConvertible(Of T)
+  nameWithType: IStringConvertible<T>
+  nameWithType.vb: IStringConvertible(Of T)
 - uid: Reactive.Serialization.IStringConvertible`1.ConvertFromString(System.String)
   name: ConvertFromString(String)
   href: api/Reactive.Serialization.IStringConvertible-1.html#Reactive_Serialization_IStringConvertible_1_ConvertFromString_System_String_
   commentId: M:Reactive.Serialization.IStringConvertible`1.ConvertFromString(System.String)
   fullName: Reactive.Serialization.IStringConvertible<T>.ConvertFromString(System.String)
   fullName.vb: Reactive.Serialization.IStringConvertible(Of T).ConvertFromString(System.String)
+  nameWithType: IStringConvertible<T>.ConvertFromString(String)
 - uid: Reactive.Serialization.IStringConvertible`1.ConvertFromString*
   href: api/Reactive.Serialization.IStringConvertible-1.html#Reactive_Serialization_IStringConvertible_1_ConvertFromString_
   commentId: Overload:Reactive.Serialization.IStringConvertible`1.ConvertFromString
@@ -1411,6 +1627,7 @@ references:
   commentId: M:Reactive.Serialization.IStringConvertible`1.ConvertToString
   fullName: Reactive.Serialization.IStringConvertible<T>.ConvertToString()
   fullName.vb: Reactive.Serialization.IStringConvertible(Of T).ConvertToString()
+  nameWithType: IStringConvertible<T>.ConvertToString()
 - uid: Reactive.Serialization.IStringConvertible`1.ConvertToString*
   href: api/Reactive.Serialization.IStringConvertible-1.html#Reactive_Serialization_IStringConvertible_1_ConvertToString_
   commentId: Overload:Reactive.Serialization.IStringConvertible`1.ConvertToString
@@ -1422,11 +1639,13 @@ references:
   href: api/Reactive.Serialization.IVersionProvider.html#Reactive_Serialization_IVersionProvider
   commentId: T:Reactive.Serialization.IVersionProvider
   fullName: Reactive.Serialization.IVersionProvider
+  nameWithType: IVersionProvider
 - uid: Reactive.Serialization.IVersionProvider.GetVersionNumber
   name: GetVersionNumber()
   href: api/Reactive.Serialization.IVersionProvider.html#Reactive_Serialization_IVersionProvider_GetVersionNumber
   commentId: M:Reactive.Serialization.IVersionProvider.GetVersionNumber
   fullName: Reactive.Serialization.IVersionProvider.GetVersionNumber()
+  nameWithType: IVersionProvider.GetVersionNumber()
 - uid: Reactive.Serialization.IVersionProvider.GetVersionNumber*
   href: api/Reactive.Serialization.IVersionProvider.html#Reactive_Serialization_IVersionProvider_GetVersionNumber_
   commentId: Overload:Reactive.Serialization.IVersionProvider.GetVersionNumber
@@ -1437,41 +1656,49 @@ references:
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption
   commentId: T:Reactive.Serialization.SerializationOption
   fullName: Reactive.Serialization.SerializationOption
+  nameWithType: SerializationOption
 - uid: Reactive.Serialization.SerializationOption.AppendContent
   name: AppendContent
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption_AppendContent
   commentId: F:Reactive.Serialization.SerializationOption.AppendContent
   fullName: Reactive.Serialization.SerializationOption.AppendContent
+  nameWithType: SerializationOption.AppendContent
 - uid: Reactive.Serialization.SerializationOption.CData
   name: CData
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption_CData
   commentId: F:Reactive.Serialization.SerializationOption.CData
   fullName: Reactive.Serialization.SerializationOption.CData
+  nameWithType: SerializationOption.CData
 - uid: Reactive.Serialization.SerializationOption.Default
   name: Default
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption_Default
   commentId: F:Reactive.Serialization.SerializationOption.Default
   fullName: Reactive.Serialization.SerializationOption.Default
+  nameWithType: SerializationOption.Default
 - uid: Reactive.Serialization.SerializationOption.DontInstantiateElements
   name: DontInstantiateElements
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption_DontInstantiateElements
   commentId: F:Reactive.Serialization.SerializationOption.DontInstantiateElements
   fullName: Reactive.Serialization.SerializationOption.DontInstantiateElements
+  nameWithType: SerializationOption.DontInstantiateElements
 - uid: Reactive.Serialization.SerializationOption.SerializeTypeName
   name: SerializeTypeName
   href: api/Reactive.Serialization.SerializationOption.html#Reactive_Serialization_SerializationOption_SerializeTypeName
   commentId: F:Reactive.Serialization.SerializationOption.SerializeTypeName
   fullName: Reactive.Serialization.SerializationOption.SerializeTypeName
+  nameWithType: SerializationOption.SerializeTypeName
 - uid: Reactive.Serialization.SerializationVersionAttribute
   name: SerializationVersionAttribute
   href: api/Reactive.Serialization.SerializationVersionAttribute.html#Reactive_Serialization_SerializationVersionAttribute
   commentId: T:Reactive.Serialization.SerializationVersionAttribute
   fullName: Reactive.Serialization.SerializationVersionAttribute
+  nameWithType: SerializationVersionAttribute
 - uid: Reactive.Serialization.SerializationVersionAttribute.#ctor(System.UInt32)
   name: SerializationVersionAttribute(UInt32)
   href: api/Reactive.Serialization.SerializationVersionAttribute.html#Reactive_Serialization_SerializationVersionAttribute__ctor_System_UInt32_
   commentId: M:Reactive.Serialization.SerializationVersionAttribute.#ctor(System.UInt32)
   fullName: Reactive.Serialization.SerializationVersionAttribute.SerializationVersionAttribute(System.UInt32)
+  nameWithType: SerializationVersionAttribute.SerializationVersionAttribute(UInt32)
 - uid: Reactive.Serialization.SerializationVersionAttribute.#ctor*
   href: api/Reactive.Serialization.SerializationVersionAttribute.html#Reactive_Serialization_SerializationVersionAttribute__ctor_
   commentId: Overload:Reactive.Serialization.SerializationVersionAttribute.#ctor
@@ -1482,6 +1709,7 @@ references:
   href: api/Reactive.Serialization.SerializationVersionAttribute.html#Reactive_Serialization_SerializationVersionAttribute_Version
   commentId: P:Reactive.Serialization.SerializationVersionAttribute.Version
   fullName: Reactive.Serialization.SerializationVersionAttribute.Version
+  nameWithType: SerializationVersionAttribute.Version
 - uid: Reactive.Serialization.SerializationVersionAttribute.Version*
   href: api/Reactive.Serialization.SerializationVersionAttribute.html#Reactive_Serialization_SerializationVersionAttribute_Version_
   commentId: Overload:Reactive.Serialization.SerializationVersionAttribute.Version
@@ -1492,11 +1720,13 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer
   commentId: T:Reactive.Serialization.Serializer
   fullName: Reactive.Serialization.Serializer
+  nameWithType: Serializer
 - uid: Reactive.Serialization.Serializer.#ctor(System.IO.Stream,Reactive.Serialization.Serializer.SerializationMode)
   name: Serializer(Stream, Serializer.SerializationMode)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer__ctor_System_IO_Stream_Reactive_Serialization_Serializer_SerializationMode_
   commentId: M:Reactive.Serialization.Serializer.#ctor(System.IO.Stream,Reactive.Serialization.Serializer.SerializationMode)
   fullName: Reactive.Serialization.Serializer.Serializer(System.IO.Stream, Reactive.Serialization.Serializer.SerializationMode)
+  nameWithType: Serializer.Serializer(Stream, Serializer.SerializationMode)
 - uid: Reactive.Serialization.Serializer.#ctor*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer__ctor_
   commentId: Overload:Reactive.Serialization.Serializer.#ctor
@@ -1507,21 +1737,25 @@ references:
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A
   commentId: T:Reactive.Serialization.Serializer.A
   fullName: Reactive.Serialization.Serializer.A
+  nameWithType: Serializer.A
 - uid: Reactive.Serialization.Serializer.A.Date
   name: Date
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_Date
   commentId: F:Reactive.Serialization.Serializer.A.Date
   fullName: Reactive.Serialization.Serializer.A.Date
+  nameWithType: Serializer.A.Date
 - uid: Reactive.Serialization.Serializer.A.DoubleValue
   name: DoubleValue
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_DoubleValue
   commentId: F:Reactive.Serialization.Serializer.A.DoubleValue
   fullName: Reactive.Serialization.Serializer.A.DoubleValue
+  nameWithType: Serializer.A.DoubleValue
 - uid: Reactive.Serialization.Serializer.A.Equals(Reactive.Serialization.Serializer.A)
   name: Equals(Serializer.A)
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_Equals_Reactive_Serialization_Serializer_A_
   commentId: M:Reactive.Serialization.Serializer.A.Equals(Reactive.Serialization.Serializer.A)
   fullName: Reactive.Serialization.Serializer.A.Equals(Reactive.Serialization.Serializer.A)
+  nameWithType: Serializer.A.Equals(Serializer.A)
 - uid: Reactive.Serialization.Serializer.A.Equals*
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_Equals_
   commentId: Overload:Reactive.Serialization.Serializer.A.Equals
@@ -1532,11 +1766,13 @@ references:
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_GUID
   commentId: F:Reactive.Serialization.Serializer.A.GUID
   fullName: Reactive.Serialization.Serializer.A.GUID
+  nameWithType: Serializer.A.GUID
 - uid: Reactive.Serialization.Serializer.A.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name: SerializeAttributes(IAttributesSerializer, IVersionProvider)
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_SerializeAttributes_Reactive_Serialization_IAttributesSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.A.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.A.SerializeAttributes(Reactive.Serialization.IAttributesSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.A.SerializeAttributes(IAttributesSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.A.SerializeAttributes*
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_SerializeAttributes_
   commentId: Overload:Reactive.Serialization.Serializer.A.SerializeAttributes
@@ -1547,6 +1783,7 @@ references:
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_SerializeElements_Reactive_Serialization_IElementsSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.A.SerializeElements(Reactive.Serialization.IElementsSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.A.SerializeElements(Reactive.Serialization.IElementsSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.A.SerializeElements(IElementsSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.A.SerializeElements*
   href: api/Reactive.Serialization.Serializer.A.html#Reactive_Serialization_Serializer_A_SerializeElements_
   commentId: Overload:Reactive.Serialization.Serializer.A.SerializeElements
@@ -1557,16 +1794,19 @@ references:
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B
   commentId: T:Reactive.Serialization.Serializer.B
   fullName: Reactive.Serialization.Serializer.B
+  nameWithType: Serializer.B
 - uid: Reactive.Serialization.Serializer.B.ByteValue
   name: ByteValue
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_ByteValue
   commentId: F:Reactive.Serialization.Serializer.B.ByteValue
   fullName: Reactive.Serialization.Serializer.B.ByteValue
+  nameWithType: Serializer.B.ByteValue
 - uid: Reactive.Serialization.Serializer.B.Equals(Reactive.Serialization.Serializer.B)
   name: Equals(Serializer.B)
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_Equals_Reactive_Serialization_Serializer_B_
   commentId: M:Reactive.Serialization.Serializer.B.Equals(Reactive.Serialization.Serializer.B)
   fullName: Reactive.Serialization.Serializer.B.Equals(Reactive.Serialization.Serializer.B)
+  nameWithType: Serializer.B.Equals(Serializer.B)
 - uid: Reactive.Serialization.Serializer.B.Equals*
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_Equals_
   commentId: Overload:Reactive.Serialization.Serializer.B.Equals
@@ -1577,11 +1817,13 @@ references:
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_SByteValue
   commentId: F:Reactive.Serialization.Serializer.B.SByteValue
   fullName: Reactive.Serialization.Serializer.B.SByteValue
+  nameWithType: Serializer.B.SByteValue
 - uid: Reactive.Serialization.Serializer.B.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name: SerializeAttributes(IAttributesSerializer, IVersionProvider)
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_SerializeAttributes_Reactive_Serialization_IAttributesSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.B.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.B.SerializeAttributes(Reactive.Serialization.IAttributesSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.B.SerializeAttributes(IAttributesSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.B.SerializeAttributes*
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_SerializeAttributes_
   commentId: Overload:Reactive.Serialization.Serializer.B.SerializeAttributes
@@ -1592,6 +1834,7 @@ references:
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_SerializeElements_Reactive_Serialization_IElementsSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.B.SerializeElements(Reactive.Serialization.IElementsSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.B.SerializeElements(Reactive.Serialization.IElementsSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.B.SerializeElements(IElementsSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.B.SerializeElements*
   href: api/Reactive.Serialization.Serializer.B.html#Reactive_Serialization_Serializer_B_SerializeElements_
   commentId: Overload:Reactive.Serialization.Serializer.B.SerializeElements
@@ -1602,6 +1845,7 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_CanSerializeTypeAsAttribute_System_Type_
   commentId: M:Reactive.Serialization.Serializer.CanSerializeTypeAsAttribute(System.Type)
   fullName: Reactive.Serialization.Serializer.CanSerializeTypeAsAttribute(System.Type)
+  nameWithType: Serializer.CanSerializeTypeAsAttribute(Type)
 - uid: Reactive.Serialization.Serializer.CanSerializeTypeAsAttribute*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_CanSerializeTypeAsAttribute_
   commentId: Overload:Reactive.Serialization.Serializer.CanSerializeTypeAsAttribute
@@ -1612,11 +1856,13 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Dispose
   commentId: M:Reactive.Serialization.Serializer.Dispose
   fullName: Reactive.Serialization.Serializer.Dispose()
+  nameWithType: Serializer.Dispose()
 - uid: Reactive.Serialization.Serializer.Dispose(System.Boolean)
   name: Dispose(Boolean)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Dispose_System_Boolean_
   commentId: M:Reactive.Serialization.Serializer.Dispose(System.Boolean)
   fullName: Reactive.Serialization.Serializer.Dispose(System.Boolean)
+  nameWithType: Serializer.Dispose(Boolean)
 - uid: Reactive.Serialization.Serializer.Dispose*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Dispose_
   commentId: Overload:Reactive.Serialization.Serializer.Dispose
@@ -1627,6 +1873,7 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Finalize
   commentId: M:Reactive.Serialization.Serializer.Finalize
   fullName: Reactive.Serialization.Serializer.Finalize()
+  nameWithType: Serializer.Finalize()
 - uid: Reactive.Serialization.Serializer.Finalize*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Finalize_
   commentId: Overload:Reactive.Serialization.Serializer.Finalize
@@ -1646,11 +1893,14 @@ references:
   name.vb: FromString(Of T)(String)
   fullName: Reactive.Serialization.Serializer.FromString<T>(System.String)
   fullName.vb: Reactive.Serialization.Serializer.FromString(Of T)(System.String)
+  nameWithType: Serializer.FromString<T>(String)
+  nameWithType.vb: FromString(Of T)(String)
 - uid: Reactive.Serialization.Serializer.GetTestDataInstance
   name: GetTestDataInstance()
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetTestDataInstance
   commentId: M:Reactive.Serialization.Serializer.GetTestDataInstance
   fullName: Reactive.Serialization.Serializer.GetTestDataInstance()
+  nameWithType: Serializer.GetTestDataInstance()
 - uid: Reactive.Serialization.Serializer.GetTestDataInstance*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetTestDataInstance_
   commentId: Overload:Reactive.Serialization.Serializer.GetTestDataInstance
@@ -1661,6 +1911,7 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetVersionAttributeNameFromVersionID_System_String_
   commentId: M:Reactive.Serialization.Serializer.GetVersionAttributeNameFromVersionID(System.String)
   fullName: Reactive.Serialization.Serializer.GetVersionAttributeNameFromVersionID(System.String)
+  nameWithType: Serializer.GetVersionAttributeNameFromVersionID(String)
 - uid: Reactive.Serialization.Serializer.GetVersionAttributeNameFromVersionID*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_GetVersionAttributeNameFromVersionID_
   commentId: Overload:Reactive.Serialization.Serializer.GetVersionAttributeNameFromVersionID
@@ -1680,11 +1931,14 @@ references:
   name.vb: GetVersionProvider(Of T)(T)
   fullName: Reactive.Serialization.Serializer.GetVersionProvider<T>(T)
   fullName.vb: Reactive.Serialization.Serializer.GetVersionProvider(Of T)(T)
+  nameWithType: Serializer.GetVersionProvider<T>(T)
+  nameWithType.vb: GetVersionProvider(Of T)(T)
 - uid: Reactive.Serialization.Serializer.Mode
   name: Mode
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Mode
   commentId: P:Reactive.Serialization.Serializer.Mode
   fullName: Reactive.Serialization.Serializer.Mode
+  nameWithType: Serializer.Mode
 - uid: Reactive.Serialization.Serializer.Mode*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Mode_
   commentId: Overload:Reactive.Serialization.Serializer.Mode
@@ -1695,11 +1949,13 @@ references:
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct
   commentId: T:Reactive.Serialization.Serializer.MyStruct
   fullName: Reactive.Serialization.Serializer.MyStruct
+  nameWithType: Serializer.MyStruct
 - uid: Reactive.Serialization.Serializer.MyStruct.Equals(Reactive.Serialization.Serializer.MyStruct)
   name: Equals(Serializer.MyStruct)
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_Equals_Reactive_Serialization_Serializer_MyStruct_
   commentId: M:Reactive.Serialization.Serializer.MyStruct.Equals(Reactive.Serialization.Serializer.MyStruct)
   fullName: Reactive.Serialization.Serializer.MyStruct.Equals(Reactive.Serialization.Serializer.MyStruct)
+  nameWithType: Serializer.MyStruct.Equals(Serializer.MyStruct)
 - uid: Reactive.Serialization.Serializer.MyStruct.Equals*
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_Equals_
   commentId: Overload:Reactive.Serialization.Serializer.MyStruct.Equals
@@ -1710,11 +1966,13 @@ references:
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_LongValue
   commentId: F:Reactive.Serialization.Serializer.MyStruct.LongValue
   fullName: Reactive.Serialization.Serializer.MyStruct.LongValue
+  nameWithType: Serializer.MyStruct.LongValue
 - uid: Reactive.Serialization.Serializer.MyStruct.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name: SerializeAttributes(IAttributesSerializer, IVersionProvider)
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_SerializeAttributes_Reactive_Serialization_IAttributesSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.MyStruct.SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.MyStruct.SerializeAttributes(Reactive.Serialization.IAttributesSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.MyStruct.SerializeAttributes(IAttributesSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.MyStruct.SerializeAttributes*
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_SerializeAttributes_
   commentId: Overload:Reactive.Serialization.Serializer.MyStruct.SerializeAttributes
@@ -1725,6 +1983,7 @@ references:
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_SerializeElements_Reactive_Serialization_IElementsSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.MyStruct.SerializeElements(Reactive.Serialization.IElementsSerializer,Reactive.Serialization.IVersionProvider)
   fullName: Reactive.Serialization.Serializer.MyStruct.SerializeElements(Reactive.Serialization.IElementsSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.MyStruct.SerializeElements(IElementsSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.MyStruct.SerializeElements*
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_SerializeElements_
   commentId: Overload:Reactive.Serialization.Serializer.MyStruct.SerializeElements
@@ -1735,6 +1994,7 @@ references:
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_ToString
   commentId: M:Reactive.Serialization.Serializer.MyStruct.ToString
   fullName: Reactive.Serialization.Serializer.MyStruct.ToString()
+  nameWithType: Serializer.MyStruct.ToString()
 - uid: Reactive.Serialization.Serializer.MyStruct.ToString*
   href: api/Reactive.Serialization.Serializer.MyStruct.html#Reactive_Serialization_Serializer_MyStruct_ToString_
   commentId: Overload:Reactive.Serialization.Serializer.MyStruct.ToString
@@ -1745,6 +2005,7 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_ReleaseVersionProvider_Reactive_Serialization_VersionProvider_
   commentId: M:Reactive.Serialization.Serializer.ReleaseVersionProvider(Reactive.Serialization.VersionProvider)
   fullName: Reactive.Serialization.Serializer.ReleaseVersionProvider(Reactive.Serialization.VersionProvider)
+  nameWithType: Serializer.ReleaseVersionProvider(VersionProvider)
 - uid: Reactive.Serialization.Serializer.ReleaseVersionProvider*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_ReleaseVersionProvider_
   commentId: Overload:Reactive.Serialization.Serializer.ReleaseVersionProvider
@@ -1755,16 +2016,19 @@ references:
   href: api/Reactive.Serialization.Serializer.SerializationMode.html#Reactive_Serialization_Serializer_SerializationMode
   commentId: T:Reactive.Serialization.Serializer.SerializationMode
   fullName: Reactive.Serialization.Serializer.SerializationMode
+  nameWithType: Serializer.SerializationMode
 - uid: Reactive.Serialization.Serializer.SerializationMode.Read
   name: Read
   href: api/Reactive.Serialization.Serializer.SerializationMode.html#Reactive_Serialization_Serializer_SerializationMode_Read
   commentId: F:Reactive.Serialization.Serializer.SerializationMode.Read
   fullName: Reactive.Serialization.Serializer.SerializationMode.Read
+  nameWithType: Serializer.SerializationMode.Read
 - uid: Reactive.Serialization.Serializer.SerializationMode.Write
   name: Write
   href: api/Reactive.Serialization.Serializer.SerializationMode.html#Reactive_Serialization_Serializer_SerializationMode_Write
   commentId: F:Reactive.Serialization.Serializer.SerializationMode.Write
   fullName: Reactive.Serialization.Serializer.SerializationMode.Write
+  nameWithType: Serializer.SerializationMode.Write
 - uid: Reactive.Serialization.Serializer.SerializeAttribute*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeAttribute_
   commentId: Overload:Reactive.Serialization.Serializer.SerializeAttribute
@@ -1779,6 +2043,8 @@ references:
   name.vb: SerializeAttribute(Of T)(String, T)
   fullName: Reactive.Serialization.Serializer.SerializeAttribute<T>(System.String, T)
   fullName.vb: Reactive.Serialization.Serializer.SerializeAttribute(Of T)(System.String, T)
+  nameWithType: Serializer.SerializeAttribute<T>(String, T)
+  nameWithType.vb: SerializeAttribute(Of T)(String, T)
 - uid: Reactive.Serialization.Serializer.SerializeElement*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement_
   commentId: Overload:Reactive.Serialization.Serializer.SerializeElement
@@ -1793,6 +2059,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T)
+  nameWithType: Serializer.SerializeElement<T>(String, T)
+  nameWithType.vb: SerializeElement(Of T)(String, T)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,``0,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T, SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0_Reactive_Serialization_SerializationOption_
@@ -1800,6 +2068,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T, SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T, Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<T>(String, T, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T, SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,``0[])
   name: SerializeElement<T>(String, T[])
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___
@@ -1807,6 +2077,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T())
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T[])
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T())
+  nameWithType: Serializer.SerializeElement<T>(String, T[])
+  nameWithType.vb: SerializeElement(Of T)(String, T())
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,``0[],Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T[], SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___Reactive_Serialization_SerializationOption_
@@ -1814,6 +2086,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T[], Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T(), Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<T>(String, T[], SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,``0[],System.String)
   name: SerializeElement<T>(String, T[], String)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___System_String_
@@ -1821,6 +2095,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), String)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T[], System.String)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T(), System.String)
+  nameWithType: Serializer.SerializeElement<T>(String, T[], String)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), String)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,``0[],System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, T[], String, SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String___0___System_String_Reactive_Serialization_SerializationOption_
@@ -1828,6 +2104,8 @@ references:
   name.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, T[], System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, T(), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<T>(String, T[], String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, T(), String, SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0})
   name: SerializeElement<T>(String, List<T>)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__
@@ -1835,6 +2113,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T))
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T))
+  nameWithType: Serializer.SerializeElement<T>(String, List<T>)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T))
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, List<T>, SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__Reactive_Serialization_SerializationOption_
@@ -1842,6 +2122,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<T>(String, List<T>, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String)
   name: SerializeElement<T>(String, List<T>, String)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_
@@ -1849,6 +2131,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), String)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, System.String)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), System.String)
+  nameWithType: Serializer.SerializeElement<T>(String, List<T>, String)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), String)
 - uid: Reactive.Serialization.Serializer.SerializeElement``1(System.String,System.Collections.Generic.List{``0},System.String,Reactive.Serialization.SerializationOption)
   name: SerializeElement<T>(String, List<T>, String, SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__1_System_String_System_Collections_Generic_List___0__System_String_Reactive_Serialization_SerializationOption_
@@ -1856,6 +2140,8 @@ references:
   name.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<T>(System.String, System.Collections.Generic.List<T>, System.String, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of T)(System.String, System.Collections.Generic.List(Of T), System.String, Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<T>(String, List<T>, String, SerializationOption)
+  nameWithType.vb: SerializeElement(Of T)(String, List(Of T), String, SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1})
   name: SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__
@@ -1863,6 +2149,8 @@ references:
   name.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue))
   fullName: Reactive.Serialization.Serializer.SerializeElement<TKey, TValue>(System.String, System.Collections.Generic.Dictionary<TKey, TValue>)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of TKey, TValue)(System.String, System.Collections.Generic.Dictionary(Of TKey, TValue))
+  nameWithType: Serializer.SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>)
+  nameWithType.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue))
 - uid: Reactive.Serialization.Serializer.SerializeElement``2(System.String,System.Collections.Generic.Dictionary{``0,``1},Reactive.Serialization.SerializationOption)
   name: SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeElement__2_System_String_System_Collections_Generic_Dictionary___0___1__Reactive_Serialization_SerializationOption_
@@ -1870,6 +2158,8 @@ references:
   name.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeElement<TKey, TValue>(System.String, System.Collections.Generic.Dictionary<TKey, TValue>, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeElement(Of TKey, TValue)(System.String, System.Collections.Generic.Dictionary(Of TKey, TValue), Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeElement<TKey, TValue>(String, Dictionary<TKey, TValue>, SerializationOption)
+  nameWithType.vb: SerializeElement(Of TKey, TValue)(String, Dictionary(Of TKey, TValue), SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeSubElement*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeSubElement_
   commentId: Overload:Reactive.Serialization.Serializer.SerializeSubElement
@@ -1884,11 +2174,14 @@ references:
   name.vb: SerializeSubElement(Of T)(String, T, SerializationOption)
   fullName: Reactive.Serialization.Serializer.SerializeSubElement<T>(System.String, T, Reactive.Serialization.SerializationOption)
   fullName.vb: Reactive.Serialization.Serializer.SerializeSubElement(Of T)(System.String, T, Reactive.Serialization.SerializationOption)
+  nameWithType: Serializer.SerializeSubElement<T>(String, T, SerializationOption)
+  nameWithType.vb: SerializeSubElement(Of T)(String, T, SerializationOption)
 - uid: Reactive.Serialization.Serializer.SerializeVersionAttribute(Reactive.Serialization.VersionProvider)
   name: SerializeVersionAttribute(VersionProvider)
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeVersionAttribute_Reactive_Serialization_VersionProvider_
   commentId: M:Reactive.Serialization.Serializer.SerializeVersionAttribute(Reactive.Serialization.VersionProvider)
   fullName: Reactive.Serialization.Serializer.SerializeVersionAttribute(Reactive.Serialization.VersionProvider)
+  nameWithType: Serializer.SerializeVersionAttribute(VersionProvider)
 - uid: Reactive.Serialization.Serializer.SerializeVersionAttribute*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_SerializeVersionAttribute_
   commentId: Overload:Reactive.Serialization.Serializer.SerializeVersionAttribute
@@ -1899,6 +2192,7 @@ references:
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Skip_System_String_
   commentId: M:Reactive.Serialization.Serializer.Skip(System.String)
   fullName: Reactive.Serialization.Serializer.Skip(System.String)
+  nameWithType: Serializer.Skip(String)
 - uid: Reactive.Serialization.Serializer.Skip*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_Skip_
   commentId: Overload:Reactive.Serialization.Serializer.Skip
@@ -1909,31 +2203,37 @@ references:
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData
   commentId: T:Reactive.Serialization.Serializer.TestData
   fullName: Reactive.Serialization.Serializer.TestData
+  nameWithType: Serializer.TestData
 - uid: Reactive.Serialization.Serializer.TestData.BoolValue
   name: BoolValue
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_BoolValue
   commentId: F:Reactive.Serialization.Serializer.TestData.BoolValue
   fullName: Reactive.Serialization.Serializer.TestData.BoolValue
+  nameWithType: Serializer.TestData.BoolValue
 - uid: Reactive.Serialization.Serializer.TestData.DictionaryValue
   name: DictionaryValue
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_DictionaryValue
   commentId: F:Reactive.Serialization.Serializer.TestData.DictionaryValue
   fullName: Reactive.Serialization.Serializer.TestData.DictionaryValue
+  nameWithType: Serializer.TestData.DictionaryValue
 - uid: Reactive.Serialization.Serializer.TestData.EnumValue
   name: EnumValue
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_EnumValue
   commentId: F:Reactive.Serialization.Serializer.TestData.EnumValue
   fullName: Reactive.Serialization.Serializer.TestData.EnumValue
+  nameWithType: Serializer.TestData.EnumValue
 - uid: Reactive.Serialization.Serializer.TestData.Equals(Reactive.Serialization.Serializer.TestData)
   name: Equals(Serializer.TestData)
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Equals_Reactive_Serialization_Serializer_TestData_
   commentId: M:Reactive.Serialization.Serializer.TestData.Equals(Reactive.Serialization.Serializer.TestData)
   fullName: Reactive.Serialization.Serializer.TestData.Equals(Reactive.Serialization.Serializer.TestData)
+  nameWithType: Serializer.TestData.Equals(Serializer.TestData)
 - uid: Reactive.Serialization.Serializer.TestData.Equals(System.Object)
   name: Equals(Object)
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Equals_System_Object_
   commentId: M:Reactive.Serialization.Serializer.TestData.Equals(System.Object)
   fullName: Reactive.Serialization.Serializer.TestData.Equals(System.Object)
+  nameWithType: Serializer.TestData.Equals(Object)
 - uid: Reactive.Serialization.Serializer.TestData.Equals*
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Equals_
   commentId: Overload:Reactive.Serialization.Serializer.TestData.Equals
@@ -1944,11 +2244,13 @@ references:
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_FloatValue
   commentId: F:Reactive.Serialization.Serializer.TestData.FloatValue
   fullName: Reactive.Serialization.Serializer.TestData.FloatValue
+  nameWithType: Serializer.TestData.FloatValue
 - uid: Reactive.Serialization.Serializer.TestData.GetHashCode
   name: GetHashCode()
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_GetHashCode
   commentId: M:Reactive.Serialization.Serializer.TestData.GetHashCode
   fullName: Reactive.Serialization.Serializer.TestData.GetHashCode()
+  nameWithType: Serializer.TestData.GetHashCode()
 - uid: Reactive.Serialization.Serializer.TestData.GetHashCode*
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_GetHashCode_
   commentId: Overload:Reactive.Serialization.Serializer.TestData.GetHashCode
@@ -1959,17 +2261,21 @@ references:
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_InternalData
   commentId: F:Reactive.Serialization.Serializer.TestData.InternalData
   fullName: Reactive.Serialization.Serializer.TestData.InternalData
+  nameWithType: Serializer.TestData.InternalData
 - uid: Reactive.Serialization.Serializer.TestData.ListValue
   name: ListValue
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_ListValue
   commentId: F:Reactive.Serialization.Serializer.TestData.ListValue
   fullName: Reactive.Serialization.Serializer.TestData.ListValue
+  nameWithType: Serializer.TestData.ListValue
 - uid: Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name: ISerializable.SerializeAttributes(IAttributesSerializer, IVersionProvider)
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Reactive_Serialization_ISerializable_SerializeAttributes_Reactive_Serialization_IAttributesSerializer_Reactive_Serialization_IVersionProvider_
   commentId: M:Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeAttributes(Reactive.Serialization.IAttributesSerializer,Reactive.Serialization.IVersionProvider)
   name.vb: Reactive.Serialization.ISerializable.SerializeAttributes(IAttributesSerializer, IVersionProvider)
   fullName: Reactive.Serialization.Serializer.TestData.Reactive.Serialization.ISerializable.SerializeAttributes(Reactive.Serialization.IAttributesSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.TestData.ISerializable.SerializeAttributes(IAttributesSerializer, IVersionProvider)
+  nameWithType.vb: Reactive.Serialization.ISerializable.SerializeAttributes(IAttributesSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeAttributes*
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Reactive_Serialization_ISerializable_SerializeAttributes_
   commentId: Overload:Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeAttributes
@@ -1982,6 +2288,8 @@ references:
   commentId: M:Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeElements(Reactive.Serialization.IElementsSerializer,Reactive.Serialization.IVersionProvider)
   name.vb: Reactive.Serialization.ISerializable.SerializeElements(IElementsSerializer, IVersionProvider)
   fullName: Reactive.Serialization.Serializer.TestData.Reactive.Serialization.ISerializable.SerializeElements(Reactive.Serialization.IElementsSerializer, Reactive.Serialization.IVersionProvider)
+  nameWithType: Serializer.TestData.ISerializable.SerializeElements(IElementsSerializer, IVersionProvider)
+  nameWithType.vb: Reactive.Serialization.ISerializable.SerializeElements(IElementsSerializer, IVersionProvider)
 - uid: Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeElements*
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Reactive_Serialization_ISerializable_SerializeElements_
   commentId: Overload:Reactive.Serialization.Serializer.TestData.Reactive#Serialization#ISerializable#SerializeElements
@@ -1993,36 +2301,43 @@ references:
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_StringValue
   commentId: F:Reactive.Serialization.Serializer.TestData.StringValue
   fullName: Reactive.Serialization.Serializer.TestData.StringValue
+  nameWithType: Serializer.TestData.StringValue
 - uid: Reactive.Serialization.Serializer.TestData.Struct
   name: Struct
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_Struct
   commentId: F:Reactive.Serialization.Serializer.TestData.Struct
   fullName: Reactive.Serialization.Serializer.TestData.Struct
+  nameWithType: Serializer.TestData.Struct
 - uid: Reactive.Serialization.Serializer.TestData.TestEnum
   name: Serializer.TestData.TestEnum
   href: api/Reactive.Serialization.Serializer.TestData.TestEnum.html#Reactive_Serialization_Serializer_TestData_TestEnum
   commentId: T:Reactive.Serialization.Serializer.TestData.TestEnum
   fullName: Reactive.Serialization.Serializer.TestData.TestEnum
+  nameWithType: Serializer.TestData.TestEnum
 - uid: Reactive.Serialization.Serializer.TestData.TestEnum.FirstValue
   name: FirstValue
   href: api/Reactive.Serialization.Serializer.TestData.TestEnum.html#Reactive_Serialization_Serializer_TestData_TestEnum_FirstValue
   commentId: F:Reactive.Serialization.Serializer.TestData.TestEnum.FirstValue
   fullName: Reactive.Serialization.Serializer.TestData.TestEnum.FirstValue
+  nameWithType: Serializer.TestData.TestEnum.FirstValue
 - uid: Reactive.Serialization.Serializer.TestData.TestEnum.SecondValue
   name: SecondValue
   href: api/Reactive.Serialization.Serializer.TestData.TestEnum.html#Reactive_Serialization_Serializer_TestData_TestEnum_SecondValue
   commentId: F:Reactive.Serialization.Serializer.TestData.TestEnum.SecondValue
   fullName: Reactive.Serialization.Serializer.TestData.TestEnum.SecondValue
+  nameWithType: Serializer.TestData.TestEnum.SecondValue
 - uid: Reactive.Serialization.Serializer.TestData.UglyData
   name: UglyData
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_UglyData
   commentId: F:Reactive.Serialization.Serializer.TestData.UglyData
   fullName: Reactive.Serialization.Serializer.TestData.UglyData
+  nameWithType: Serializer.TestData.UglyData
 - uid: Reactive.Serialization.Serializer.TestData.UintValue
   name: UintValue
   href: api/Reactive.Serialization.Serializer.TestData.html#Reactive_Serialization_Serializer_TestData_UintValue
   commentId: F:Reactive.Serialization.Serializer.TestData.UintValue
   fullName: Reactive.Serialization.Serializer.TestData.UintValue
+  nameWithType: Serializer.TestData.UintValue
 - uid: Reactive.Serialization.Serializer.ToString*
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_ToString_
   commentId: Overload:Reactive.Serialization.Serializer.ToString
@@ -2037,21 +2352,26 @@ references:
   name.vb: ToString(Of T)(T)
   fullName: Reactive.Serialization.Serializer.ToString<T>(T)
   fullName.vb: Reactive.Serialization.Serializer.ToString(Of T)(T)
+  nameWithType: Serializer.ToString<T>(T)
+  nameWithType.vb: ToString(Of T)(T)
 - uid: Reactive.Serialization.Serializer.versionProvidersByType
   name: versionProvidersByType
   href: api/Reactive.Serialization.Serializer.html#Reactive_Serialization_Serializer_versionProvidersByType
   commentId: F:Reactive.Serialization.Serializer.versionProvidersByType
   fullName: Reactive.Serialization.Serializer.versionProvidersByType
+  nameWithType: Serializer.versionProvidersByType
 - uid: Reactive.Serialization.VersionProvider
   name: VersionProvider
   href: api/Reactive.Serialization.VersionProvider.html#Reactive_Serialization_VersionProvider
   commentId: T:Reactive.Serialization.VersionProvider
   fullName: Reactive.Serialization.VersionProvider
+  nameWithType: VersionProvider
 - uid: Reactive.Serialization.VersionProvider.GetVersionNumber
   name: GetVersionNumber()
   href: api/Reactive.Serialization.VersionProvider.html#Reactive_Serialization_VersionProvider_GetVersionNumber
   commentId: M:Reactive.Serialization.VersionProvider.GetVersionNumber
   fullName: Reactive.Serialization.VersionProvider.GetVersionNumber()
+  nameWithType: VersionProvider.GetVersionNumber()
 - uid: Reactive.Serialization.VersionProvider.GetVersionNumber*
   href: api/Reactive.Serialization.VersionProvider.html#Reactive_Serialization_VersionProvider_GetVersionNumber_
   commentId: Overload:Reactive.Serialization.VersionProvider.GetVersionNumber
@@ -2063,6 +2383,8 @@ references:
   commentId: M:Reactive.Serialization.VersionProvider.System#Collections#Generic#IEnumerable{Reactive#Serialization#SerializationVersion}#GetEnumerator
   name.vb: System.Collections.Generic.IEnumerable<Reactive.Serialization.SerializationVersion>.GetEnumerator()
   fullName: Reactive.Serialization.VersionProvider.System.Collections.Generic.IEnumerable<Reactive.Serialization.SerializationVersion>.GetEnumerator()
+  nameWithType: VersionProvider.IEnumerable<SerializationVersion>.GetEnumerator()
+  nameWithType.vb: System.Collections.Generic.IEnumerable<Reactive.Serialization.SerializationVersion>.GetEnumerator()
 - uid: Reactive.Serialization.VersionProvider.System#Collections#Generic#IEnumerable{Reactive#Serialization#SerializationVersion}#GetEnumerator*
   href: api/Reactive.Serialization.VersionProvider.html#Reactive_Serialization_VersionProvider_System_Collections_Generic_IEnumerable_Reactive_Serialization_SerializationVersion__GetEnumerator_
   commentId: Overload:Reactive.Serialization.VersionProvider.System#Collections#Generic#IEnumerable{Reactive#Serialization#SerializationVersion}#GetEnumerator
@@ -2075,6 +2397,8 @@ references:
   commentId: M:Reactive.Serialization.VersionProvider.System#Collections#IEnumerable#GetEnumerator
   name.vb: System.Collections.IEnumerable.GetEnumerator()
   fullName: Reactive.Serialization.VersionProvider.System.Collections.IEnumerable.GetEnumerator()
+  nameWithType: VersionProvider.IEnumerable.GetEnumerator()
+  nameWithType.vb: System.Collections.IEnumerable.GetEnumerator()
 - uid: Reactive.Serialization.VersionProvider.System#Collections#IEnumerable#GetEnumerator*
   href: api/Reactive.Serialization.VersionProvider.html#Reactive_Serialization_VersionProvider_System_Collections_IEnumerable_GetEnumerator_
   commentId: Overload:Reactive.Serialization.VersionProvider.System#Collections#IEnumerable#GetEnumerator
@@ -2086,21 +2410,25 @@ references:
   href: api/Reactive.Utils.html#Reactive_Utils
   commentId: N:Reactive.Utils
   fullName: Reactive.Utils
+  nameWithType: Reactive.Utils
 - uid: Reactive.Utils.Extensions
   name: Reactive.Utils.Extensions
   href: api/Reactive.Utils.Extensions.html#Reactive_Utils_Extensions
   commentId: N:Reactive.Utils.Extensions
   fullName: Reactive.Utils.Extensions
+  nameWithType: Reactive.Utils.Extensions
 - uid: Reactive.Utils.Extensions.FloatExtensions
   name: FloatExtensions
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions
   commentId: T:Reactive.Utils.Extensions.FloatExtensions
   fullName: Reactive.Utils.Extensions.FloatExtensions
+  nameWithType: FloatExtensions
 - uid: Reactive.Utils.Extensions.FloatExtensions.CeilAwayFromZero(System.Single)
   name: CeilAwayFromZero(Single)
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_CeilAwayFromZero_System_Single_
   commentId: M:Reactive.Utils.Extensions.FloatExtensions.CeilAwayFromZero(System.Single)
   fullName: Reactive.Utils.Extensions.FloatExtensions.CeilAwayFromZero(System.Single)
+  nameWithType: FloatExtensions.CeilAwayFromZero(Single)
 - uid: Reactive.Utils.Extensions.FloatExtensions.CeilAwayFromZero*
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_CeilAwayFromZero_
   commentId: Overload:Reactive.Utils.Extensions.FloatExtensions.CeilAwayFromZero
@@ -2111,6 +2439,7 @@ references:
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_FloorTowardZero_System_Single_
   commentId: M:Reactive.Utils.Extensions.FloatExtensions.FloorTowardZero(System.Single)
   fullName: Reactive.Utils.Extensions.FloatExtensions.FloorTowardZero(System.Single)
+  nameWithType: FloatExtensions.FloorTowardZero(Single)
 - uid: Reactive.Utils.Extensions.FloatExtensions.FloorTowardZero*
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_FloorTowardZero_
   commentId: Overload:Reactive.Utils.Extensions.FloatExtensions.FloorTowardZero
@@ -2121,6 +2450,7 @@ references:
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_Round_System_Single_
   commentId: M:Reactive.Utils.Extensions.FloatExtensions.Round(System.Single)
   fullName: Reactive.Utils.Extensions.FloatExtensions.Round(System.Single)
+  nameWithType: FloatExtensions.Round(Single)
 - uid: Reactive.Utils.Extensions.FloatExtensions.Round*
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_Round_
   commentId: Overload:Reactive.Utils.Extensions.FloatExtensions.Round
@@ -2131,6 +2461,7 @@ references:
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_ToInt_System_Single_
   commentId: M:Reactive.Utils.Extensions.FloatExtensions.ToInt(System.Single)
   fullName: Reactive.Utils.Extensions.FloatExtensions.ToInt(System.Single)
+  nameWithType: FloatExtensions.ToInt(Single)
 - uid: Reactive.Utils.Extensions.FloatExtensions.ToInt*
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_ToInt_
   commentId: Overload:Reactive.Utils.Extensions.FloatExtensions.ToInt
@@ -2141,6 +2472,7 @@ references:
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_ToString_System_Single_System_Int32_System_Boolean_System_Boolean_
   commentId: M:Reactive.Utils.Extensions.FloatExtensions.ToString(System.Single,System.Int32,System.Boolean,System.Boolean)
   fullName: Reactive.Utils.Extensions.FloatExtensions.ToString(System.Single, System.Int32, System.Boolean, System.Boolean)
+  nameWithType: FloatExtensions.ToString(Single, Int32, Boolean, Boolean)
 - uid: Reactive.Utils.Extensions.FloatExtensions.ToString*
   href: api/Reactive.Utils.Extensions.FloatExtensions.html#Reactive_Utils_Extensions_FloatExtensions_ToString_
   commentId: Overload:Reactive.Utils.Extensions.FloatExtensions.ToString
@@ -2151,11 +2483,13 @@ references:
   href: api/Reactive.Utils.Extensions.IntExtensions.html#Reactive_Utils_Extensions_IntExtensions
   commentId: T:Reactive.Utils.Extensions.IntExtensions
   fullName: Reactive.Utils.Extensions.IntExtensions
+  nameWithType: IntExtensions
 - uid: Reactive.Utils.Extensions.IntExtensions.ToString(System.Int32,System.Boolean)
   name: ToString(Int32, Boolean)
   href: api/Reactive.Utils.Extensions.IntExtensions.html#Reactive_Utils_Extensions_IntExtensions_ToString_System_Int32_System_Boolean_
   commentId: M:Reactive.Utils.Extensions.IntExtensions.ToString(System.Int32,System.Boolean)
   fullName: Reactive.Utils.Extensions.IntExtensions.ToString(System.Int32, System.Boolean)
+  nameWithType: IntExtensions.ToString(Int32, Boolean)
 - uid: Reactive.Utils.Extensions.IntExtensions.ToString*
   href: api/Reactive.Utils.Extensions.IntExtensions.html#Reactive_Utils_Extensions_IntExtensions_ToString_
   commentId: Overload:Reactive.Utils.Extensions.IntExtensions.ToString
@@ -2166,6 +2500,7 @@ references:
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension
   commentId: T:Reactive.Utils.Extensions.ListExtension
   fullName: Reactive.Utils.Extensions.ListExtension
+  nameWithType: ListExtension
 - uid: Reactive.Utils.Extensions.ListExtension.AddOnce*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_AddOnce_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.AddOnce
@@ -2180,6 +2515,8 @@ references:
   name.vb: AddOnce(Of T)(IList(Of T), T)
   fullName: Reactive.Utils.Extensions.ListExtension.AddOnce<T>(System.Collections.Generic.IList<T>, T)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.AddOnce(Of T)(System.Collections.Generic.IList(Of T), T)
+  nameWithType: ListExtension.AddOnce<T>(IList<T>, T)
+  nameWithType.vb: AddOnce(Of T)(IList(Of T), T)
 - uid: Reactive.Utils.Extensions.ListExtension.BinaryFind*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_BinaryFind_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.BinaryFind
@@ -2194,6 +2531,8 @@ references:
   name.vb: BinaryFind(Of T)(IList(Of T), Func(Of T, Int32))
   fullName: Reactive.Utils.Extensions.ListExtension.BinaryFind<T>(System.Collections.Generic.IList<T>, System.Func<T, System.Int32>)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.BinaryFind(Of T)(System.Collections.Generic.IList(Of T), System.Func(Of T, System.Int32))
+  nameWithType: ListExtension.BinaryFind<T>(IList<T>, Func<T, Int32>)
+  nameWithType.vb: BinaryFind(Of T)(IList(Of T), Func(Of T, Int32))
 - uid: Reactive.Utils.Extensions.ListExtension.BinarySearch*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_BinarySearch_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.BinarySearch
@@ -2208,6 +2547,8 @@ references:
   name.vb: BinarySearch(Of T)(IList(Of T), Func(Of T, Int32))
   fullName: Reactive.Utils.Extensions.ListExtension.BinarySearch<T>(System.Collections.Generic.IList<T>, System.Func<T, System.Int32>)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.BinarySearch(Of T)(System.Collections.Generic.IList(Of T), System.Func(Of T, System.Int32))
+  nameWithType: ListExtension.BinarySearch<T>(IList<T>, Func<T, Int32>)
+  nameWithType.vb: BinarySearch(Of T)(IList(Of T), Func(Of T, Int32))
 - uid: Reactive.Utils.Extensions.ListExtension.BinarySearch``2(System.Collections.Generic.IList{``0},``1,System.Func{``0,``1,System.Int32})
   name: BinarySearch<T, U>(IList<T>, U, Func<T, U, Int32>)
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_BinarySearch__2_System_Collections_Generic_IList___0____1_System_Func___0___1_System_Int32__
@@ -2215,6 +2556,8 @@ references:
   name.vb: BinarySearch(Of T, U)(IList(Of T), U, Func(Of T, U, Int32))
   fullName: Reactive.Utils.Extensions.ListExtension.BinarySearch<T, U>(System.Collections.Generic.IList<T>, U, System.Func<T, U, System.Int32>)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.BinarySearch(Of T, U)(System.Collections.Generic.IList(Of T), U, System.Func(Of T, U, System.Int32))
+  nameWithType: ListExtension.BinarySearch<T, U>(IList<T>, U, Func<T, U, Int32>)
+  nameWithType.vb: BinarySearch(Of T, U)(IList(Of T), U, Func(Of T, U, Int32))
 - uid: Reactive.Utils.Extensions.ListExtension.FindHighest*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_FindHighest_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.FindHighest
@@ -2229,6 +2572,8 @@ references:
   name.vb: FindHighest(Of T)(IEnumerable(Of T), Func(Of T, Single), Func(Of T, Boolean))
   fullName: Reactive.Utils.Extensions.ListExtension.FindHighest<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.Single>, System.Func<T, System.Boolean>)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.FindHighest(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.Single), System.Func(Of T, System.Boolean))
+  nameWithType: ListExtension.FindHighest<T>(IEnumerable<T>, Func<T, Single>, Func<T, Boolean>)
+  nameWithType.vb: FindHighest(Of T)(IEnumerable(Of T), Func(Of T, Single), Func(Of T, Boolean))
 - uid: Reactive.Utils.Extensions.ListExtension.FindLowest*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_FindLowest_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.FindLowest
@@ -2243,6 +2588,8 @@ references:
   name.vb: FindLowest(Of T)(IList(Of T), Func(Of T, Single), Func(Of T, Boolean))
   fullName: Reactive.Utils.Extensions.ListExtension.FindLowest<T>(System.Collections.Generic.IList<T>, System.Func<T, System.Single>, System.Func<T, System.Boolean>)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.FindLowest(Of T)(System.Collections.Generic.IList(Of T), System.Func(Of T, System.Single), System.Func(Of T, System.Boolean))
+  nameWithType: ListExtension.FindLowest<T>(IList<T>, Func<T, Single>, Func<T, Boolean>)
+  nameWithType.vb: FindLowest(Of T)(IList(Of T), Func(Of T, Single), Func(Of T, Boolean))
 - uid: Reactive.Utils.Extensions.ListExtension.MoveItemAtIndexToFront*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_MoveItemAtIndexToFront_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.MoveItemAtIndexToFront
@@ -2257,6 +2604,8 @@ references:
   name.vb: MoveItemAtIndexToFront(Of T)(List(Of T), Int32)
   fullName: Reactive.Utils.Extensions.ListExtension.MoveItemAtIndexToFront<T>(System.Collections.Generic.List<T>, System.Int32)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.MoveItemAtIndexToFront(Of T)(System.Collections.Generic.List(Of T), System.Int32)
+  nameWithType: ListExtension.MoveItemAtIndexToFront<T>(List<T>, Int32)
+  nameWithType.vb: MoveItemAtIndexToFront(Of T)(List(Of T), Int32)
 - uid: Reactive.Utils.Extensions.ListExtension.Randomize*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_Randomize_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.Randomize
@@ -2271,6 +2620,8 @@ references:
   name.vb: Randomize(Of T)(IList(Of T), Random)
   fullName: Reactive.Utils.Extensions.ListExtension.Randomize<T>(System.Collections.Generic.IList<T>, System.Random)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.Randomize(Of T)(System.Collections.Generic.IList(Of T), System.Random)
+  nameWithType: ListExtension.Randomize<T>(IList<T>, Random)
+  nameWithType.vb: Randomize(Of T)(IList(Of T), Random)
 - uid: Reactive.Utils.Extensions.ListExtension.Shuffle*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_Shuffle_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.Shuffle
@@ -2285,6 +2636,8 @@ references:
   name.vb: Shuffle(Of T)(IList(Of T), Random)
   fullName: Reactive.Utils.Extensions.ListExtension.Shuffle<T>(System.Collections.Generic.IList<T>, System.Random)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.Shuffle(Of T)(System.Collections.Generic.IList(Of T), System.Random)
+  nameWithType: ListExtension.Shuffle<T>(IList<T>, Random)
+  nameWithType.vb: Shuffle(Of T)(IList(Of T), Random)
 - uid: Reactive.Utils.Extensions.ListExtension.Shuffle``1(System.Collections.Generic.List{``0},System.Random)
   name: Shuffle<T>(List<T>, Random)
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_Shuffle__1_System_Collections_Generic_List___0__System_Random_
@@ -2292,6 +2645,8 @@ references:
   name.vb: Shuffle(Of T)(List(Of T), Random)
   fullName: Reactive.Utils.Extensions.ListExtension.Shuffle<T>(System.Collections.Generic.List<T>, System.Random)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.Shuffle(Of T)(System.Collections.Generic.List(Of T), System.Random)
+  nameWithType: ListExtension.Shuffle<T>(List<T>, Random)
+  nameWithType.vb: Shuffle(Of T)(List(Of T), Random)
 - uid: Reactive.Utils.Extensions.ListExtension.ToString*
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_ToString_
   commentId: Overload:Reactive.Utils.Extensions.ListExtension.ToString
@@ -2306,6 +2661,8 @@ references:
   name.vb: ToString(Of T)(IEnumerable(Of T), Func(Of T, String), String, String)
   fullName: Reactive.Utils.Extensions.ListExtension.ToString<T>(System.Collections.Generic.IEnumerable<T>, System.Func<T, System.String>, System.String, System.String)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.ToString(Of T)(System.Collections.Generic.IEnumerable(Of T), System.Func(Of T, System.String), System.String, System.String)
+  nameWithType: ListExtension.ToString<T>(IEnumerable<T>, Func<T, String>, String, String)
+  nameWithType.vb: ToString(Of T)(IEnumerable(Of T), Func(Of T, String), String, String)
 - uid: Reactive.Utils.Extensions.ListExtension.ToString``1(System.Collections.Generic.IEnumerable{``0},System.String,System.String)
   name: ToString<T>(IEnumerable<T>, String, String)
   href: api/Reactive.Utils.Extensions.ListExtension.html#Reactive_Utils_Extensions_ListExtension_ToString__1_System_Collections_Generic_IEnumerable___0__System_String_System_String_
@@ -2313,16 +2670,20 @@ references:
   name.vb: ToString(Of T)(IEnumerable(Of T), String, String)
   fullName: Reactive.Utils.Extensions.ListExtension.ToString<T>(System.Collections.Generic.IEnumerable<T>, System.String, System.String)
   fullName.vb: Reactive.Utils.Extensions.ListExtension.ToString(Of T)(System.Collections.Generic.IEnumerable(Of T), System.String, System.String)
+  nameWithType: ListExtension.ToString<T>(IEnumerable<T>, String, String)
+  nameWithType.vb: ToString(Of T)(IEnumerable(Of T), String, String)
 - uid: Reactive.Utils.Extensions.StringExtensions
   name: StringExtensions
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions
   commentId: T:Reactive.Utils.Extensions.StringExtensions
   fullName: Reactive.Utils.Extensions.StringExtensions
+  nameWithType: StringExtensions
 - uid: Reactive.Utils.Extensions.StringExtensions.Contains(System.String,System.Char)
   name: Contains(String, Char)
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_Contains_System_String_System_Char_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.Contains(System.String,System.Char)
   fullName: Reactive.Utils.Extensions.StringExtensions.Contains(System.String, System.Char)
+  nameWithType: StringExtensions.Contains(String, Char)
 - uid: Reactive.Utils.Extensions.StringExtensions.Contains*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_Contains_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.Contains
@@ -2333,6 +2694,7 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_EndsWith_System_String_System_Char_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.EndsWith(System.String,System.Char)
   fullName: Reactive.Utils.Extensions.StringExtensions.EndsWith(System.String, System.Char)
+  nameWithType: StringExtensions.EndsWith(String, Char)
 - uid: Reactive.Utils.Extensions.StringExtensions.EndsWith(System.String,System.Char[])
   name: EndsWith(String, Char[])
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_EndsWith_System_String_System_Char___
@@ -2340,6 +2702,8 @@ references:
   name.vb: EndsWith(String, Char())
   fullName: Reactive.Utils.Extensions.StringExtensions.EndsWith(System.String, System.Char[])
   fullName.vb: Reactive.Utils.Extensions.StringExtensions.EndsWith(System.String, System.Char())
+  nameWithType: StringExtensions.EndsWith(String, Char[])
+  nameWithType.vb: EndsWith(String, Char())
 - uid: Reactive.Utils.Extensions.StringExtensions.EndsWith*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_EndsWith_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.EndsWith
@@ -2350,6 +2714,7 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_IndexOf_System_Text_StringBuilder_System_Char_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.IndexOf(System.Text.StringBuilder,System.Char)
   fullName: Reactive.Utils.Extensions.StringExtensions.IndexOf(System.Text.StringBuilder, System.Char)
+  nameWithType: StringExtensions.IndexOf(StringBuilder, Char)
 - uid: Reactive.Utils.Extensions.StringExtensions.IndexOf*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_IndexOf_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.IndexOf
@@ -2360,11 +2725,13 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_IndexOfReverse_System_String_System_Char_System_Int32_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.IndexOfReverse(System.String,System.Char,System.Int32)
   fullName: Reactive.Utils.Extensions.StringExtensions.IndexOfReverse(System.String, System.Char, System.Int32)
+  nameWithType: StringExtensions.IndexOfReverse(String, Char, Int32)
 - uid: Reactive.Utils.Extensions.StringExtensions.IndexOfReverse(System.String,System.Char,System.Int32,System.Int32,System.Int32)
   name: IndexOfReverse(String, Char, Int32, Int32, Int32)
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_IndexOfReverse_System_String_System_Char_System_Int32_System_Int32_System_Int32_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.IndexOfReverse(System.String,System.Char,System.Int32,System.Int32,System.Int32)
   fullName: Reactive.Utils.Extensions.StringExtensions.IndexOfReverse(System.String, System.Char, System.Int32, System.Int32, System.Int32)
+  nameWithType: StringExtensions.IndexOfReverse(String, Char, Int32, Int32, Int32)
 - uid: Reactive.Utils.Extensions.StringExtensions.IndexOfReverse*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_IndexOfReverse_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.IndexOfReverse
@@ -2375,6 +2742,7 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_LastIndexOf_System_Text_StringBuilder_System_Char_System_Int32_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.LastIndexOf(System.Text.StringBuilder,System.Char,System.Int32)
   fullName: Reactive.Utils.Extensions.StringExtensions.LastIndexOf(System.Text.StringBuilder, System.Char, System.Int32)
+  nameWithType: StringExtensions.LastIndexOf(StringBuilder, Char, Int32)
 - uid: Reactive.Utils.Extensions.StringExtensions.LastIndexOf*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_LastIndexOf_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.LastIndexOf
@@ -2385,6 +2753,7 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_SafeTrim_System_String_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.SafeTrim(System.String)
   fullName: Reactive.Utils.Extensions.StringExtensions.SafeTrim(System.String)
+  nameWithType: StringExtensions.SafeTrim(String)
 - uid: Reactive.Utils.Extensions.StringExtensions.SafeTrim*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_SafeTrim_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.SafeTrim
@@ -2395,11 +2764,13 @@ references:
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder,System.Int32)
   fullName: Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder, System.Int32)
+  nameWithType: StringExtensions.Substring(StringBuilder, Int32)
 - uid: Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder,System.Int32,System.Int32)
   name: Substring(StringBuilder, Int32, Int32)
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_System_Int32_
   commentId: M:Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder,System.Int32,System.Int32)
   fullName: Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder, System.Int32, System.Int32)
+  nameWithType: StringExtensions.Substring(StringBuilder, Int32, Int32)
 - uid: Reactive.Utils.Extensions.StringExtensions.Substring*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_Substring_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.Substring
@@ -2412,6 +2783,8 @@ references:
   name.vb: ToFormat(String, Object())
   fullName: Reactive.Utils.Extensions.StringExtensions.ToFormat(System.String, System.Object[])
   fullName.vb: Reactive.Utils.Extensions.StringExtensions.ToFormat(System.String, System.Object())
+  nameWithType: StringExtensions.ToFormat(String, Object[])
+  nameWithType.vb: ToFormat(String, Object())
 - uid: Reactive.Utils.Extensions.StringExtensions.ToFormat*
   href: api/Reactive.Utils.Extensions.StringExtensions.html#Reactive_Utils_Extensions_StringExtensions_ToFormat_
   commentId: Overload:Reactive.Utils.Extensions.StringExtensions.ToFormat
@@ -2424,11 +2797,13 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer
   commentId: T:Reactive.Utils.Randomizer
   fullName: Reactive.Utils.Randomizer
+  nameWithType: Randomizer
 - uid: Reactive.Utils.Randomizer.#ctor(System.Int32)
   name: Randomizer(Int32)
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer__ctor_System_Int32_
   commentId: M:Reactive.Utils.Randomizer.#ctor(System.Int32)
   fullName: Reactive.Utils.Randomizer.Randomizer(System.Int32)
+  nameWithType: Randomizer.Randomizer(Int32)
 - uid: Reactive.Utils.Randomizer.#ctor*
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer__ctor_
   commentId: Overload:Reactive.Utils.Randomizer.#ctor
@@ -2439,11 +2814,13 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_AM
   commentId: F:Reactive.Utils.Randomizer.AM
   fullName: Reactive.Utils.Randomizer.AM
+  nameWithType: Randomizer.AM
 - uid: Reactive.Utils.Randomizer.Dice(System.Int32)
   name: Dice(Int32)
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Dice_System_Int32_
   commentId: M:Reactive.Utils.Randomizer.Dice(System.Int32)
   fullName: Reactive.Utils.Randomizer.Dice(System.Int32)
+  nameWithType: Randomizer.Dice(Int32)
 - uid: Reactive.Utils.Randomizer.Dice*
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Dice_
   commentId: Overload:Reactive.Utils.Randomizer.Dice
@@ -2454,41 +2831,49 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_IA
   commentId: F:Reactive.Utils.Randomizer.IA
   fullName: Reactive.Utils.Randomizer.IA
+  nameWithType: Randomizer.IA
 - uid: Reactive.Utils.Randomizer.IM
   name: IM
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_IM
   commentId: F:Reactive.Utils.Randomizer.IM
   fullName: Reactive.Utils.Randomizer.IM
+  nameWithType: Randomizer.IM
 - uid: Reactive.Utils.Randomizer.IQ
   name: IQ
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_IQ
   commentId: F:Reactive.Utils.Randomizer.IQ
   fullName: Reactive.Utils.Randomizer.IQ
+  nameWithType: Randomizer.IQ
 - uid: Reactive.Utils.Randomizer.IR
   name: IR
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_IR
   commentId: F:Reactive.Utils.Randomizer.IR
   fullName: Reactive.Utils.Randomizer.IR
+  nameWithType: Randomizer.IR
 - uid: Reactive.Utils.Randomizer.MASK
   name: MASK
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_MASK
   commentId: F:Reactive.Utils.Randomizer.MASK
   fullName: Reactive.Utils.Randomizer.MASK
+  nameWithType: Randomizer.MASK
 - uid: Reactive.Utils.Randomizer.Next
   name: Next()
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Next
   commentId: M:Reactive.Utils.Randomizer.Next
   fullName: Reactive.Utils.Randomizer.Next()
+  nameWithType: Randomizer.Next()
 - uid: Reactive.Utils.Randomizer.Next(System.Int32)
   name: Next(Int32)
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Next_System_Int32_
   commentId: M:Reactive.Utils.Randomizer.Next(System.Int32)
   fullName: Reactive.Utils.Randomizer.Next(System.Int32)
+  nameWithType: Randomizer.Next(Int32)
 - uid: Reactive.Utils.Randomizer.Next(System.Int32,System.Int32)
   name: Next(Int32, Int32)
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Next_System_Int32_System_Int32_
   commentId: M:Reactive.Utils.Randomizer.Next(System.Int32,System.Int32)
   fullName: Reactive.Utils.Randomizer.Next(System.Int32, System.Int32)
+  nameWithType: Randomizer.Next(Int32, Int32)
 - uid: Reactive.Utils.Randomizer.Next*
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Next_
   commentId: Overload:Reactive.Utils.Randomizer.Next
@@ -2499,6 +2884,7 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_NextDouble
   commentId: M:Reactive.Utils.Randomizer.NextDouble
   fullName: Reactive.Utils.Randomizer.NextDouble()
+  nameWithType: Randomizer.NextDouble()
 - uid: Reactive.Utils.Randomizer.NextDouble*
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_NextDouble_
   commentId: Overload:Reactive.Utils.Randomizer.NextDouble
@@ -2509,6 +2895,7 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Range_System_Single_System_Single_
   commentId: M:Reactive.Utils.Randomizer.Range(System.Single,System.Single)
   fullName: Reactive.Utils.Randomizer.Range(System.Single, System.Single)
+  nameWithType: Randomizer.Range(Single, Single)
 - uid: Reactive.Utils.Randomizer.Range*
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Range_
   commentId: Overload:Reactive.Utils.Randomizer.Range
@@ -2519,21 +2906,25 @@ references:
   href: api/Reactive.Utils.Randomizer.html#Reactive_Utils_Randomizer_Seed
   commentId: F:Reactive.Utils.Randomizer.Seed
   fullName: Reactive.Utils.Randomizer.Seed
+  nameWithType: Randomizer.Seed
 - uid: Reactive.Utils.SingleInstance
   name: SingleInstance
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance
   commentId: T:Reactive.Utils.SingleInstance
   fullName: Reactive.Utils.SingleInstance
+  nameWithType: SingleInstance
 - uid: Reactive.Utils.SingleInstance.#ctor
   name: SingleInstance()
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance__ctor
   commentId: M:Reactive.Utils.SingleInstance.#ctor
   fullName: Reactive.Utils.SingleInstance.SingleInstance()
+  nameWithType: SingleInstance.SingleInstance()
 - uid: Reactive.Utils.SingleInstance.#ctor(System.String)
   name: SingleInstance(String)
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance__ctor_System_String_
   commentId: M:Reactive.Utils.SingleInstance.#ctor(System.String)
   fullName: Reactive.Utils.SingleInstance.SingleInstance(System.String)
+  nameWithType: SingleInstance.SingleInstance(String)
 - uid: Reactive.Utils.SingleInstance.#ctor*
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance__ctor_
   commentId: Overload:Reactive.Utils.SingleInstance.#ctor
@@ -2544,6 +2935,7 @@ references:
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance_Close
   commentId: M:Reactive.Utils.SingleInstance.Close
   fullName: Reactive.Utils.SingleInstance.Close()
+  nameWithType: SingleInstance.Close()
 - uid: Reactive.Utils.SingleInstance.Close*
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance_Close_
   commentId: Overload:Reactive.Utils.SingleInstance.Close
@@ -2554,6 +2946,7 @@ references:
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance_IsSingleInstance
   commentId: P:Reactive.Utils.SingleInstance.IsSingleInstance
   fullName: Reactive.Utils.SingleInstance.IsSingleInstance
+  nameWithType: SingleInstance.IsSingleInstance
 - uid: Reactive.Utils.SingleInstance.IsSingleInstance*
   href: api/Reactive.Utils.SingleInstance.html#Reactive_Utils_SingleInstance_IsSingleInstance_
   commentId: Overload:Reactive.Utils.SingleInstance.IsSingleInstance
@@ -2564,21 +2957,25 @@ references:
   href: api_ai/ReactiveAI.Bot.html#ReactiveAI_Bot
   commentId: N:ReactiveAI.Bot
   fullName: ReactiveAI.Bot
+  nameWithType: ReactiveAI.Bot
 - uid: ReactiveAI.Bot.BotMain
   name: BotMain
   href: api_ai/ReactiveAI.Bot.BotMain.html#ReactiveAI_Bot_BotMain
   commentId: T:ReactiveAI.Bot.BotMain
   fullName: ReactiveAI.Bot.BotMain
+  nameWithType: BotMain
 - uid: ReactiveAI.Bot.BotMain.bot
   name: bot
   href: api_ai/ReactiveAI.Bot.BotMain.html#ReactiveAI_Bot_BotMain_bot
   commentId: F:ReactiveAI.Bot.BotMain.bot
   fullName: ReactiveAI.Bot.BotMain.bot
+  nameWithType: BotMain.bot
 - uid: ReactiveAI.Bot.BotMain.Chat(System.String)
   name: Chat(String)
   href: api_ai/ReactiveAI.Bot.BotMain.html#ReactiveAI_Bot_BotMain_Chat_System_String_
   commentId: M:ReactiveAI.Bot.BotMain.Chat(System.String)
   fullName: ReactiveAI.Bot.BotMain.Chat(System.String)
+  nameWithType: BotMain.Chat(String)
 - uid: ReactiveAI.Bot.BotMain.Chat*
   href: api_ai/ReactiveAI.Bot.BotMain.html#ReactiveAI_Bot_BotMain_Chat_
   commentId: Overload:ReactiveAI.Bot.BotMain.Chat
@@ -2589,16 +2986,19 @@ references:
   href: api_ai/ReactiveAI.Speech.html#ReactiveAI_Speech
   commentId: N:ReactiveAI.Speech
   fullName: ReactiveAI.Speech
+  nameWithType: ReactiveAI.Speech
 - uid: ReactiveAI.Speech.SpeechGrammar
   name: SpeechGrammar
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar
   commentId: T:ReactiveAI.Speech.SpeechGrammar
   fullName: ReactiveAI.Speech.SpeechGrammar
+  nameWithType: SpeechGrammar
 - uid: ReactiveAI.Speech.SpeechGrammar.checkCommand(System.String)
   name: checkCommand(String)
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_checkCommand_System_String_
   commentId: M:ReactiveAI.Speech.SpeechGrammar.checkCommand(System.String)
   fullName: ReactiveAI.Speech.SpeechGrammar.checkCommand(System.String)
+  nameWithType: SpeechGrammar.checkCommand(String)
 - uid: ReactiveAI.Speech.SpeechGrammar.checkCommand*
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_checkCommand_
   commentId: Overload:ReactiveAI.Speech.SpeechGrammar.checkCommand
@@ -2609,16 +3009,19 @@ references:
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_commands
   commentId: F:ReactiveAI.Speech.SpeechGrammar.commands
   fullName: ReactiveAI.Speech.SpeechGrammar.commands
+  nameWithType: SpeechGrammar.commands
 - uid: ReactiveAI.Speech.SpeechGrammar.grammar
   name: grammar
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_grammar
   commentId: F:ReactiveAI.Speech.SpeechGrammar.grammar
   fullName: ReactiveAI.Speech.SpeechGrammar.grammar
+  nameWithType: SpeechGrammar.grammar
 - uid: ReactiveAI.Speech.SpeechGrammar.LoadCommands
   name: LoadCommands()
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_LoadCommands
   commentId: M:ReactiveAI.Speech.SpeechGrammar.LoadCommands
   fullName: ReactiveAI.Speech.SpeechGrammar.LoadCommands()
+  nameWithType: SpeechGrammar.LoadCommands()
 - uid: ReactiveAI.Speech.SpeechGrammar.LoadCommands*
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_LoadCommands_
   commentId: Overload:ReactiveAI.Speech.SpeechGrammar.LoadCommands
@@ -2629,6 +3032,7 @@ references:
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_LoadGrammar
   commentId: M:ReactiveAI.Speech.SpeechGrammar.LoadGrammar
   fullName: ReactiveAI.Speech.SpeechGrammar.LoadGrammar()
+  nameWithType: SpeechGrammar.LoadGrammar()
 - uid: ReactiveAI.Speech.SpeechGrammar.LoadGrammar*
   href: api_ai/ReactiveAI.Speech.SpeechGrammar.html#ReactiveAI_Speech_SpeechGrammar_LoadGrammar_
   commentId: Overload:ReactiveAI.Speech.SpeechGrammar.LoadGrammar
@@ -2639,26 +3043,31 @@ references:
   href: api_ai/ReactiveAI.Speech.SpeechRecognition.html#ReactiveAI_Speech_SpeechRecognition
   commentId: T:ReactiveAI.Speech.SpeechRecognition
   fullName: ReactiveAI.Speech.SpeechRecognition
+  nameWithType: SpeechRecognition
 - uid: ReactiveAI.Speech.SpeechRecognition.botReturnMessage
   name: botReturnMessage
   href: api_ai/ReactiveAI.Speech.SpeechRecognition.html#ReactiveAI_Speech_SpeechRecognition_botReturnMessage
   commentId: F:ReactiveAI.Speech.SpeechRecognition.botReturnMessage
   fullName: ReactiveAI.Speech.SpeechRecognition.botReturnMessage
+  nameWithType: SpeechRecognition.botReturnMessage
 - uid: ReactiveAI.Speech.SpeechRecognition.lastRecognizedText
   name: lastRecognizedText
   href: api_ai/ReactiveAI.Speech.SpeechRecognition.html#ReactiveAI_Speech_SpeechRecognition_lastRecognizedText
   commentId: F:ReactiveAI.Speech.SpeechRecognition.lastRecognizedText
   fullName: ReactiveAI.Speech.SpeechRecognition.lastRecognizedText
+  nameWithType: SpeechRecognition.lastRecognizedText
 - uid: ReactiveAI.Speech.SpeechTalk
   name: SpeechTalk
   href: api_ai/ReactiveAI.Speech.SpeechTalk.html#ReactiveAI_Speech_SpeechTalk
   commentId: T:ReactiveAI.Speech.SpeechTalk
   fullName: ReactiveAI.Speech.SpeechTalk
+  nameWithType: SpeechTalk
 - uid: ReactiveAI.Speech.SpeechTalk.Talk(System.String)
   name: Talk(String)
   href: api_ai/ReactiveAI.Speech.SpeechTalk.html#ReactiveAI_Speech_SpeechTalk_Talk_System_String_
   commentId: M:ReactiveAI.Speech.SpeechTalk.Talk(System.String)
   fullName: ReactiveAI.Speech.SpeechTalk.Talk(System.String)
+  nameWithType: SpeechTalk.Talk(String)
 - uid: ReactiveAI.Speech.SpeechTalk.Talk*
   href: api_ai/ReactiveAI.Speech.SpeechTalk.html#ReactiveAI_Speech_SpeechTalk_Talk_
   commentId: Overload:ReactiveAI.Speech.SpeechTalk.Talk
@@ -2669,21 +3078,25 @@ references:
   href: api_ui/ReactiveUI.html#ReactiveUI
   commentId: N:ReactiveUI
   fullName: ReactiveUI
+  nameWithType: ReactiveUI
 - uid: ReactiveUI.Commands
   name: ReactiveUI.Commands
   href: api_ui/ReactiveUI.Commands.html#ReactiveUI_Commands
   commentId: N:ReactiveUI.Commands
   fullName: ReactiveUI.Commands
+  nameWithType: ReactiveUI.Commands
 - uid: ReactiveUI.Commands.CommonCommands
   name: CommonCommands
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands
   commentId: T:ReactiveUI.Commands.CommonCommands
   fullName: ReactiveUI.Commands.CommonCommands
+  nameWithType: CommonCommands
 - uid: ReactiveUI.Commands.CommonCommands.#ctor(ChromiumWebBrowser,ReactiveUI.Form1)
   name: CommonCommands(ChromiumWebBrowser, Form1)
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands__ctor_ChromiumWebBrowser_ReactiveUI_Form1_
   commentId: M:ReactiveUI.Commands.CommonCommands.#ctor(ChromiumWebBrowser,ReactiveUI.Form1)
   fullName: ReactiveUI.Commands.CommonCommands.CommonCommands(ChromiumWebBrowser, ReactiveUI.Form1)
+  nameWithType: CommonCommands.CommonCommands(ChromiumWebBrowser, Form1)
 - uid: ReactiveUI.Commands.CommonCommands.#ctor*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands__ctor_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.#ctor
@@ -2694,6 +3107,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefHash
   commentId: P:ReactiveUI.Commands.CommonCommands.cefHash
   fullName: ReactiveUI.Commands.CommonCommands.cefHash
+  nameWithType: CommonCommands.cefHash
 - uid: ReactiveUI.Commands.CommonCommands.cefHash*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefHash_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.cefHash
@@ -2704,6 +3118,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefSVersion
   commentId: P:ReactiveUI.Commands.CommonCommands.cefSVersion
   fullName: ReactiveUI.Commands.CommonCommands.cefSVersion
+  nameWithType: CommonCommands.cefSVersion
 - uid: ReactiveUI.Commands.CommonCommands.cefSVersion*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefSVersion_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.cefSVersion
@@ -2714,6 +3129,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefVersion
   commentId: P:ReactiveUI.Commands.CommonCommands.cefVersion
   fullName: ReactiveUI.Commands.CommonCommands.cefVersion
+  nameWithType: CommonCommands.cefVersion
 - uid: ReactiveUI.Commands.CommonCommands.cefVersion*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_cefVersion_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.cefVersion
@@ -2724,6 +3140,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_currentDate
   commentId: P:ReactiveUI.Commands.CommonCommands.currentDate
   fullName: ReactiveUI.Commands.CommonCommands.currentDate
+  nameWithType: CommonCommands.currentDate
 - uid: ReactiveUI.Commands.CommonCommands.currentDate*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_currentDate_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.currentDate
@@ -2734,6 +3151,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_reactiveVersion
   commentId: P:ReactiveUI.Commands.CommonCommands.reactiveVersion
   fullName: ReactiveUI.Commands.CommonCommands.reactiveVersion
+  nameWithType: CommonCommands.reactiveVersion
 - uid: ReactiveUI.Commands.CommonCommands.reactiveVersion*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_reactiveVersion_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.reactiveVersion
@@ -2744,6 +3162,7 @@ references:
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_showDevTools
   commentId: M:ReactiveUI.Commands.CommonCommands.showDevTools
   fullName: ReactiveUI.Commands.CommonCommands.showDevTools()
+  nameWithType: CommonCommands.showDevTools()
 - uid: ReactiveUI.Commands.CommonCommands.showDevTools*
   href: api_ui/ReactiveUI.Commands.CommonCommands.html#ReactiveUI_Commands_CommonCommands_showDevTools_
   commentId: Overload:ReactiveUI.Commands.CommonCommands.showDevTools
@@ -2754,21 +3173,35 @@ references:
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands
   commentId: T:ReactiveUI.Commands.NavigationCommands
   fullName: ReactiveUI.Commands.NavigationCommands
+  nameWithType: NavigationCommands
 - uid: ReactiveUI.Commands.NavigationCommands.#ctor(ChromiumWebBrowser,ReactiveUI.Form1)
   name: NavigationCommands(ChromiumWebBrowser, Form1)
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands__ctor_ChromiumWebBrowser_ReactiveUI_Form1_
   commentId: M:ReactiveUI.Commands.NavigationCommands.#ctor(ChromiumWebBrowser,ReactiveUI.Form1)
   fullName: ReactiveUI.Commands.NavigationCommands.NavigationCommands(ChromiumWebBrowser, ReactiveUI.Form1)
+  nameWithType: NavigationCommands.NavigationCommands(ChromiumWebBrowser, Form1)
 - uid: ReactiveUI.Commands.NavigationCommands.#ctor*
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands__ctor_
   commentId: Overload:ReactiveUI.Commands.NavigationCommands.#ctor
   name: NavigationCommands
   fullName: ReactiveUI.Commands.NavigationCommands.NavigationCommands(ChromiumWebBrowser, ReactiveUI.Form1)
+- uid: ReactiveUI.Commands.NavigationCommands.AddToNav(System.String)
+  name: AddToNav(String)
+  href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_AddToNav_System_String_
+  commentId: M:ReactiveUI.Commands.NavigationCommands.AddToNav(System.String)
+  fullName: ReactiveUI.Commands.NavigationCommands.AddToNav(System.String)
+  nameWithType: NavigationCommands.AddToNav(String)
+- uid: ReactiveUI.Commands.NavigationCommands.AddToNav*
+  href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_AddToNav_
+  commentId: Overload:ReactiveUI.Commands.NavigationCommands.AddToNav
+  name: AddToNav
+  fullName: ReactiveUI.Commands.NavigationCommands.AddToNav(System.String)
 - uid: ReactiveUI.Commands.NavigationCommands.goBack
   name: goBack()
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_goBack
   commentId: M:ReactiveUI.Commands.NavigationCommands.goBack
   fullName: ReactiveUI.Commands.NavigationCommands.goBack()
+  nameWithType: NavigationCommands.goBack()
 - uid: ReactiveUI.Commands.NavigationCommands.goBack*
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_goBack_
   commentId: Overload:ReactiveUI.Commands.NavigationCommands.goBack
@@ -2777,13 +3210,20 @@ references:
 - uid: ReactiveUI.Commands.NavigationCommands.navItems
   name: navItems
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_navItems
-  commentId: F:ReactiveUI.Commands.NavigationCommands.navItems
+  commentId: P:ReactiveUI.Commands.NavigationCommands.navItems
+  fullName: ReactiveUI.Commands.NavigationCommands.navItems
+  nameWithType: NavigationCommands.navItems
+- uid: ReactiveUI.Commands.NavigationCommands.navItems*
+  href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_navItems_
+  commentId: Overload:ReactiveUI.Commands.NavigationCommands.navItems
+  name: navItems
   fullName: ReactiveUI.Commands.NavigationCommands.navItems
 - uid: ReactiveUI.Commands.NavigationCommands.showPage(System.String)
   name: showPage(String)
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_showPage_System_String_
   commentId: M:ReactiveUI.Commands.NavigationCommands.showPage(System.String)
   fullName: ReactiveUI.Commands.NavigationCommands.showPage(System.String)
+  nameWithType: NavigationCommands.showPage(String)
 - uid: ReactiveUI.Commands.NavigationCommands.showPage*
   href: api_ui/ReactiveUI.Commands.NavigationCommands.html#ReactiveUI_Commands_NavigationCommands_showPage_
   commentId: Overload:ReactiveUI.Commands.NavigationCommands.showPage
@@ -2794,31 +3234,37 @@ references:
   href: api_ui/ReactiveUI.Constants.html#ReactiveUI_Constants
   commentId: T:ReactiveUI.Constants
   fullName: ReactiveUI.Constants
+  nameWithType: Constants
 - uid: ReactiveUI.Constants.app
   name: app
   href: api_ui/ReactiveUI.Constants.html#ReactiveUI_Constants_app
   commentId: F:ReactiveUI.Constants.app
   fullName: ReactiveUI.Constants.app
+  nameWithType: Constants.app
 - uid: ReactiveUI.Constants.debug
   name: debug
   href: api_ui/ReactiveUI.Constants.html#ReactiveUI_Constants_debug
   commentId: F:ReactiveUI.Constants.debug
   fullName: ReactiveUI.Constants.debug
+  nameWithType: Constants.debug
 - uid: ReactiveUI.Constants.htmlResource
   name: htmlResource
   href: api_ui/ReactiveUI.Constants.html#ReactiveUI_Constants_htmlResource
   commentId: F:ReactiveUI.Constants.htmlResource
   fullName: ReactiveUI.Constants.htmlResource
+  nameWithType: Constants.htmlResource
 - uid: ReactiveUI.Form1
   name: Form1
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1
   commentId: T:ReactiveUI.Form1
   fullName: ReactiveUI.Form1
+  nameWithType: Form1
 - uid: ReactiveUI.Form1.#ctor
   name: Form1()
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1__ctor
   commentId: M:ReactiveUI.Form1.#ctor
   fullName: ReactiveUI.Form1.Form1()
+  nameWithType: Form1.Form1()
 - uid: ReactiveUI.Form1.#ctor*
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1__ctor_
   commentId: Overload:ReactiveUI.Form1.#ctor
@@ -2829,6 +3275,7 @@ references:
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1_ChromeBrowser
   commentId: P:ReactiveUI.Form1.ChromeBrowser
   fullName: ReactiveUI.Form1.ChromeBrowser
+  nameWithType: Form1.ChromeBrowser
 - uid: ReactiveUI.Form1.ChromeBrowser*
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1_ChromeBrowser_
   commentId: Overload:ReactiveUI.Form1.ChromeBrowser
@@ -2839,6 +3286,7 @@ references:
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1_Dispose_System_Boolean_
   commentId: M:ReactiveUI.Form1.Dispose(System.Boolean)
   fullName: ReactiveUI.Form1.Dispose(System.Boolean)
+  nameWithType: Form1.Dispose(Boolean)
 - uid: ReactiveUI.Form1.Dispose*
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1_Dispose_
   commentId: Overload:ReactiveUI.Form1.Dispose
@@ -2851,6 +3299,8 @@ references:
   name.vb: WndProc(ByRef Message)
   fullName: ReactiveUI.Form1.WndProc(ref Message)
   fullName.vb: ReactiveUI.Form1.WndProc(ByRef Message)
+  nameWithType: Form1.WndProc(ref Message)
+  nameWithType.vb: WndProc(ByRef Message)
 - uid: ReactiveUI.Form1.WndProc*
   href: api_ui/ReactiveUI.Form1.html#ReactiveUI_Form1_WndProc_
   commentId: Overload:ReactiveUI.Form1.WndProc
@@ -2863,16 +3313,19 @@ references:
   href: api_ui/ReactiveUI.GUI.html#ReactiveUI_GUI
   commentId: N:ReactiveUI.GUI
   fullName: ReactiveUI.GUI
+  nameWithType: ReactiveUI.GUI
 - uid: ReactiveUI.GUI.MessageBox
   name: MessageBox
   href: api_ui/ReactiveUI.GUI.MessageBox.html#ReactiveUI_GUI_MessageBox
   commentId: T:ReactiveUI.GUI.MessageBox
   fullName: ReactiveUI.GUI.MessageBox
+  nameWithType: MessageBox
 - uid: ReactiveUI.GUI.MessageBox.ShowMessage(System.String,System.String)
   name: ShowMessage(String, String)
   href: api_ui/ReactiveUI.GUI.MessageBox.html#ReactiveUI_GUI_MessageBox_ShowMessage_System_String_System_String_
   commentId: M:ReactiveUI.GUI.MessageBox.ShowMessage(System.String,System.String)
   fullName: ReactiveUI.GUI.MessageBox.ShowMessage(System.String, System.String)
+  nameWithType: MessageBox.ShowMessage(String, String)
 - uid: ReactiveUI.GUI.MessageBox.ShowMessage*
   href: api_ui/ReactiveUI.GUI.MessageBox.html#ReactiveUI_GUI_MessageBox_ShowMessage_
   commentId: Overload:ReactiveUI.GUI.MessageBox.ShowMessage
@@ -2883,16 +3336,19 @@ references:
   href: api_ui/ReactiveUI.Renderer.html#ReactiveUI_Renderer
   commentId: N:ReactiveUI.Renderer
   fullName: ReactiveUI.Renderer
+  nameWithType: ReactiveUI.Renderer
 - uid: ReactiveUI.Renderer.CefInstance
   name: CefInstance
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance
   commentId: T:ReactiveUI.Renderer.CefInstance
   fullName: ReactiveUI.Renderer.CefInstance
+  nameWithType: CefInstance
 - uid: ReactiveUI.Renderer.CefInstance.#ctor(ChromiumWebBrowser,Form)
   name: CefInstance(ChromiumWebBrowser, Form)
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance__ctor_ChromiumWebBrowser_Form_
   commentId: M:ReactiveUI.Renderer.CefInstance.#ctor(ChromiumWebBrowser,Form)
   fullName: ReactiveUI.Renderer.CefInstance.CefInstance(ChromiumWebBrowser, Form)
+  nameWithType: CefInstance.CefInstance(ChromiumWebBrowser, Form)
 - uid: ReactiveUI.Renderer.CefInstance.#ctor*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance__ctor_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.#ctor
@@ -2903,6 +3359,7 @@ references:
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_chromeBrowser
   commentId: P:ReactiveUI.Renderer.CefInstance.chromeBrowser
   fullName: ReactiveUI.Renderer.CefInstance.chromeBrowser
+  nameWithType: CefInstance.chromeBrowser
 - uid: ReactiveUI.Renderer.CefInstance.chromeBrowser*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_chromeBrowser_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.chromeBrowser
@@ -2913,6 +3370,7 @@ references:
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_GoBack_ChromiumWebBrowser_
   commentId: M:ReactiveUI.Renderer.CefInstance.GoBack(ChromiumWebBrowser)
   fullName: ReactiveUI.Renderer.CefInstance.GoBack(ChromiumWebBrowser)
+  nameWithType: CefInstance.GoBack(ChromiumWebBrowser)
 - uid: ReactiveUI.Renderer.CefInstance.GoBack*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_GoBack_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.GoBack
@@ -2923,6 +3381,7 @@ references:
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_InitializeCEF_Form_
   commentId: M:ReactiveUI.Renderer.CefInstance.InitializeCEF(Form)
   fullName: ReactiveUI.Renderer.CefInstance.InitializeCEF(Form)
+  nameWithType: CefInstance.InitializeCEF(Form)
 - uid: ReactiveUI.Renderer.CefInstance.InitializeCEF*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_InitializeCEF_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.InitializeCEF
@@ -2933,6 +3392,7 @@ references:
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_LoadPage_System_String_ChromiumWebBrowser_System_String_
   commentId: M:ReactiveUI.Renderer.CefInstance.LoadPage(System.String,ChromiumWebBrowser,System.String)
   fullName: ReactiveUI.Renderer.CefInstance.LoadPage(System.String, ChromiumWebBrowser, System.String)
+  nameWithType: CefInstance.LoadPage(String, ChromiumWebBrowser, String)
 - uid: ReactiveUI.Renderer.CefInstance.LoadPage*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_LoadPage_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.LoadPage
@@ -2943,11 +3403,13 @@ references:
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_OnLoadPage
   commentId: E:ReactiveUI.Renderer.CefInstance.OnLoadPage
   fullName: ReactiveUI.Renderer.CefInstance.OnLoadPage
+  nameWithType: CefInstance.OnLoadPage
 - uid: ReactiveUI.Renderer.CefInstance.showDevTools
   name: showDevTools()
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_showDevTools
   commentId: M:ReactiveUI.Renderer.CefInstance.showDevTools
   fullName: ReactiveUI.Renderer.CefInstance.showDevTools()
+  nameWithType: CefInstance.showDevTools()
 - uid: ReactiveUI.Renderer.CefInstance.showDevTools*
   href: api_ui/ReactiveUI.Renderer.CefInstance.html#ReactiveUI_Renderer_CefInstance_showDevTools_
   commentId: Overload:ReactiveUI.Renderer.CefInstance.showDevTools
@@ -2958,16 +3420,19 @@ references:
   href: api/System.Reflection.html#System_Reflection
   commentId: N:System.Reflection
   fullName: System.Reflection
+  nameWithType: System.Reflection
 - uid: System.Reflection.AssemblyExtensions
   name: AssemblyExtensions
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions
   commentId: T:System.Reflection.AssemblyExtensions
   fullName: System.Reflection.AssemblyExtensions
+  nameWithType: AssemblyExtensions
 - uid: System.Reflection.AssemblyExtensions.GetArchitecture(System.Reflection.Assembly)
   name: GetArchitecture(Assembly)
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_GetArchitecture_System_Reflection_Assembly_
   commentId: M:System.Reflection.AssemblyExtensions.GetArchitecture(System.Reflection.Assembly)
   fullName: System.Reflection.AssemblyExtensions.GetArchitecture(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.GetArchitecture(Assembly)
 - uid: System.Reflection.AssemblyExtensions.GetArchitecture*
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_GetArchitecture_
   commentId: Overload:System.Reflection.AssemblyExtensions.GetArchitecture
@@ -2978,6 +3443,7 @@ references:
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_GetPeKind_System_Reflection_Assembly_
   commentId: M:System.Reflection.AssemblyExtensions.GetPeKind(System.Reflection.Assembly)
   fullName: System.Reflection.AssemblyExtensions.GetPeKind(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.GetPeKind(Assembly)
 - uid: System.Reflection.AssemblyExtensions.GetPeKind*
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_GetPeKind_
   commentId: Overload:System.Reflection.AssemblyExtensions.GetPeKind
@@ -2988,6 +3454,7 @@ references:
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_ToProcessorArchitecture_System_Reflection_PortableExecutableKinds_
   commentId: M:System.Reflection.AssemblyExtensions.ToProcessorArchitecture(System.Reflection.PortableExecutableKinds)
   fullName: System.Reflection.AssemblyExtensions.ToProcessorArchitecture(System.Reflection.PortableExecutableKinds)
+  nameWithType: AssemblyExtensions.ToProcessorArchitecture(PortableExecutableKinds)
 - uid: System.Reflection.AssemblyExtensions.ToProcessorArchitecture*
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_ToProcessorArchitecture_
   commentId: Overload:System.Reflection.AssemblyExtensions.ToProcessorArchitecture
@@ -2998,11 +3465,13 @@ references:
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_TryGetArchitecture_System_Reflection_Assembly_
   commentId: M:System.Reflection.AssemblyExtensions.TryGetArchitecture(System.Reflection.Assembly)
   fullName: System.Reflection.AssemblyExtensions.TryGetArchitecture(System.Reflection.Assembly)
+  nameWithType: AssemblyExtensions.TryGetArchitecture(Assembly)
 - uid: System.Reflection.AssemblyExtensions.TryGetArchitecture(System.String)
   name: TryGetArchitecture(String)
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_TryGetArchitecture_System_String_
   commentId: M:System.Reflection.AssemblyExtensions.TryGetArchitecture(System.String)
   fullName: System.Reflection.AssemblyExtensions.TryGetArchitecture(System.String)
+  nameWithType: AssemblyExtensions.TryGetArchitecture(String)
 - uid: System.Reflection.AssemblyExtensions.TryGetArchitecture*
   href: api/System.Reflection.AssemblyExtensions.html#System_Reflection_AssemblyExtensions_TryGetArchitecture_
   commentId: Overload:System.Reflection.AssemblyExtensions.TryGetArchitecture
