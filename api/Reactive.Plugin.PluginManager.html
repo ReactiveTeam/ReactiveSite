@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../ReactiveLogoSmall.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -87,35 +87,11 @@ This is the base script for the MALE system.</p>
                   <div class="level0"><span class="xref">System.Object</span></div>
                   <div class="level1"><span class="xref">PluginManager</span></div>
               </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
               <h6><strong>Namespace</strong>:Reactive.Plugin</h6>
               <h6><strong>Assembly</strong>:Reactive.dll</h6>
               <h5 id="Reactive_Plugin_PluginManager_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class PluginManager</code></pre>
+                <pre><code class="lang-csharp hljs">public class PluginManager : object</code></pre>
               </div>
               <h3 id="constructors">Constructors
               </h3>
@@ -124,7 +100,7 @@ This is the base script for the MALE system.</p>
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager__ctor.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L28">View Source</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L33">View Source</a>
               </span>
               <h4 id="Reactive_Plugin_PluginManager__ctor" data-uid="Reactive.Plugin.PluginManager.#ctor">PluginManager()</h4>
               <div class="markdown level1 summary"><p>Initializes the plugin manager. Loads the list of plugins.</p>
@@ -138,19 +114,18 @@ This is the base script for the MALE system.</p>
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_pluginsList.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.pluginsList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_loadedPlugins.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.loadedPlugins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L22">View Source</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L28">View Source</a>
               </span>
-              <h4 id="Reactive_Plugin_PluginManager_pluginsList" data-uid="Reactive.Plugin.PluginManager.pluginsList">pluginsList</h4>
-              <div class="markdown level1 summary"><p>Public variable to allow access to list of plugins.</p>
+              <h4 id="Reactive_Plugin_PluginManager_loadedPlugins" data-uid="Reactive.Plugin.PluginManager.loadedPlugins">loadedPlugins</h4>
+              <div class="markdown level1 summary"><p>A list of loaded plugins</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">[ImportMany(typeof (IPlugin))]
-public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
+                <pre><code class="lang-csharp hljs">public List&lt;IPlugin&gt; loadedPlugins</code></pre>
               </div>
               <h5 class="fieldValue">Field Value</h5>
               <table class="table table-bordered table-striped table-condensed">
@@ -162,7 +137,97 @@ public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Collections.Generic.IEnumerable&lt;T&gt;</span>&lt;<a class="xref" href="../api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin">IPlugin</a>&gt;</td>
+                    <td><span class="xref">List&lt;&gt;</span>&lt;<a class="xref" href="../api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin">IPlugin</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_pluginsList.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.pluginsList%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L23">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_pluginsList" data-uid="Reactive.Plugin.PluginManager.pluginsList">pluginsList</h4>
+              <div class="markdown level1 summary"><p>Public variable to allow access to list of available plugins.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
+              </div>
+              <h5 class="fieldValue">Field Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">IEnumerable&lt;&gt;</span>&lt;<a class="xref" href="../api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin">IPlugin</a>&gt;</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_enabledModCount.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.enabledModCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L48">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_enabledModCount" data-uid="Reactive.Plugin.PluginManager.enabledModCount">enabledModCount</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int enabledModCount { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_modCount.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.modCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L40">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_modCount" data-uid="Reactive.Plugin.PluginManager.modCount">modCount</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public int modCount { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
                     <td></td>
                   </tr>
                 </tbody>
@@ -171,10 +236,57 @@ public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_LoadAvailablePlugins.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.LoadAvailablePlugins%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L58">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_LoadAvailablePlugins" data-uid="Reactive.Plugin.PluginManager.LoadAvailablePlugins">LoadAvailablePlugins()</h4>
+              <div class="markdown level1 summary"><p>Loads the available plugins in the plugin directory</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void LoadAvailablePlugins()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_LoadPlugin_PluginCore_IPlugin_.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.LoadPlugin(PluginCore.IPlugin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L70">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_LoadPlugin_PluginCore_IPlugin_" data-uid="Reactive.Plugin.PluginManager.LoadPlugin(PluginCore.IPlugin)">LoadPlugin(IPlugin)</h4>
+              <div class="markdown level1 summary"><p>Allows the user/system to selectively load plugins into the system</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void LoadPlugin(IPlugin plugin)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="../api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin">IPlugin</a></td>
+                    <td><em>plugin</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_StartHost.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.StartHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L40">View Source</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L109">View Source</a>
               </span>
               <h4 id="Reactive_Plugin_PluginManager_StartHost" data-uid="Reactive.Plugin.PluginManager.StartHost">StartHost()</h4>
               <div class="markdown level1 summary"><p>Adds the Start, Stop, and Loop functions from the modules to the job handler</p>
@@ -189,7 +301,7 @@ public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_StopHost.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.StopHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L56">View Source</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L125">View Source</a>
               </span>
               <h4 id="Reactive_Plugin_PluginManager_StopHost" data-uid="Reactive.Plugin.PluginManager.StopHost">StopHost()</h4>
               <div class="markdown level1 summary"><p>Stops the JobHandler</p>
@@ -197,8 +309,40 @@ public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static void StopHost()</code></pre>
+                <pre><code class="lang-csharp hljs">public void StopHost()</code></pre>
               </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager_UnloadPlugin_PluginCore_IPlugin_.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager.UnloadPlugin(PluginCore.IPlugin)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L90">View Source</a>
+              </span>
+              <h4 id="Reactive_Plugin_PluginManager_UnloadPlugin_PluginCore_IPlugin_" data-uid="Reactive.Plugin.PluginManager.UnloadPlugin(PluginCore.IPlugin)">UnloadPlugin(IPlugin)</h4>
+              <div class="markdown level1 summary"><p>Allows the user/system to selectively unload plugins into the system</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void UnloadPlugin(IPlugin plugin)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="../api_plugin/PluginCore.IPlugin.html#PluginCore_IPlugin">IPlugin</a></td>
+                    <td><em>plugin</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
             </article>
           </div>
           
@@ -210,7 +354,7 @@ public IEnumerable&lt;IPlugin&gt; pluginsList</code></pre>
                     <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Plugin_PluginManager.md&amp;value=---%0Auid%3A%20Reactive.Plugin.PluginManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Plugin/PluginManager.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

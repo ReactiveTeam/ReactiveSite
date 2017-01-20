@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../ReactiveLogoSmall.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -78,7 +78,7 @@
               
               <h1 id="Reactive_Utils_Extensions_StringExtensions" data-uid="Reactive.Utils.Extensions.StringExtensions">Class StringExtensions
               </h1>
-              <div class="markdown level0 summary"><p>Extensions for <span class="xref">System.String</span> class.</p>
+              <div class="markdown level0 summary"><p>Extensions for <see cref="!:System.String"></see> class.</p>
 </div>
               <div class="markdown level0 conceptual"></div>
               <div class="inheritance">
@@ -86,35 +86,11 @@
                   <div class="level0"><span class="xref">System.Object</span></div>
                   <div class="level1"><span class="xref">StringExtensions</span></div>
               </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
               <h6><strong>Namespace</strong>:Reactive.Utils.Extensions</h6>
               <h6><strong>Assembly</strong>:Reactive.dll</h6>
               <h5 id="Reactive_Utils_Extensions_StringExtensions_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public static class StringExtensions</code></pre>
+                <pre><code class="lang-csharp hljs">public static class StringExtensions : object</code></pre>
               </div>
               <h3 id="methods">Methods
               </h3>
@@ -285,14 +261,14 @@
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_IndexOf_System_Text_StringBuilder_System_Char_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.IndexOf(System.Text.StringBuilder%2CSystem.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_IndexOf_StringBuilder_System_Char_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.IndexOf(StringBuilder%2CSystem.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Utils/Extensions/StringExtensions.cs/#L30">View Source</a>
               </span>
-              <h4 id="Reactive_Utils_Extensions_StringExtensions_IndexOf_System_Text_StringBuilder_System_Char_" data-uid="Reactive.Utils.Extensions.StringExtensions.IndexOf(System.Text.StringBuilder,System.Char)">IndexOf(StringBuilder, Char)</h4>
-              <div class="markdown level1 summary"><p>Calculates the index of a char inside the following <span class="xref">System.Text.StringBuilder</span>, equivalent of</p>
-<p><span class="xref">System.String.IndexOf(System.Char)</span> for a StringBuilder.</p>
+              <h4 id="Reactive_Utils_Extensions_StringExtensions_IndexOf_StringBuilder_System_Char_" data-uid="Reactive.Utils.Extensions.StringExtensions.IndexOf(StringBuilder,System.Char)">IndexOf(StringBuilder, Char)</h4>
+              <div class="markdown level1 summary"><p>Calculates the index of a char inside the following <see cref="!:StringBuilder"></see>, equivalent of</p>
+<p><see cref="!:string.IndexOf(char)"></see> for a StringBuilder.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -310,7 +286,7 @@
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Text.StringBuilder</span></td>
+                    <td><span class="xref">StringBuilder</span></td>
                     <td><em>builder</em></td>
                     <td><p>The builder.</p>
 </td>
@@ -335,22 +311,6 @@
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><p>A position to the character found, or -1 if not found.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>builder</p>
 </td>
                   </tr>
                 </tbody>
@@ -413,27 +373,6 @@ The search starts at a specified character position starting from the end and ex
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><p>The character position of the value parameter for the specified character if it is found, or -1 if it is not found.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>text</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-                    <td><p>matchCount;matchCount must be &gt;= 1</p>
 </td>
                   </tr>
                 </tbody>
@@ -512,43 +451,16 @@ The search starts at a specified character position starting from the end and ex
                   </tr>
                 </tbody>
               </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>text</p>
-</td>
-                  </tr>
-                  <tr>
-                    <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
-                    <td><p>count;Count must be a positive value
-or
-startIndexFromEnd;StartIndexFromEnd must be a positive value
-or
-startIndexFromEnd;StartIndexFromEnd must be within the range of the string length
-or
-count;Count must be in the range of the string length minus the startIndexFromEnd</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_LastIndexOf_System_Text_StringBuilder_System_Char_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.LastIndexOf(System.Text.StringBuilder%2CSystem.Char%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_LastIndexOf_StringBuilder_System_Char_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.LastIndexOf(StringBuilder%2CSystem.Char%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Utils/Extensions/StringExtensions.cs/#L53">View Source</a>
               </span>
-              <h4 id="Reactive_Utils_Extensions_StringExtensions_LastIndexOf_System_Text_StringBuilder_System_Char_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.LastIndexOf(System.Text.StringBuilder,System.Char,System.Int32)">LastIndexOf(StringBuilder, Char, Int32)</h4>
-              <div class="markdown level1 summary"><p>Calculates the last index of a char inside the following <span class="xref">System.Text.StringBuilder</span>, equivalent of</p>
-<p><span class="xref">System.String.LastIndexOf(System.Char)</span> for a StringBuilder.</p>
+              <h4 id="Reactive_Utils_Extensions_StringExtensions_LastIndexOf_StringBuilder_System_Char_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.LastIndexOf(StringBuilder,System.Char,System.Int32)">LastIndexOf(StringBuilder, Char, Int32)</h4>
+              <div class="markdown level1 summary"><p>Calculates the last index of a char inside the following <see cref="!:StringBuilder"></see>, equivalent of</p>
+<p><see cref="!:string.LastIndexOf(char)"></see> for a StringBuilder.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -566,7 +478,7 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Text.StringBuilder</span></td>
+                    <td><span class="xref">StringBuilder</span></td>
                     <td><em>builder</em></td>
                     <td><p>The builder.</p>
 </td>
@@ -597,22 +509,6 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                   <tr>
                     <td><span class="xref">System.Int32</span></td>
                     <td><p>A position to the character found, or -1 if not found.</p>
-</td>
-                  </tr>
-                </tbody>
-              </table>
-              <h5 class="exceptions">Exceptions</h5>
-              <table class="table table-bordered table-striped table-condensed">
-                <thead>
-                  <tr>
-                    <th>Type</th>
-                    <th>Condition</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td><span class="xref">System.ArgumentNullException</span></td>
-                    <td><p>builder</p>
 </td>
                   </tr>
                 </tbody>
@@ -668,12 +564,12 @@ count;Count must be in the range of the string length minus the startIndexFromEn
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_Substring_StringBuilder_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.Substring(StringBuilder%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Utils/Extensions/StringExtensions.cs/#L68">View Source</a>
               </span>
-              <h4 id="Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder,System.Int32)">Substring(StringBuilder, Int32)</h4>
+              <h4 id="Reactive_Utils_Extensions_StringExtensions_Substring_StringBuilder_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.Substring(StringBuilder,System.Int32)">Substring(StringBuilder, Int32)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -691,7 +587,7 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Text.StringBuilder</span></td>
+                    <td><span class="xref">StringBuilder</span></td>
                     <td><em>builder</em></td>
                     <td></td>
                   </tr>
@@ -719,12 +615,12 @@ count;Count must be in the range of the string length minus the startIndexFromEn
               </table>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Utils_Extensions_StringExtensions_Substring_StringBuilder_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Reactive.Utils.Extensions.StringExtensions.Substring(StringBuilder%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Utils/Extensions/StringExtensions.cs/#L73">View Source</a>
               </span>
-              <h4 id="Reactive_Utils_Extensions_StringExtensions_Substring_System_Text_StringBuilder_System_Int32_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.Substring(System.Text.StringBuilder,System.Int32,System.Int32)">Substring(StringBuilder, Int32, Int32)</h4>
+              <h4 id="Reactive_Utils_Extensions_StringExtensions_Substring_StringBuilder_System_Int32_System_Int32_" data-uid="Reactive.Utils.Extensions.StringExtensions.Substring(StringBuilder,System.Int32,System.Int32)">Substring(StringBuilder, Int32, Int32)</h4>
               <div class="markdown level1 summary"></div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -742,7 +638,7 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                 </thead>
                 <tbody>
                   <tr>
-                    <td><span class="xref">System.Text.StringBuilder</span></td>
+                    <td><span class="xref">StringBuilder</span></td>
                     <td><em>builder</em></td>
                     <td></td>
                   </tr>
@@ -781,7 +677,7 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                 <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Utils/Extensions/StringExtensions.cs/#L109">View Source</a>
               </span>
               <h4 id="Reactive_Utils_Extensions_StringExtensions_ToFormat_System_String_System_Object___" data-uid="Reactive.Utils.Extensions.StringExtensions.ToFormat(System.String,System.Object[])">ToFormat(String, Object[])</h4>
-              <div class="markdown level1 summary"><p>Extension to format a string using <span class="xref">System.String.Format(System.String,System.Object)</span> method by allowing to use it directly on a string.</p>
+              <div class="markdown level1 summary"><p>Extension to format a string using <see cref="!:string.Format(string,object)"></see> method by allowing to use it directly on a string.</p>
 </div>
               <div class="markdown level1 conceptual"></div>
               <h5 class="decalaration">Declaration</h5>
@@ -823,7 +719,7 @@ count;Count must be in the range of the string length minus the startIndexFromEn
                 <tbody>
                   <tr>
                     <td><span class="xref">System.String</span></td>
-                    <td><p>A formatted string. See <span class="xref">System.String.Format(System.String,System.Object)</span> </p>
+                    <td><p>A formatted string. See <see cref="!:string.Format(string,object)"></see> </p>
 </td>
                   </tr>
                 </tbody>

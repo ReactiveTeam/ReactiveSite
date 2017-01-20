@@ -1,0 +1,1815 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ValueType
+   | Reactive </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ValueType
+   | Reactive ">
+    <meta name="generator" content="docfx 2.7.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../ReactiveLogoSmall.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="ReactiveAI_ValueType" data-uid="ReactiveAI.ValueType">Class ValueType
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">ValueType</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ReactiveAI</h6>
+              <h6><strong>Assembly</strong>:ReactiveAI.dll</h6>
+              <h5 id="ReactiveAI_ValueType_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static class ValueType</code></pre>
+              </div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_AboveInterval_System_Single_ReactiveAI_Interval_System_Single__.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.AboveInterval(System.Single%2CReactiveAI.Interval%7BSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L28">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_AboveInterval_System_Single_ReactiveAI_Interval_System_Single__" data-uid="ReactiveAI.ValueType.AboveInterval(System.Single,ReactiveAI.Interval{System.Single})">AboveInterval(Single, Interval&lt;Single&gt;)</h4>
+              <div class="markdown level1 summary"><p>If the value is larger than the upper bound of the interval this will return
+true and false otherwise.
+WARNING: Never use this extension like this: 1.0.AboveInterval(interval), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool AboveInterval(this float this, Interval&lt;float&gt; interval)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ReactiveAI.Interval-1.html#ReactiveAI_Interval_1">Interval&lt;T&gt;</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+                    <td><em>interval</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_BelowInterval_System_Single_ReactiveAI_Interval_System_Single__.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.BelowInterval(System.Single%2CReactiveAI.Interval%7BSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L39">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_BelowInterval_System_Single_ReactiveAI_Interval_System_Single__" data-uid="ReactiveAI.ValueType.BelowInterval(System.Single,ReactiveAI.Interval{System.Single})">BelowInterval(Single, Interval&lt;Single&gt;)</h4>
+              <div class="markdown level1 summary"><p>If the value is smaller than the lower bound of the interval this will return
+true and false otherwise.
+WARNING: Never use this extension like this: 1.0.BelowInterval(interval), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool BelowInterval(this float this, Interval&lt;float&gt; interval)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ReactiveAI.Interval-1.html#ReactiveAI_Interval_1">Interval&lt;T&gt;</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+                    <td><em>interval</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Ceil_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Ceil(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L264">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Ceil_System_Double_" data-uid="ReactiveAI.ValueType.Ceil(System.Double)">Ceil(Double)</h4>
+              <div class="markdown level1 summary"><p>Returns the smallest integer greater to or equal to val.
+WARNING: Never use this extension like this: 1.0.Ceil(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Ceil(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Ceil_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Ceil(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L254">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Ceil_System_Single_" data-uid="ReactiveAI.ValueType.Ceil(System.Single)">Ceil(Single)</h4>
+              <div class="markdown level1 summary"><p>Returns the smallest integer greater to or equal to val.
+WARNING: Never use this extension like this: 1.0f.Ceil(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float Ceil(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_CeilToInt_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.CeilToInt(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L284">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_CeilToInt_System_Double_" data-uid="ReactiveAI.ValueType.CeilToInt(System.Double)">CeilToInt(Double)</h4>
+              <div class="markdown level1 summary"><p>Returns the smallest integer greater to or equal to val.
+WARNING: Never use this extension like this: 1.0.CeilToInt(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int CeilToInt(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_CeilToInt_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.CeilToInt(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L274">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_CeilToInt_System_Single_" data-uid="ReactiveAI.ValueType.CeilToInt(System.Single)">CeilToInt(Single)</h4>
+              <div class="markdown level1 summary"><p>Returns the smallest integer greater to or equal to val.
+WARNING: Never use this extension like this: 1.0f.CeilToInt(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int CeilToInt(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Clamp_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Clamp(System.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L90">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Clamp_System_Double_System_Double_System_Double_" data-uid="ReactiveAI.ValueType.Clamp(System.Double,System.Double,System.Double)">Clamp(Double, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Clamp the given value in the interval [min, max].
+WARNING: Never use this extension like this: 1.0.Clamp(min, max), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Clamp(this double this, double min, double max)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>min</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>max</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Clamp_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Clamp(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L80">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Clamp_System_Single_System_Single_System_Single_" data-uid="ReactiveAI.ValueType.Clamp(System.Single,System.Single,System.Single)">Clamp(Single, Single, Single)</h4>
+              <div class="markdown level1 summary"><p>Clamp the given value in the interval [min, max].
+WARNING: Never use this extension like this: 1.0f.Clamp(min, max), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float Clamp(this float this, float min, float max)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>min</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>max</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Clamp__1___0___0___0_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Clamp%60%601(%60%600%2C%60%600%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L64">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Clamp__1___0___0___0_" data-uid="ReactiveAI.ValueType.Clamp``1(``0,``0,``0)">Clamp&lt;T&gt;(T, T, T)</h4>
+              <div class="markdown level1 summary"><p>Clamp the given value, min and max.
+WARNING: Never use this extension like this: 1.0.Clamp{T}(min, max), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static T Clamp&lt;T&gt;(this T this, T min, T max)where T : IComparable&lt;T&gt;</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>min</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td><em>max</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">T</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>T</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Clamp01_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Clamp01(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L110">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Clamp01_System_Double_" data-uid="ReactiveAI.ValueType.Clamp01(System.Double)">Clamp01(Double)</h4>
+              <div class="markdown level1 summary"><p>Clamp01 the given value.
+WARNING: Never use this extension like this: 1.0.Clamp01(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Clamp01(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Clamp01_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Clamp01(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L100">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Clamp01_System_Single_" data-uid="ReactiveAI.ValueType.Clamp01(System.Single)">Clamp01(Single)</h4>
+              <div class="markdown level1 summary"><p>Clamp the given value in the interval [0, 1].
+WARNING: Never use this extension like this: 1.0f.Clamp01(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float Clamp01(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToLowerBound_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToLowerBound(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L143">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToLowerBound_System_Double_System_Double_" data-uid="ReactiveAI.ValueType.ClampToLowerBound(System.Double,System.Double)">ClampToLowerBound(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>If val is higher than the lower bound it is returned unchanged, otherwise the
+lower bound is returned.
+WARNING: Never use this extension like this: 1.0.ClampToLowerBound(lowerBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ClampToLowerBound(this double this, double lowerBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>lowerBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToLowerBound_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToLowerBound(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L121">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToLowerBound_System_Int32_System_Int32_" data-uid="ReactiveAI.ValueType.ClampToLowerBound(System.Int32,System.Int32)">ClampToLowerBound(Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>If val is higher than the lower bound it is returned unchanged, otherwise the
+lower bound is returned.
+WARNING: Never use this extension like this: 1.ClampToLowerBound(lowerBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ClampToLowerBound(this int this, int lowerBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>lowerBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToLowerBound_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToLowerBound(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L132">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToLowerBound_System_Single_System_Single_" data-uid="ReactiveAI.ValueType.ClampToLowerBound(System.Single,System.Single)">ClampToLowerBound(Single, Single)</h4>
+              <div class="markdown level1 summary"><p>If val is higher than the lower bound it is returned unchanged, otherwise the
+lower bound is returned.
+WARNING: Never use this extension like this: 1.0f.ClampToLowerBound(lowerBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float ClampToLowerBound(this float this, float lowerBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>lowerBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToNegative_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToNegative(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L244">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToNegative_System_Double_" data-uid="ReactiveAI.ValueType.ClampToNegative(System.Double)">ClampToNegative(Double)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-positive it is returned as is, otherwise a zero is returned. A more
+apt signature would be ClampToNonPositive, but this is a bit too verbose and potentially confusing
+for some.
+WARNING: Never use this extension like this: 1.0.ClampToNegative(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.
+For example this, -1.0.ClampToNegative() is interpreted by the extension method
+like this 1.0.ClampToNegative()! You could use parentheses but to be on the safe side avoid this usage.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ClampToNegative(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToNegative_System_Int32_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToNegative(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L218">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToNegative_System_Int32_" data-uid="ReactiveAI.ValueType.ClampToNegative(System.Int32)">ClampToNegative(Int32)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-positive it is returned as is, otherwise a zero is returned. A more
+apt signature would be ClampToNonPositive, but this is a bit too verbose and potentially confusing
+for some.
+WARNING: Never use this extension like this: 1.ClampToNegative(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ClampToNegative(this int this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToNegative_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToNegative(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L230">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToNegative_System_Single_" data-uid="ReactiveAI.ValueType.ClampToNegative(System.Single)">ClampToNegative(Single)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-positive it is returned as is, otherwise a zero is returned. A more
+apt signature would be ClampToNonPositive, but this is a bit too verbose and potentially confusing
+for some.
+WARNING: Never use this extension like this: 1.0f.ClampToNegative(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float ClampToNegative(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToPositive_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToPositive(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L206">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToPositive_System_Double_" data-uid="ReactiveAI.ValueType.ClampToPositive(System.Double)">ClampToPositive(Double)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-negative it is returned as is. If it is negative its clamped to 0.0.
+WARNING: Never use this extension like this: 1.0.ClampToPositive(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ClampToPositive(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToPositive_System_Int32_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToPositive(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L186">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToPositive_System_Int32_" data-uid="ReactiveAI.ValueType.ClampToPositive(System.Int32)">ClampToPositive(Int32)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-negative it is returned as is. If it is negative its clamped to 0.
+WARNING: Never use this extension like this: 1.ClampToPositive(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ClampToPositive(this int this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToPositive_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToPositive(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L196">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToPositive_System_Single_" data-uid="ReactiveAI.ValueType.ClampToPositive(System.Single)">ClampToPositive(Single)</h4>
+              <div class="markdown level1 summary"><p>If the value is non-negative it is returned as is. If it is negative its clamped to 0.0f.
+WARNING: Never use this extension like this: 1.0f.ClampToPositive(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float ClampToPositive(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToUpperBound_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToUpperBound(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L176">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToUpperBound_System_Double_System_Double_" data-uid="ReactiveAI.ValueType.ClampToUpperBound(System.Double,System.Double)">ClampToUpperBound(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>If val is lower than the upper bound it is returned unchanged, otherwise the
+upper bound is returned.
+WARNING: Never use this extension like this: 1.0.ClampToUpperBound(upperBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double ClampToUpperBound(this double val, double upperBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>val</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>upperBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToUpperBound_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToUpperBound(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L154">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToUpperBound_System_Int32_System_Int32_" data-uid="ReactiveAI.ValueType.ClampToUpperBound(System.Int32,System.Int32)">ClampToUpperBound(Int32, Int32)</h4>
+              <div class="markdown level1 summary"><p>If val is lower than the upper bound it is returned unchanged, otherwise the
+upper bound is returned.
+WARNING: Never use this extension like this: 1.ClampToUpperBound(upperBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int ClampToUpperBound(this int this, int upperBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><em>upperBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_ClampToUpperBound_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.ClampToUpperBound(System.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L165">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_ClampToUpperBound_System_Single_System_Single_" data-uid="ReactiveAI.ValueType.ClampToUpperBound(System.Single,System.Single)">ClampToUpperBound(Single, Single)</h4>
+              <div class="markdown level1 summary"><p>If val is lower than the upper bound it is returned unchanged, otherwise the
+upper bound is returned.
+WARNING: Never use this extension like this: 1.0f.ClampToUpperBound(upperBound), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float ClampToUpperBound(this float this, float upperBound)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>upperBound</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_CompareToInterval_System_Single_ReactiveAI_Interval_System_Single__.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.CompareToInterval(System.Single%2CReactiveAI.Interval%7BSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L51">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_CompareToInterval_System_Single_ReactiveAI_Interval_System_Single__" data-uid="ReactiveAI.ValueType.CompareToInterval(System.Single,ReactiveAI.Interval{System.Single})">CompareToInterval(Single, Interval&lt;Single&gt;)</h4>
+              <div class="markdown level1 summary"><p>If the value is below the interval, this will return -1, if it is above
+the interval this will return 1 and 0 otherwise. Note that the interval has a
+closed interval semantics, i.e. interval = [a,b].
+WARNING: Never use this extension like this: 1.0.CompareTo(interval), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int CompareToInterval(this float this, Interval&lt;float&gt; interval)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ReactiveAI.Interval-1.html#ReactiveAI_Interval_1">Interval&lt;T&gt;</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+                    <td><em>interval</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Floor_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Floor(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L304">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Floor_System_Double_" data-uid="ReactiveAI.ValueType.Floor(System.Double)">Floor(Double)</h4>
+              <div class="markdown level1 summary"><p>Returns the largest integer smaller to or equal to val.
+WARNING: Never use this extension like this: 1.0.Floor(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Floor(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Floor_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Floor(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L294">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Floor_System_Single_" data-uid="ReactiveAI.ValueType.Floor(System.Single)">Floor(Single)</h4>
+              <div class="markdown level1 summary"><p>Returns the largest integer smaller to or equal to val.
+WARNING: Never use this extension like this: 1.0f.Floor(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float Floor(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_FloorToInt_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.FloorToInt(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L324">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_FloorToInt_System_Double_" data-uid="ReactiveAI.ValueType.FloorToInt(System.Double)">FloorToInt(Double)</h4>
+              <div class="markdown level1 summary"><p>Returns the largest integer smaller to or equal to val.
+WARNING: Never use this extension like this: 1.0.FloorToInt(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int FloorToInt(this double this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_FloorToInt_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.FloorToInt(System.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L314">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_FloorToInt_System_Single_" data-uid="ReactiveAI.ValueType.FloorToInt(System.Single)">FloorToInt(Single)</h4>
+              <div class="markdown level1 summary"><p>Returns the largest integer smaller to or equal to val.
+WARNING: Never use this extension like this: 1.0f.FloorToInt(), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static int FloorToInt(this float this)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_InInterval_System_Single_ReactiveAI_Interval_System_Single__.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.InInterval(System.Single%2CReactiveAI.Interval%7BSystem.Single%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L17">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_InInterval_System_Single_ReactiveAI_Interval_System_Single__" data-uid="ReactiveAI.ValueType.InInterval(System.Single,ReactiveAI.Interval{System.Single})">InInterval(Single, Interval&lt;Single&gt;)</h4>
+              <div class="markdown level1 summary"><p>Returns true if val is within the given interval. Note that unqualified intervals are assumed
+to be closed(!) intervals, i.e. [a,b].
+WARNING: Never use this extension like this: 1.0.InInterval(interval), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool InInterval(this float this, Interval&lt;float&gt; interval)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ReactiveAI.Interval-1.html#ReactiveAI_Interval_1">Interval&lt;T&gt;</a>&lt;<span class="xref">System.Single</span>&gt;</td>
+                    <td><em>interval</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Normalize01_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Normalize01(System.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L352">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Normalize01_System_Double_System_Double_System_Double_" data-uid="ReactiveAI.ValueType.Normalize01(System.Double,System.Double,System.Double)">Normalize01(Double, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Rescales the given value to the interval [0,1]. If the value is smaller than min, it will be
+clamped to min and if the value is larger than max it will be clamped to max.
+WARNING: Never use this extension like this: 1.0.Normalize(min, max), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Normalize01(this double this, double min, double max)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>min</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><em>max</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType_Normalize01_System_Single_System_Single_System_Single_.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType.Normalize01(System.Single%2CSystem.Single%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L335">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_ValueType_Normalize01_System_Single_System_Single_System_Single_" data-uid="ReactiveAI.ValueType.Normalize01(System.Single,System.Single,System.Single)">Normalize01(Single, Single, Single)</h4>
+              <div class="markdown level1 summary"><p>Rescales the given value to the interval [0,1]. If the value is smaller than min, it will be
+clamped to min and if the value is larger than max it will be clamped to max.
+WARNING: Never use this extension like this: 1.0f.Normalize01(min, max), since if the value is negative
+the sign (if there is one) will not be passed to the extension method leading to unexpected results.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static float Normalize01(this float this, float min, float max)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>this</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>min</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td><em>max</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Single</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_ValueType.md&amp;value=---%0Auid%3A%20ReactiveAI.ValueType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Utils/Extensions/ValueType.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy 2016 Haikal Izzuddin. Made with DocFX
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

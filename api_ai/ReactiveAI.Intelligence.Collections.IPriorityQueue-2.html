@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IPriorityQueue&lt;TItem, TPriority&gt;
+   | Reactive </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IPriorityQueue&lt;TItem, TPriority&gt;
+   | Reactive ">
+    <meta name="generator" content="docfx 2.7.3.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../ReactiveLogoSmall.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2">Interface IPriorityQueue&lt;TItem, TPriority&gt;
+              </h1>
+              <div class="markdown level0 summary"></div>
+              <div class="markdown level0 conceptual"></div>
+              <h6><strong>Namespace</strong>:ReactiveAI.Intelligence.Collections</h6>
+              <h6><strong>Assembly</strong>:ReactiveAI.dll</h6>
+              <h5 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public interface IPriorityQueue&lt;TItem, in TPriority&gt;
+    where TPriority : IComparable&lt;TPriority&gt;</code></pre>
+              </div>
+              <h5 class="typeParameters">Type Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><em>TItem</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><em>TPriority</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Count.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Count%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L20">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Count" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Count">Count</h4>
+              <div class="markdown level1 summary"><p>Returns the number of items in the queue.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">int Count { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_HasNext.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.HasNext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L15">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_HasNext" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.HasNext">HasNext</h4>
+              <div class="markdown level1 summary"><p>Returns true if there is an element at the head of the queue, i.e. if the queue is not
+empty.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool HasNext { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Clear.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L68">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Clear" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Clear">Clear()</h4>
+              <div class="markdown level1 summary"><p>Removes every node from the queue.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void Clear()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Contains__0_.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Contains(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L42">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Contains__0_" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Contains(`0)">Contains(TItem)</h4>
+              <div class="markdown level1 summary"><p>Returns true if the queue has 1 or more of the secified items.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">bool Contains(TItem item)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td><em>item</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Dequeue.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Dequeue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L37">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Dequeue" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Dequeue">Dequeue()</h4>
+              <div class="markdown level1 summary"><p>Removes and returns the item at the head of the queue. In the event of a priority tie the item
+inserted first in the queue is returned.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TItem Dequeue()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Enqueue__0__1_.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Enqueue(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L31">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Enqueue__0__1_" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Enqueue(`0,`1)">Enqueue(TItem, TPriority)</h4>
+              <div class="markdown level1 summary"><p>Enqueues an item to the list. Items with lower priority values are placed ahead of the
+queue.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void Enqueue(TItem item, TPriority priority)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td><em>item</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">TPriority</span></td>
+                    <td><em>priority</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Peek.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Peek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L25">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Peek" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Peek">Peek()</h4>
+              <div class="markdown level1 summary"><p>Returns the item at the head of the queue without removing it.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TItem Peek()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Remove__0_.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Remove(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L49">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Remove__0_" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Remove(`0)">Remove(TItem)</h4>
+              <div class="markdown level1 summary"><p>RemoveBehaviour the specified item. Note that the queue may contain multiples of the same item, in
+which case this removes the one that is closest to the head.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TItem Remove(TItem item)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td><em>item</em></td>
+                    <td><p>Item.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Remove_System_Func__0_System_Boolean__.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.Remove(System.Func%7B%600%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L57">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_Remove_System_Func__0_System_Boolean__" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.Remove(System.Func{`0,System.Boolean})">Remove(Func&lt;TItem, Boolean&gt;)</h4>
+              <div class="markdown level1 summary"><p>Removes the first item that matches the specified predicate. Note that the queue may contain
+multiples of the same item, in which case this removes the one that is closest to the head.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">TItem Remove(Func&lt;TItem, bool&gt; predicate)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Func&lt;T, TResult&gt;</span>&lt;TItem, <span class="xref">System.Boolean</span>&gt;</td>
+                    <td><em>predicate</em></td>
+                    <td><p>The predicate.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td><p>The item that was removed or null if no item was not found.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2_UpdatePriority__0__1_.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602.UpdatePriority(%600%2C%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L63">View Source</a>
+              </span>
+              <h4 id="ReactiveAI_Intelligence_Collections_IPriorityQueue_2_UpdatePriority__0__1_" data-uid="ReactiveAI.Intelligence.Collections.IPriorityQueue`2.UpdatePriority(`0,`1)">UpdatePriority(TItem, TPriority)</h4>
+              <div class="markdown level1 summary"><p>Updates the priority of the specified item. If the item does not exist in the queue, it simply
+returns.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">void UpdatePriority(TItem item, TPriority priority)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">TItem</span></td>
+                    <td><em>item</em></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">TPriority</span></td>
+                    <td><em>priority</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=ReactiveAI_Intelligence_Collections_IPriorityQueue_2.md&amp;value=---%0Auid%3A%20ReactiveAI.Intelligence.Collections.IPriorityQueue%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/ReactiveAI/Intelligence/Collections/IPriorityQueue.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright &copy 2016 Haikal Izzuddin. Made with DocFX
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>  </body>
+</html>

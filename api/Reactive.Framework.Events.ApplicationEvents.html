@@ -34,7 +34,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../ReactiveLogoSmall.png" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -85,46 +85,54 @@
                   <div class="level0"><span class="xref">System.Object</span></div>
                   <div class="level1"><span class="xref">ApplicationEvents</span></div>
               </div>
-              <div class="inheritedMembers">
-                <h5>Inherited Members</h5>
-                <div>
-                  <span class="xref">System.Object.ToString()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetHashCode()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.GetType()</span>
-                </div>
-                <div>
-                  <span class="xref">System.Object.MemberwiseClone()</span>
-                </div>
-              </div>
               <h6><strong>Namespace</strong>:Reactive.Framework.Events</h6>
               <h6><strong>Assembly</strong>:Reactive.dll</h6>
               <h5 id="Reactive_Framework_Events_ApplicationEvents_syntax">Syntax</h5>
               <div class="codewrapper">
-                <pre><code class="lang-csharp hljs">public class ApplicationEvents</code></pre>
+                <pre><code class="lang-csharp hljs">public static class ApplicationEvents : object</code></pre>
               </div>
               <h3 id="methods">Methods
               </h3>
               <span class="small pull-right mobile-hide">
                 <span class="divider">|</span>
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Framework_Events_ApplicationEvents_onApplicationExit_System_Object_System_EventArgs_.md&amp;value=---%0Auid%3A%20Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object%2CSystem.EventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Framework_Events_ApplicationEvents_addToExitEvent_Action_.md&amp;value=---%0Auid%3A%20Reactive.Framework.Events.ApplicationEvents.addToExitEvent(Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Framework/Events/ApplicationEvents.cs/#L17">View Source</a>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Framework/Events/ApplicationEvents.cs/#L30">View Source</a>
               </span>
-              <h4 id="Reactive_Framework_Events_ApplicationEvents_onApplicationExit_System_Object_System_EventArgs_" data-uid="Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object,System.EventArgs)">onApplicationExit(Object, EventArgs)</h4>
+              <h4 id="Reactive_Framework_Events_ApplicationEvents_addToExitEvent_Action_" data-uid="Reactive.Framework.Events.ApplicationEvents.addToExitEvent(Action)">addToExitEvent(Action)</h4>
+              <div class="markdown level1 summary"><p>Adds an event to the exitEvent param to be run at the end of Application life cycle</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void addToExitEvent(Action exit)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">Action</span></td>
+                    <td><em>exit</em></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/new/master/docfx_project/apispec/new?filename=Reactive_Framework_Events_ApplicationEvents_onApplicationExit_System_Object_EventArgs_.md&amp;value=---%0Auid%3A%20Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object%2CEventArgs)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                <a href="https://github.com/ReactiveTeam/ReactiveMain/blob/master/Reactive/scripts/Framework/Events/ApplicationEvents.cs/#L18">View Source</a>
+              </span>
+              <h4 id="Reactive_Framework_Events_ApplicationEvents_onApplicationExit_System_Object_EventArgs_" data-uid="Reactive.Framework.Events.ApplicationEvents.onApplicationExit(System.Object,EventArgs)">onApplicationExit(Object, EventArgs)</h4>
               <div class="markdown level1 summary"><p>Runs on ApplicationExit</p>
 </div>
               <div class="markdown level1 conceptual"></div>
@@ -148,7 +156,7 @@
                     <td></td>
                   </tr>
                   <tr>
-                    <td><span class="xref">System.EventArgs</span></td>
+                    <td><span class="xref">EventArgs</span></td>
                     <td><em>e</em></td>
                     <td></td>
                   </tr>
